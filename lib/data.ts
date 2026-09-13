@@ -1,6 +1,6 @@
 import "server-only";
 import { cache } from "react";
-import type { Content, Evidence, Progress, QuizAttempt, Settings } from "./types";
+import type { Content, Progress, QuizAttempt, Settings } from "./types";
 
 const BASE = (process.env.DATA_API_URL || "").replace(/\/$/, "");
 const TOKEN = process.env.DATA_TOKEN || "";
@@ -31,12 +31,6 @@ async function call<T>(path: string, init: RequestInit = {}): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-async function callRaw(path: string): Promise<{ bytes: ArrayBuffer; type: string }> {
-  const res = await fetch(BASE + path, { cache: "no-store", headers: { authorization: `Bearer ${TOKEN}` } });
-  if (!res.ok) throw new DataError(res.status, "Berkas tidak ditemukan");
-  return { bytes: await res.arrayBuffer(), type: res.headers.get("content-type") || "application/octet-stream" };
-}
-
 // Dedup per request (layout + page memanggil keduanya).
 export const getContent = cache(() => call<Content>("/content"));
 export const getProgress = cache(() => call<Progress>("/progress"));
@@ -46,11 +40,6 @@ export const resetProgress = () => call<{ ok: true }>("/progress/reset", { metho
 
 export const recordQuizAttempt = (data: { topic: string; answers: number[]; score: number; total: number; passed: boolean }) =>
   call<{ attempt: QuizAttempt; study_day: string }>("/quiz-attempts", { method: "POST", body: JSON.stringify(data) });
-
-export const addEvidence = (data: { topic: string; title: string; note: string; link: string | null; file_name?: string; file_base64?: string }) =>
-  call<Evidence>("/evidence", { method: "POST", body: JSON.stringify(data) });
-export const deleteEvidence = (id: string) => call<{ ok: true }>(`/evidence/${encodeURIComponent(id)}`, { method: "DELETE" });
-export const getAttachment = (name: string) => callRaw(`/files/${encodeURIComponent(name)}`);
 
 export const getPushPublicKey = () => call<{ key: string; enabled: boolean }>("/push/public-key");
 export const addPushSubscription = (sub: { endpoint: string; keys: { p256dh: string; auth: string } }) =>

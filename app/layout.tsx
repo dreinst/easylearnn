@@ -1,21 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fredoka, Quicksand, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import RegisterSW from "@/components/RegisterSW";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const fredoka = Fredoka({ variable: "--font-fredoka", subsets: ["latin"] });
+const quicksand = Quicksand({ variable: "--font-quicksand", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: { default: "Production Book", template: "%s | Production Book" },
-  description: "Web app belajar event management Enter Event House: 6 fase, 24 minggu, 23 topik.",
+  title: { default: "EasyLearnn", template: "%s | EasyLearnn" },
+  description: "Ruang belajar modular event organizing untuk crew D'Production: 6 fase, 24 minggu, 23 topik.",
   manifest: "/manifest.json",
   icons: { icon: "/favicon.png", apple: "/icons/icon-192.png" },
-  appleWebApp: { capable: true, title: "Production Book", statusBarStyle: "black-translucent" },
+  appleWebApp: { capable: true, title: "EasyLearnn", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1B2A4A",
+  themeColor: "#ffffff",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -23,7 +24,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+    <html lang="id" className={`${fredoka.variable} ${quicksand.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         {children}
         <RegisterSW />

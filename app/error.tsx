@@ -7,9 +7,9 @@ export default function GlobalError({ error, reset }: { error: Error & { digest?
         <h1 className="text-lg font-semibold text-navy">Ada yang tidak beres</h1>
         <p className="mt-2 text-sm text-mute">{error.message || "Terjadi kesalahan."}</p>
         <p className="mt-2 text-sm text-mute">
-          Kalau pesannya menyebut layanan data, cek apakah layanan di VPS berjalan dan variabel DATA_API_URL serta DATA_TOKEN sudah benar.
+          Coba muat ulang halaman. Kalau masih terjadi, tunggu sebentar lalu coba lagi.
         </p>
-        <button className="btn-orange mt-4" onClick={reset}>Coba lagi</button>
+        <button className="btn-accent mt-4" onClick={reset}>Coba lagi</button>
       </div>
     </main>
   );
