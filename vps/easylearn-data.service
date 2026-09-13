@@ -1,0 +1,18 @@
+[Unit]
+Description=Production Book: layanan data (progres + jurnal) dan jembatan chat Hermes
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/srv/easylearn/app
+EnvironmentFile=/srv/easylearn/.env
+Environment=HOME=/root
+Environment=NODE_ENV=production
+ExecStart=/usr/local/bin/node /srv/easylearn/app/server.js
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -18,9 +18,9 @@ Magic link butuh pengirim email (Supabase Auth atau layanan lain), jadi awalnya 
 
 Prinsip 5 dipertahankan: hari belajar dicatat oleh layanan VPS saat menerima kuis atau bukti kerja, dihitung di zona waktu profil. Browser tidak pernah bisa menulis `study_days`. Kunci jawaban dinilai di server Vercel dan tidak pernah dikirim ke browser sebelum submit.
 
-## 5. Chatbot AI dengan Claude Haiku 4.5
+## 5. Chatbot lewat Hermes di VPS
 
-Architecture.md melarang pemanggilan model AI saat runtime. Donny kemudian minta chatbot untuk bertanya saat bingung. Dipakai `@anthropic-ai/sdk` dengan model `claude-haiku-4-5`, hanya aktif kalau `ANTHROPIC_API_KEY` diisi. Langganan Claude Code tidak bisa dipakai oleh aplikasi web; kuncinya dari console.anthropic.com. Keluaran disaring `lib/humanize.ts` supaya tidak ada em dash, en dash, atau `--`, sesuai aturan humanizer.
+Architecture.md melarang pemanggilan model AI saat runtime. Donny kemudian minta chatbot untuk bertanya saat bingung. Awalnya dibuat lewat `@anthropic-ai/sdk` (butuh kunci API). Pada 13 September 2026 Donny memutuskan chatbot memakai Hermes yang sudah terpasang di VPS beserta kredensial OAuth langganan Anthropic yang ada di sana, dan minta endpoint HTTPS untuk itu. Sudah disampaikan bahwa Anthropic melarang token OAuth langganan dipakai di alat pihak ketiga dan kredensialnya bisa diblokir sewaktu-waktu; keputusan diambil Donny dengan risiko itu. Jalur API langsung tetap ada sebagai pilihan (`ANTHROPIC_API_KEY`). Toolset Hermes dibatasi ke `clarify` karena aplikasi terbuka tanpa login. Keluaran disaring `lib/humanize.ts` supaya tidak ada em dash, en dash, atau `--`.
 
 ## 6. Prototipe HTML tidak ditemukan
 

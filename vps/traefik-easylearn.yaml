@@ -1,0 +1,25 @@
+# Disalin ke /data/coolify/proxy/dynamic/easylearn.yaml (file provider Traefik milik Coolify).
+# Meneruskan HTTPS ke layanan Node yang jalan di host (gateway network coolify = 10.0.1.1).
+http:
+  middlewares:
+    easylearn-redirect:
+      redirectScheme:
+        scheme: https
+        permanent: true
+  routers:
+    easylearn-http:
+      rule: "Host(`easylearn-api.187.53.129.205.sslip.io`)"
+      entryPoints: [http]
+      middlewares: [easylearn-redirect]
+      service: easylearn
+    easylearn-https:
+      rule: "Host(`easylearn-api.187.53.129.205.sslip.io`)"
+      entryPoints: [https]
+      tls:
+        certResolver: letsencrypt
+      service: easylearn
+  services:
+    easylearn:
+      loadBalancer:
+        servers:
+          - url: "http://10.0.1.1:3210"

@@ -57,4 +57,7 @@ export const addPushSubscription = (sub: { endpoint: string; keys: { p256dh: str
   call<{ ok: true; count: number }>("/push/subscriptions", { method: "POST", body: JSON.stringify(sub) });
 export const removePushSubscription = (endpoint: string) =>
   call<{ ok: true; count: number }>("/push/subscriptions", { method: "DELETE", body: JSON.stringify({ endpoint }) });
+export const chatViaHermes = (prompt: string) =>
+  call<{ reply: string; via: string; model: string; ms: number }>("/chat", { method: "POST", body: JSON.stringify({ prompt }) });
+
 export const sendTestPush = () => call<{ sent: number; failed: number; removed: number; detail?: string }>("/push/test", { method: "POST" });

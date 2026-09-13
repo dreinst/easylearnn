@@ -6,6 +6,7 @@ const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
+const { execFile } = require("node:child_process");
 const webpush = require("web-push");
 
 const PORT = Number(process.env.PORT || 3210);
@@ -17,6 +18,13 @@ const VAPID_PUBLIC_KEY = process.env.VAPID_PUBLIC_KEY || "";
 const VAPID_PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY || "";
 const VAPID_SUBJECT = process.env.VAPID_SUBJECT || "mailto:admin@example.com";
 const MAX_BODY = 6 * 1024 * 1024; // 6 MB (lampiran base64 maksimal sekitar 4 MB)
+// Chatbot lewat Hermes CLI (memakai kredensial Anthropic yang sudah ada di ~/.hermes)
+const HERMES_BIN = process.env.HERMES_BIN || "/usr/local/bin/hermes";
+const HERMES_MODEL = process.env.HERMES_MODEL || "claude-haiku-4-5";
+const HERMES_PROVIDER = process.env.HERMES_PROVIDER || "anthropic";
+const HERMES_TOOLSET = process.env.HERMES_TOOLSET || "clarify"; // toolset paling tidak berbahaya; tanpa terminal, memory, web
+const HERMES_TIMEOUT_MS = Number(process.env.HERMES_TIMEOUT_MS || 120000);
+const CHAT_MAX_PER_10MIN = Number(process.env.CHAT_MAX_PER_10MIN || 40);
 const PROGRAM_WEEKS = 24;
 
 if (!TOKEN) {
@@ -350,7 +358,44 @@ async function handle(req, res) {
     return send(res, 200, result);
   }
 
+  // --- chat lewat Hermes ---
+  if (p === "/chat" && m === "POST") {
+    const body = await readBody(req);
+    const prompt = String(body.prompt || "").trim();
+    if (!prompt) throw httpError(400, "Prompt kosong");
+    if (prompt.length > 20000) throw httpError(413, "Prompt terlalu panjang");
+    if (!fs.existsSync(HERMES_BIN)) throw httpError(503, "Hermes tidak ditemukan di " + HERMES_BIN);
+    if (!chatAllowed()) throw httpError(429, "Terlalu banyak pertanyaan dalam 10 menit, coba lagi nanti");
+    const started = Date.now();
+    const reply = await runHermes(prompt);
+    return send(res, 200, { reply, via: "hermes", model: HERMES_MODEL, ms: Date.now() - started });
+  }
+
   throw httpError(404, "Rute tidak ada");
+}
+
+const chatStamps = [];
+function chatAllowed() {
+  const now = Date.now();
+  while (chatStamps.length && now - chatStamps[0] > 10 * 60 * 1000) chatStamps.shift();
+  if (chatStamps.length >= CHAT_MAX_PER_10MIN) return false;
+  chatStamps.push(now);
+  return true;
+}
+
+function runHermes(prompt) {
+  return new Promise((resolve, reject) => {
+    const args = ["-z", prompt, "-t", HERMES_TOOLSET, "--safe-mode", "--ignore-rules", "-m", HERMES_MODEL, "--provider", HERMES_PROVIDER];
+    execFile(HERMES_BIN, args, { timeout: HERMES_TIMEOUT_MS, maxBuffer: 4 * 1024 * 1024, env: { ...process.env, HOME: process.env.HOME || "/root", TERM: "dumb", NO_COLOR: "1" } }, (err, stdout, stderr) => {
+      const out = String(stdout || "").replace(/\x1b\[[0-9;]*m/g, "").trim();
+      if (err && !out) {
+        const detail = String(stderr || err.message || "").trim().split("\n").slice(-3).join(" ");
+        console.error("hermes gagal:", detail);
+        return reject(httpError(502, err.killed ? "Hermes tidak menjawab dalam batas waktu" : "Hermes gagal menjawab: " + detail.slice(0, 200)));
+      }
+      resolve(out);
+    });
+  });
 }
 
 function removeEvidenceFiles(e) {

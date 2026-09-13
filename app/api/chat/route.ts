@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
-import { getContent } from "@/lib/data";
+import { chatViaHermes, DataError, getContent } from "@/lib/data";
 import { findTopic } from "@/lib/status";
 import { stripDashes } from "@/lib/humanize";
 
@@ -24,9 +24,6 @@ Larangan gaya tulisan (wajib dipatuhi di seluruh keluaran):
 - Hindari klaim yang dibesar-besarkan dan kata-kata seperti "krusial", "sangat penting", "landscape", "robust".`;
 
 export async function POST(req: Request) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return NextResponse.json({ error: "AI belum diaktifkan. Isi ANTHROPIC_API_KEY di Vercel (kunci API dari console.anthropic.com)." }, { status: 503 });
-  }
   const body = await req.json().catch(() => ({}));
   const history = Array.isArray(body.messages) ? body.messages : [];
   const messages: Anthropic.MessageParam[] = history
@@ -46,6 +43,20 @@ export async function POST(req: Request) {
     }
   }
 
+  // Jalur utama: Hermes di VPS (kredensial Anthropic yang sudah ada di sana).
+  // Kalau ANTHROPIC_API_KEY diisi di Vercel, pakai API langsung.
+  if (!process.env.ANTHROPIC_API_KEY) {
+    const transcript = messages.map((m) => `${m.role === "user" ? "Pengguna" : "Tutor"}: ${typeof m.content === "string" ? m.content : ""}`).join("\n\n");
+    const prompt = `${STYLE}${context}\n\nBerikut percakapan sejauh ini. Balas HANYA dengan jawaban tutor untuk pesan pengguna yang terakhir, tanpa awalan "Tutor:".\n\n${transcript}`;
+    try {
+      const r = await chatViaHermes(prompt);
+      return NextResponse.json({ reply: stripDashes(r.reply), via: r.via });
+    } catch (e) {
+      const status = e instanceof DataError ? e.status : 502;
+      return NextResponse.json({ error: e instanceof DataError ? e.message : "Gagal menghubungi Hermes di VPS" }, { status });
+    }
+  }
+
   const client = new Anthropic();
   try {
     const res = await client.messages.create({
@@ -55,7 +66,7 @@ export async function POST(req: Request) {
       messages,
     });
     const text = res.content.filter((b) => b.type === "text").map((b) => b.text).join("\n");
-    return NextResponse.json({ reply: stripDashes(text) });
+    return NextResponse.json({ reply: stripDashes(text), via: "api" });
   } catch (e) {
     if (e instanceof Anthropic.AuthenticationError) return NextResponse.json({ error: "Kunci API Anthropic tidak valid" }, { status: 503 });
     if (e instanceof Anthropic.RateLimitError) return NextResponse.json({ error: "Batas permintaan AI tercapai, coba lagi sebentar" }, { status: 429 });

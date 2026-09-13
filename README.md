@@ -9,7 +9,7 @@ Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 
 - Topik selesai kalau kuis lulus (minimal 2 dari 3 benar) dan bukti kerja ada.
 - Pengingat push dikirim pada jam yang diatur kalau hari itu belum ada hari belajar.
 - Halaman portfolio mengumpulkan semua bukti kerja untuk uji kompetensi BNSP.
-- Tombol "Tanya AI" (Claude Haiku 4.5) menjawab pertanyaan seputar topik yang sedang dibuka.
+- Tombol "Tanya AI" menjawab pertanyaan seputar topik yang sedang dibuka. Pertanyaan diteruskan ke Hermes yang terpasang di VPS (`hermes -z`, tanpa alat), jadi memakai kredensial Anthropic yang sudah ada di sana.
 
 ## Struktur
 
@@ -40,12 +40,12 @@ npm run dev
 
 ## Deploy layanan data ke VPS
 
-Layanan jalan sebagai container Docker di network `coolify`, Traefik memberi HTTPS otomatis lewat Let's Encrypt di domain `easylearn-api.187.53.129.205.sslip.io`. Data ada di `/srv/easylearn/data/`:
+Layanan jalan sebagai systemd service di host (`easylearn-data`, supaya bisa memanggil `hermes`), Traefik milik Coolify meneruskan HTTPS lewat file provider (`/data/coolify/proxy/dynamic/easylearn.yaml`) dengan Let's Encrypt di domain `easylearn-api.187.53.129.205.sslip.io`. Data ada di `/srv/easylearn/data/`:
 
 ```
 /srv/easylearn/
 ├── .env                 token, kunci VAPID, alamat aplikasi (dari vps/.env.example)
-├── app/                 server.js, package.json, Dockerfile
+├── app/                 server.js, package.json, node_modules
 ├── seed/topics.json     konten awal
 └── data/
     ├── content.json     salinan konten dari seed (disegarkan tiap deploy)
@@ -71,7 +71,7 @@ Cadangan: cukup salin folder `/srv/easylearn/data/`.
 ## Deploy aplikasi ke Vercel
 
 1. Import repo ini di Vercel (framework Next.js, root repo).
-2. Isi environment variables sesuai `.env.example`: `DATA_API_URL`, `DATA_TOKEN`, dan `ANTHROPIC_API_KEY` (opsional, untuk chatbot).
+2. Isi environment variables sesuai `.env.example`: `DATA_API_URL` dan `DATA_TOKEN`. `ANTHROPIC_API_KEY` hanya kalau ingin chatbot memakai API langsung, bukan Hermes.
 3. Deploy. Setiap push ke `main` otomatis dideploy.
 4. Buka alamat Vercel, pilih tanggal mulai di roadmap.
 
@@ -82,6 +82,10 @@ Setelah alamat Vercel diketahui, samakan `APP_URL` di `/srv/easylearn/.env` (dip
 ## Notifikasi push
 
 Buka Pengaturan, tekan "Aktifkan notifikasi di perangkat ini", lalu "Kirim notifikasi uji". Di iPhone, pasang dulu app ke layar utama (Share, Add to Home Screen) dan buka dari sana. Pengingat dikirim sekali sehari pada jam yang diatur, hanya kalau hari itu belum ada kuis atau bukti kerja.
+
+## Chatbot lewat Hermes
+
+Endpoint `POST /chat` di layanan data menjalankan `hermes -z "<prompt>" -t clarify --safe-mode --ignore-rules -m claude-haiku-4-5 --provider anthropic` di VPS. Toolset dibatasi ke `clarify` supaya percakapan dari web tidak bisa memakai terminal, memori, atau web. Ada batas 40 pertanyaan per 10 menit (`CHAT_MAX_PER_10MIN`). Kalau kredensial di `~/.hermes` diblokir atau kedaluwarsa, chatbot menampilkan pesan gagal; jalankan `hermes login` di VPS untuk memperbarui.
 
 ## Mengubah konten
 

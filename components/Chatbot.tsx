@@ -71,7 +71,7 @@ export default function Chatbot() {
         <div className="fixed bottom-20 right-4 z-40 flex h-[70vh] w-[min(420px,calc(100vw-2rem))] flex-col rounded-lg border border-line bg-white shadow-2xl">
           <div className="border-b border-line px-4 py-2">
             <div className="text-sm font-semibold text-navy">Tutor AI</div>
-            <div className="text-[11px] text-mute">{slug ? `Konteks: topik ${slug}. ` : ""}Model Claude Haiku 4.5. Percakapan tidak disimpan.</div>
+            <div className="text-[11px] text-mute">{slug ? `Konteks: topik ${slug}. ` : ""}Dijawab lewat Hermes di VPS. Percakapan tidak disimpan.</div>
           </div>
           <div className="flex-1 space-y-3 overflow-y-auto px-4 py-3">
             {msgs.length === 0 && <p className="text-sm text-mute">Tanya apa saja yang membingungkan dari materi: istilah, contoh penerapan di wedding, atau cara mengerjakan bukti kerja.</p>}
