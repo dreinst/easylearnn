@@ -18,7 +18,7 @@ export default async function SettingsPage() {
       <section className="card">
         <h2 className="text-lg font-semibold text-navy">Notifikasi push</h2>
         <p className="mt-1 text-sm text-mute">
-          Pengingat dikirim pukul {s.remind_time} ({s.timezone}) ke semua perangkat yang diaktifkan, hanya kalau hari itu belum ada kuis atau bukti kerja.
+          Pengingat dikirim pukul {s.remind_time} ({s.timezone}) ke semua perangkat yang diaktifkan, hanya kalau hari itu belum kuis.
           Perangkat terdaftar: {progress.push_subscriptions.length}.
         </p>
         <div className="mt-3"><PushButton publicKey={push.key} enabled={push.enabled} /></div>

@@ -56,7 +56,7 @@ export default function ReadingGate({ slug, words, alreadyPassed, children }: { 
         <span className="badge-warn">Kuis belum terbuka</span>
         <span className="text-sm">Baca materi di atas dengan tenang. Kuis terbuka setelah waktu baca minimal terpenuhi dan bagian ini sudah tergulir.</span>
       </div>
-      <div className="mt-3 h-2 w-full rounded bg-amber-200"><div className="h-2 rounded bg-orange transition-all" style={{ width: `${pct}%` }} /></div>
+      <div className="mt-3 h-2 w-full rounded bg-amber-200"><div className="h-2 rounded bg-accent transition-all" style={{ width: `${pct}%` }} /></div>
       <div className="mt-2 flex flex-wrap gap-4 text-xs text-amber-900">
         <span>Materi sekitar {words} kata, waktu baca minimal {fmt(required)}.</span>
         <span>{remaining > 0 ? `Sisa ${fmt(remaining)}.` : "Waktu terpenuhi."}</span>

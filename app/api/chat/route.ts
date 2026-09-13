@@ -39,12 +39,12 @@ export async function POST(req: Request) {
     const content = await getContent();
     const t = findTopic(content, String(body.slug));
     if (t) {
-      context = `\n\nTopik yang sedang dibuka pengguna: "${t.title}" (${t.curriculum_ref}).\nRingkasan: ${t.summary}\nInti materi:\n${t.points.map((p) => `- ${p}`).join("\n")}\nBukti kerja yang diminta: ${t.evidence_brief}\nUnit AQF terkait: ${t.units.map((u) => `${u.unit_code} ${u.unit_name}`).join("; ")}\nModul kampus pembanding: ${t.university.map((m) => `${m.module} (${m.institution})`).join("; ")}`;
+      context = `\n\nTopik yang sedang dibuka pengguna: "${t.title}" (${t.curriculum_ref}).\nRingkasan: ${t.summary}\nInti materi:\n${t.points.map((p) => `- ${p}`).join("\n")}\nUnit AQF terkait: ${t.units.map((u) => `${u.unit_code} ${u.unit_name}`).join("; ")}\nModul kampus pembanding: ${t.university.map((m) => `${m.module} (${m.institution})`).join("; ")}`;
     }
   }
 
-  // Jalur utama: Hermes di VPS (kredensial Anthropic yang sudah ada di sana).
-  // Kalau ANTHROPIC_API_KEY diisi di Vercel, pakai API langsung.
+  // Jalur utama: diteruskan lewat layanan data internal. Kalau ANTHROPIC_API_KEY
+  // diisi di Vercel, pakai API langsung.
   if (!process.env.ANTHROPIC_API_KEY) {
     const transcript = messages.map((m) => `${m.role === "user" ? "Pengguna" : "Tutor"}: ${typeof m.content === "string" ? m.content : ""}`).join("\n\n");
     const prompt = `${STYLE}${context}\n\nBerikut percakapan sejauh ini. Balas HANYA dengan jawaban tutor untuk pesan pengguna yang terakhir, tanpa awalan "Tutor:".\n\n${transcript}`;
@@ -53,7 +53,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ reply: stripDashes(r.reply), via: r.via });
     } catch (e) {
       const status = e instanceof DataError ? e.status : 502;
-      return NextResponse.json({ error: e instanceof DataError ? e.message : "Gagal menghubungi Hermes di VPS" }, { status });
+      return NextResponse.json({ error: e instanceof DataError ? e.message : "Gagal menghubungi asisten belajar" }, { status });
     }
   }
 

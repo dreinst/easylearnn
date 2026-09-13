@@ -56,7 +56,7 @@ export default function PushButton({ publicKey, enabled }: { publicKey: string; 
     setMsg(res.ok ? `Terkirim ke ${b.sent} perangkat${b.failed ? `, gagal ${b.failed}` : ""}.` : b.error || "Gagal");
   }
 
-  if (!enabled || !publicKey) return <p className="text-sm text-amber-700">Kunci VAPID belum diisi di layanan VPS, push belum bisa dipakai.</p>;
+  if (!enabled || !publicKey) return <p className="text-sm text-amber-700">Notifikasi push belum bisa dipakai untuk saat ini.</p>;
   if (state === "loading") return <p className="text-sm text-mute">Memeriksa dukungan notifikasi...</p>;
   if (state === "unsupported") return <p className="text-sm text-amber-700">Browser ini belum mendukung Web Push. Di iPhone: pasang ke layar utama lewat Share, Add to Home Screen, lalu buka dari sana.</p>;
   if (state === "denied") return <p className="text-sm text-amber-700">Izin notifikasi ditolak. Ubah di pengaturan situs pada browser, lalu muat ulang.</p>;
@@ -64,7 +64,7 @@ export default function PushButton({ publicKey, enabled }: { publicKey: string; 
   return (
     <div className="flex flex-wrap items-center gap-2">
       {state === "off" ? (
-        <button className="btn-orange" onClick={enable}>Aktifkan notifikasi di perangkat ini</button>
+        <button className="btn-accent" onClick={enable}>Aktifkan notifikasi di perangkat ini</button>
       ) : (
         <>
           <span className="badge-ok">Aktif di perangkat ini</span>

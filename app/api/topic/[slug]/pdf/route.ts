@@ -8,7 +8,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ slug: st
   const [content, progress] = await Promise.all([getContent(), getProgress()]);
   const topic = findTopic(content, slug);
   if (!topic) return Response.json({ error: "Topik tidak ditemukan" }, { status: 404 });
-  const pdf = await renderPdf(topicToBlocks(topic, content, progress), `Production Book: ${topic.title}`);
+  const pdf = await renderPdf(topicToBlocks(topic, content, progress), `EasyLearnn: ${topic.title}`);
   const inline = new URL(req.url).searchParams.get("inline") === "1";
   return new Response(Buffer.from(pdf), {
     headers: {

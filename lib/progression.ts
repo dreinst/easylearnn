@@ -4,7 +4,7 @@ export type LockInfo = { locked: boolean; blocker: Topic | null };
 
 /**
  * Pembatas modul: topik mingguan dibuka berurutan. Sebuah topik terkunci kalau ada
- * topik mingguan sebelumnya (urutan sort_order) yang belum selesai (kuis lulus + bukti kerja).
+ * topik mingguan sebelumnya (urutan sort_order) yang belum selesai (kuis lulus).
  * Topik "sepanjang program" (week_from null) tidak pernah terkunci.
  */
 export function lockInfo(content: Content, statuses: Record<string, TopicStatus>, slug: string): LockInfo {
