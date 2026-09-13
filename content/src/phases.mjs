@@ -1,0 +1,16 @@
+export const PHASES = [
+  { id: 0, name: "Sepanjang program", week_from: null, week_to: null,
+    rationale: "Tiga kebiasaan personal (leadership, public speaking, English) tidak bisa dipelajari dalam satu minggu. Ketiganya berjalan paralel sepanjang 24 minggu dan dibuktikan lewat pekerjaan nyata di tiap fase." },
+  { id: 1, name: "Fondasi", week_from: 1, week_to: 4,
+    rationale: "Semua topik lain berdiri di atas cara berpikir proyek dan dokumen yang rapi. Empat minggu pertama memberi bahasa yang sama untuk sisa program: peta industri, cara memecah pekerjaan, cara menulis proposal, dan dokumen bisnis yang dipakai sehari-hari." },
+  { id: 2, name: "Uang", week_from: 5, week_to: 8,
+    rationale: "Sebelum belajar produksi, kamu harus bisa menghitung. Anggaran, rencana bisnis, dan cara mendapatkan klien menentukan event mana yang layak dikerjakan. Diletakkan sebelum produksi supaya keputusan teknis nanti selalu punya angka pembanding." },
+  { id: 3, name: "Produksi", week_from: 9, week_to: 13,
+    rationale: "Ini inti pekerjaan EO dan WO: dari rencana produksi, venue, teknis panggung, sampai show berjalan. Lima minggu, urutannya mengikuti urutan kerja nyata: rencanakan, pilih tempat, siapkan teknis, produksi, lalu jalankan show." },
+  { id: 4, name: "Keselamatan", week_from: 14, week_to: 16,
+    rationale: "Setelah tahu cara memproduksi, belajar apa yang bisa salah. Risiko, kerumunan, dan perizinan diletakkan setelah produksi supaya kamu sudah punya gambaran konkret tentang apa yang harus dilindungi." },
+  { id: 5, name: "Komersial & Kreatif", week_from: 17, week_to: 20,
+    rationale: "Konsep kreatif dan pemasaran datang setelah kamu tahu apa yang bisa dieksekusi dan dibayar. Dengan begitu ide yang kamu jual ke klien selalu bisa diproduksi dengan aman dan untung." },
+  { id: 6, name: "Orang & Hasil", week_from: 21, week_to: 24,
+    rationale: "Program ditutup dengan tim dan evaluasi. Mengelola orang butuh semua pengetahuan sebelumnya, dan laporan evaluasi adalah dokumen yang merangkum seluruh siklus event untuk portofolio uji kompetensi." },
+];

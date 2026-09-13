@@ -1,0 +1,3216 @@
+{
+  "version": 1,
+  "program_weeks": 24,
+  "phases": [
+    {
+      "id": 0,
+      "name": "Sepanjang program",
+      "week_from": null,
+      "week_to": null,
+      "rationale": "Tiga kebiasaan personal (leadership, public speaking, English) tidak bisa dipelajari dalam satu minggu. Ketiganya berjalan paralel sepanjang 24 minggu dan dibuktikan lewat pekerjaan nyata di tiap fase."
+    },
+    {
+      "id": 1,
+      "name": "Fondasi",
+      "week_from": 1,
+      "week_to": 4,
+      "rationale": "Semua topik lain berdiri di atas cara berpikir proyek dan dokumen yang rapi. Empat minggu pertama memberi bahasa yang sama untuk sisa program: peta industri, cara memecah pekerjaan, cara menulis proposal, dan dokumen bisnis yang dipakai sehari-hari."
+    },
+    {
+      "id": 2,
+      "name": "Uang",
+      "week_from": 5,
+      "week_to": 8,
+      "rationale": "Sebelum belajar produksi, kamu harus bisa menghitung. Anggaran, rencana bisnis, dan cara mendapatkan klien menentukan event mana yang layak dikerjakan. Diletakkan sebelum produksi supaya keputusan teknis nanti selalu punya angka pembanding."
+    },
+    {
+      "id": 3,
+      "name": "Produksi",
+      "week_from": 9,
+      "week_to": 13,
+      "rationale": "Ini inti pekerjaan EO dan WO: dari rencana produksi, venue, teknis panggung, sampai show berjalan. Lima minggu, urutannya mengikuti urutan kerja nyata: rencanakan, pilih tempat, siapkan teknis, produksi, lalu jalankan show."
+    },
+    {
+      "id": 4,
+      "name": "Keselamatan",
+      "week_from": 14,
+      "week_to": 16,
+      "rationale": "Setelah tahu cara memproduksi, belajar apa yang bisa salah. Risiko, kerumunan, dan perizinan diletakkan setelah produksi supaya kamu sudah punya gambaran konkret tentang apa yang harus dilindungi."
+    },
+    {
+      "id": 5,
+      "name": "Komersial & Kreatif",
+      "week_from": 17,
+      "week_to": 20,
+      "rationale": "Konsep kreatif dan pemasaran datang setelah kamu tahu apa yang bisa dieksekusi dan dibayar. Dengan begitu ide yang kamu jual ke klien selalu bisa diproduksi dengan aman dan untung."
+    },
+    {
+      "id": 6,
+      "name": "Orang & Hasil",
+      "week_from": 21,
+      "week_to": 24,
+      "rationale": "Program ditutup dengan tim dan evaluasi. Mengelola orang butuh semua pengetahuan sebelumnya, dan laporan evaluasi adalah dokumen yang merangkum seluruh siklus event untuk portofolio uji kompetensi."
+    }
+  ],
+  "topics": [
+    {
+      "slug": "pb-lead",
+      "title": "Leadership untuk tim event",
+      "curriculum_ref": "Personal Behavior 1",
+      "phase_id": 0,
+      "week_from": null,
+      "week_to": null,
+      "sort_order": 101,
+      "summary": "Memimpin kru, vendor, dan klien pada hari H menuntut keputusan cepat dan komunikasi yang jelas. Topik ini melatih cara memberi arahan, mendelegasikan, dan menangani konflik tanpa merusak hubungan kerja.",
+      "units": [
+        {
+          "unit_code": "SITXHRM009",
+          "unit_name": "Lead and manage people",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXHRM009"
+        },
+        {
+          "unit_code": "SITXCOM010",
+          "unit_name": "Manage conflict",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXCOM010"
+        }
+      ],
+      "university": [
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "9511AC Leadership & Organizational Behavior",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Leadership, Innovation and Technology for Tourism, Hospitality and Events",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Pemimpin event menetapkan standar lewat contoh: datang paling awal saat loading, memakai radio dengan disiplin, dan menjaga nada bicara saat tekanan tinggi.",
+        "Delegasi yang efektif memberi tiga hal: tugas yang jelas, batas wewenang (apa yang boleh diputuskan sendiri), dan waktu lapor balik.",
+        "Briefing kru sebelum event memakai struktur tetap: tujuan event, rundown ringkas, peran tiap orang, jalur eskalasi, dan prosedur darurat.",
+        "Konflik di lapangan diselesaikan dengan memisahkan orang dari masalah: dengarkan versi kedua pihak, sepakati fakta, baru cari jalan keluar yang bisa dijalankan sekarang.",
+        "Umpan balik diberikan segera dan spesifik, dimulai dari perilaku yang terlihat, dampaknya, dan perubahan yang diminta.",
+        "Pemimpin yang baik menyiapkan pengganti: setiap posisi kunci punya orang kedua yang tahu rundown dan kontak vendor."
+      ],
+      "evidence_brief": "Tulis satu halaman refleksi kepemimpinan dari event nyata yang kamu pimpin: satu keputusan sulit yang kamu ambil di hari H, cara kamu mengomunikasikannya ke tim, dan apa yang akan kamu ubah. Lampirkan naskah briefing kru yang kamu pakai.",
+      "sources": [
+        {
+          "id": "pb-lead-s1",
+          "description": "Memimpin dan mengelola orang secara individu maupun tim, memberi teladan, dan mengelola kinerja lewat kepemimpinan yang efektif.",
+          "embeddable": null,
+          "title": "SITXHRM009 Lead and manage people (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXHRM009_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-lead-s2",
+          "description": "Menyelesaikan keluhan dan perselisihan yang kompleks atau tereskalasi dengan pelanggan dan rekan kerja memakai teknik resolusi konflik dan komunikasi yang efektif.",
+          "embeddable": null,
+          "title": "SITXCOM010 Manage conflict (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXCOM010_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-lead-s3",
+          "description": "Modul acuan: 9511AC Leadership & Organizational Behavior.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "pb-lead-s4",
+          "description": "Modul acuan: Leadership, Innovation and Technology for Tourism, Hospitality and Events.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "pb-lead-s5",
+          "description": "Kursus gratis 24 jam tentang gaya kepemimpinan, membangun tim, memotivasi staf dan mengelola perubahan, dengan badge digital gratis.",
+          "embeddable": null,
+          "title": "Leadership and followership (OpenLearn, The Open University)",
+          "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+          "kind": "course"
+        },
+        {
+          "id": "pb-lead-s6",
+          "description": "Kursus gratis tentang dasar manajemen: peran manajer, pengambilan keputusan, mengelola orang dan sumber daya, dengan sertifikat gratis.",
+          "embeddable": null,
+          "title": "BUS208: Principles of Management (Saylor Academy)",
+          "url": "https://learn.saylor.org/course/bus208",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pb-lead-q1",
+          "stem": "Saat mendelegasikan tugas dekorasi ke koordinator, hal apa yang paling penting kamu sampaikan selain tugasnya?",
+          "options": [
+            "Nama semua vendor yang pernah kamu pakai",
+            "Batas wewenang dan kapan ia harus lapor balik",
+            "Alasan kamu tidak mengerjakannya sendiri",
+            "Riwayat masalah dekorasi di event sebelumnya"
+          ],
+          "correct_index": 1,
+          "explanation": "Delegasi yang jelas mencakup batas keputusan yang boleh diambil sendiri dan waktu lapor balik, supaya koordinator tidak ragu atau melampaui wewenang."
+        },
+        {
+          "id": "pb-lead-q2",
+          "stem": "Dua kru bertengkar soal siapa yang salah meletakkan sound system. Langkah pertama yang tepat?",
+          "options": [
+            "Menentukan siapa yang salah lalu menegurnya di depan tim",
+            "Memisahkan orang dari masalah, mendengar kedua versi, lalu menyepakati fakta",
+            "Mengabaikan sampai event selesai",
+            "Meminta vendor sound memutuskan"
+          ],
+          "correct_index": 1,
+          "explanation": "Menyelesaikan konflik dimulai dari fakta yang disepakati, bukan mencari siapa yang salah, agar keputusan lapangan bisa segera diambil."
+        },
+        {
+          "id": "pb-lead-q3",
+          "stem": "Mengapa setiap posisi kunci sebaiknya punya orang kedua yang tahu rundown?",
+          "options": [
+            "Supaya biaya kru lebih besar",
+            "Agar pemimpin tidak perlu hadir",
+            "Supaya event tetap jalan kalau orang pertama berhalangan atau sibuk menangani masalah",
+            "Karena klien memintanya"
+          ],
+          "correct_index": 2,
+          "explanation": "Kesinambungan komando adalah tanggung jawab pemimpin. Pengganti yang siap mencegah satu orang menjadi titik gagal tunggal."
+        }
+      ]
+    },
+    {
+      "slug": "pb-speak",
+      "title": "Public speaking: pitch, briefing, dan MC",
+      "curriculum_ref": "Personal Behavior 2",
+      "phase_id": 0,
+      "week_from": null,
+      "week_to": null,
+      "sort_order": 102,
+      "summary": "Seorang pemilik EO berbicara di depan klien saat pitching, di depan kru saat briefing, dan kadang memegang mikrofon sebagai MC. Topik ini melatih struktur bicara, pengelolaan gugup, dan cara menyampaikan angka atau keputusan dengan meyakinkan.",
+      "units": [
+        {
+          "unit_code": "BSBCMM411",
+          "unit_name": "Make presentations",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBCMM411"
+        },
+        {
+          "unit_code": "SITXMPR016",
+          "unit_name": "Prepare and present proposals",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMPR016"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Penn State University (AS)",
+          "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "module": "HM 290W Hospitality Managerial Communication",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+        },
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "9618AS Influence & Leadership: Negotiation & Communication Tools",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        }
+      ],
+      "points": [
+        "Setiap presentasi punya satu pesan utama yang bisa diucapkan dalam satu kalimat. Semua slide dan cerita mendukung kalimat itu.",
+        "Struktur pitch ke klien: masalah atau keinginan klien, konsep yang menjawabnya, bukti (portofolio, angka), rencana, lalu ajakan memutuskan.",
+        "Gugup dikelola dengan persiapan fisik (napas, berdiri seimbang) dan latihan bersuara keras minimal tiga kali sebelum tampil.",
+        "Saat menyampaikan angka, bulatkan dan bandingkan: 'sekitar 40 persen lebih hemat dari opsi pertama' lebih mudah ditangkap daripada tabel penuh.",
+        "MC yang baik menguasai rundown, menyebut nama dengan benar, dan punya kalimat pengisi untuk jeda teknis.",
+        "Setelah presentasi, minta satu umpan balik konkret dari pendengar dan catat untuk presentasi berikutnya."
+      ],
+      "evidence_brief": "Rekam video presentasi 5 sampai 7 menit saat kamu mem-pitch konsep event ke klien (boleh simulasi dengan tim). Unggah tautan video dan satu halaman catatan: pesan utama, struktur yang dipakai, dan dua hal yang ingin diperbaiki.",
+      "sources": [
+        {
+          "id": "pb-speak-s1",
+          "description": "Menyiapkan, menyampaikan, dan meninjau presentasi untuk audiens sasaran dengan berbagai tujuan seperti pemasaran, pelatihan, dan promosi.",
+          "embeddable": null,
+          "title": "BSBCMM411 Make presentations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBCMM411_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-speak-s2",
+          "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "embeddable": null,
+          "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-speak-s3",
+          "description": "Modul acuan: HM 290W Hospitality Managerial Communication.",
+          "embeddable": null,
+          "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "kind": "university"
+        },
+        {
+          "id": "pb-speak-s4",
+          "description": "Modul acuan: 9618AS Influence & Leadership: Negotiation & Communication Tools.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "pb-speak-s5",
+          "description": "Panduan singkat Toastmasters untuk merencanakan, menulis dan membawakan pidato, termasuk mengatasi demam panggung dan memberi toast (cocok untuk MC).",
+          "embeddable": null,
+          "title": "Toastmasters International: Public Speaking Tips",
+          "url": "https://www.toastmasters.org/resources/public-speaking-tips",
+          "kind": "guide"
+        },
+        {
+          "id": "pb-speak-s6",
+          "description": "Kursus gratis 12 jam tentang presentasi lisan yang persuasif: pembukaan dan penutup, bahasa tubuh dan proyeksi suara, memakai contoh TED Talk.",
+          "embeddable": null,
+          "title": "Talk the talk (OpenLearn, The Open University)",
+          "url": "https://www.open.edu/openlearn/education-development/talk-the-talk",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pb-speak-q1",
+          "stem": "Apa langkah pertama saat menyusun presentasi konsep untuk klien wedding?",
+          "options": [
+            "Memilih template slide",
+            "Menentukan satu pesan utama dalam satu kalimat",
+            "Menyiapkan daftar harga",
+            "Mengumpulkan semua foto portofolio"
+          ],
+          "correct_index": 1,
+          "explanation": "Satu pesan utama memandu isi seluruh presentasi. Slide dan cerita dipilih berdasarkan apakah mendukung pesan itu."
+        },
+        {
+          "id": "pb-speak-q2",
+          "stem": "Cara paling efektif menyampaikan perbandingan biaya dua opsi dekorasi secara lisan?",
+          "options": [
+            "Membacakan seluruh rincian tabel",
+            "Menyebut angka dibulatkan dan perbandingannya, misalnya 'sekitar 40 persen lebih hemat'",
+            "Menghindari angka sama sekali",
+            "Mengirim spreadsheet setelah presentasi saja"
+          ],
+          "correct_index": 1,
+          "explanation": "Angka yang dibulatkan dan dibandingkan lebih mudah ditangkap pendengar. Rinciannya bisa dilampirkan terpisah."
+        },
+        {
+          "id": "pb-speak-q3",
+          "stem": "Mengapa MC perlu punya kalimat pengisi yang disiapkan?",
+          "options": [
+            "Agar terlihat lebih pandai",
+            "Untuk mengisi jeda teknis tanpa membuat tamu merasa ada masalah",
+            "Supaya rundown lebih panjang",
+            "Karena klien memintanya"
+          ],
+          "correct_index": 1,
+          "explanation": "Jeda teknis hampir selalu terjadi. Kalimat pengisi menjaga suasana sementara tim menyelesaikan masalah."
+        }
+      ]
+    },
+    {
+      "slug": "pb-english",
+      "title": "English untuk profesional event",
+      "curriculum_ref": "Personal Behavior 3",
+      "phase_id": 0,
+      "week_from": null,
+      "week_to": null,
+      "sort_order": 103,
+      "summary": "Klien asing, vendor internasional, dan seluruh materi acuan AQF serta modul kampus memakai bahasa Inggris. Topik ini melatih English kerja: email, proposal, rundown, dan percakapan dengan klien atau vendor.",
+      "units": [
+        {
+          "unit_code": "BSBWRT411",
+          "unit_name": "Write complex documents",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBWRT411"
+        },
+        {
+          "unit_code": "BSBCMM411",
+          "unit_name": "Make presentations",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBCMM411"
+        }
+      ],
+      "university": [
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "7182BC Introduction to Business Communication",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Academic and Professional Skills",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Kuasai kosakata inti industri dulu: run of show, load-in, load-out, cue, holding room, floor plan, deposit, balance payment, scope of work.",
+        "Email kerja dalam bahasa Inggris memakai pola tetap: sapaan, tujuan email dalam kalimat pertama, poin dalam daftar, permintaan tindakan dengan tenggat, penutup.",
+        "Saat bicara dengan klien asing, ulangi permintaan mereka dengan kata-katamu sendiri untuk memastikan paham: 'So you would like the ceremony to start at four, correct?'",
+        "Baca satu unit AQF dalam bahasa Inggris tiap minggu dan tandai istilah baru. Itu latihan membaca yang langsung berguna untuk program ini.",
+        "Rundown dua bahasa membantu kru dan vendor asing bekerja dari dokumen yang sama.",
+        "Tidak perlu sempurna. Kalimat pendek yang jelas lebih baik daripada kalimat panjang yang salah."
+      ],
+      "evidence_brief": "Tulis satu email penawaran atau konfirmasi dalam bahasa Inggris ke klien atau vendor nyata (nama boleh disamarkan) dan satu rundown event dalam versi dua bahasa. Lampirkan keduanya beserta daftar 20 istilah event yang kamu pelajari.",
+      "sources": [
+        {
+          "id": "pb-english-s1",
+          "description": "Merencanakan, menyusun draf, dan memfinalkan dokumen kompleks yang memerlukan tinjauan dan analisis berbagai sumber informasi.",
+          "embeddable": null,
+          "title": "BSBWRT411 Write complex documents (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBWRT411_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-english-s2",
+          "description": "Menyiapkan, menyampaikan, dan meninjau presentasi untuk audiens sasaran dengan berbagai tujuan seperti pemasaran, pelatihan, dan promosi.",
+          "embeddable": null,
+          "title": "BSBCMM411 Make presentations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBCMM411_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pb-english-s3",
+          "description": "Modul acuan: 7182BC Introduction to Business Communication.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "pb-english-s4",
+          "description": "Modul acuan: Academic and Professional Skills.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "pb-english-s5",
+          "description": "Materi gratis British Council untuk bahasa Inggris bisnis: Business magazine, Podcasts for professionals, dan seri English for emails, dengan latihan per level.",
+          "embeddable": null,
+          "title": "British Council LearnEnglish: Business English",
+          "url": "https://learnenglish.britishcouncil.org/business-english",
+          "kind": "course"
+        },
+        {
+          "id": "pb-english-s6",
+          "description": "Kursus gratis 24 jam tentang komunikasi verbal, nonverbal dan tertulis di tempat kerja, mendengar aktif, dan komunikasi lintas budaya.",
+          "embeddable": null,
+          "title": "Effective communication in the workplace (OpenLearn, The Open University)",
+          "url": "https://www.open.edu/openlearn/money-business/effective-communication-the-workplace",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pb-english-q1",
+          "stem": "Kalimat pertama email kerja berbahasa Inggris sebaiknya berisi apa?",
+          "options": [
+            "Basa-basi tentang cuaca",
+            "Tujuan email secara langsung",
+            "Riwayat hubungan kerja",
+            "Daftar harga"
+          ],
+          "correct_index": 1,
+          "explanation": "Pembaca yang sibuk perlu tahu tujuan email sejak kalimat pertama. Detail menyusul dalam daftar poin."
+        },
+        {
+          "id": "pb-english-q2",
+          "stem": "Istilah 'load-in' dalam produksi event berarti?",
+          "options": [
+            "Pembayaran awal dari klien",
+            "Proses memasukkan dan memasang peralatan ke venue",
+            "Daftar tamu yang sudah check-in",
+            "Sesi foto sebelum acara"
+          ],
+          "correct_index": 1,
+          "explanation": "Load-in adalah tahap memasukkan dan memasang peralatan; lawannya load-out saat bongkar."
+        },
+        {
+          "id": "pb-english-q3",
+          "stem": "Klien asing menjelaskan keinginan yang rumit. Cara memastikan kamu paham?",
+          "options": [
+            "Mengangguk dan lanjut ke topik berikut",
+            "Mengulang permintaannya dengan kata-katamu sendiri lalu minta konfirmasi",
+            "Meminta klien menulis ulang dalam bahasa Indonesia",
+            "Menebak dari konteks"
+          ],
+          "correct_index": 1,
+          "explanation": "Parafrase dan konfirmasi mencegah salah paham yang mahal di hari H."
+        }
+      ]
+    },
+    {
+      "slug": "fund",
+      "title": "Fundamental: peta industri event",
+      "curriculum_ref": "Fundamental",
+      "phase_id": 1,
+      "week_from": 1,
+      "week_to": 1,
+      "sort_order": 1,
+      "summary": "Sebelum masuk teknis, kamu perlu peta: jenis event, siapa saja pemainnya, bagaimana uang mengalir, dan dari mana informasi industri yang bisa dipercaya. Minggu pertama membangun bahasa yang sama untuk 23 minggu berikutnya.",
+      "units": [
+        {
+          "unit_code": "SITEEVT020",
+          "unit_name": "Source and use information on the events industry",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT020"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT2750 The Event Industry",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "The Business of Festivals & Events",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Event dikelompokkan menurut tujuan: private (wedding, ulang tahun), corporate (launching, gathering, konferensi), public (festival, konser, pameran), dan sport. Tiap jenis punya pola risiko dan sumber pendapatan yang berbeda.",
+        "Pemain dalam satu event: klien atau pemilik acara, organizer, venue, vendor spesialis (dekor, catering, sound, dokumentasi), pihak berwenang (izin, keamanan), dan peserta.",
+        "Uang mengalir dari klien atau tiket dan sponsor ke organizer, lalu ke vendor. Margin organizer ada di selisih harga dan efisiensi koordinasi.",
+        "Siklus event terdiri dari lima tahap: riset dan konsep, perencanaan, produksi, pelaksanaan, evaluasi. Setiap topik program ini berada di salah satu tahap.",
+        "Informasi industri yang bisa dipercaya berasal dari standar dan unit kompetensi resmi, asosiasi, dokumen pemerintah, dan laporan venue atau vendor, bukan hanya media sosial.",
+        "Tren yang harus dipantau EO: event hybrid, keberlanjutan, keselamatan kerumunan, dan teknologi registrasi."
+      ],
+      "evidence_brief": "Buat peta pemangku kepentingan (stakeholder map) satu halaman untuk satu event nyata yang pernah kamu tangani: siapa saja pihaknya, peran, dan arus uang di antara mereka. Tambahkan daftar lima sumber informasi industri yang akan kamu ikuti rutin.",
+      "sources": [
+        {
+          "id": "fund-s1",
+          "description": "Mengakses dan menafsirkan informasi terkini tentang industri event (struktur industri, teknologi, hukum, dan etika) untuk meningkatkan kualitas koordinasi event.",
+          "embeddable": null,
+          "title": "SITEEVT020 Source and use information on the events industry (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT020_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "fund-s2",
+          "description": "Modul acuan: HFT2750 The Event Industry.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "fund-s3",
+          "description": "Modul acuan: The Business of Festivals & Events.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "fund-s4",
+          "description": "Penjelasan resmi kerangka EMBOK versi 3 (domain, fase, proses, nilai inti) sebagai peta pengetahuan dan keterampilan manajemen event.",
+          "embeddable": null,
+          "title": "EMBOK Model (Event Management Body of Knowledge)",
+          "url": "https://www.embok.org/index.php/embok-model",
+          "kind": "framework"
+        },
+        {
+          "id": "fund-s5",
+          "description": "Bab buku teks terbuka (CC BY) tentang definisi festival dan event, tipe event (mega, hallmark, special, festival, community) dan tugas pokok event planner.",
+          "embeddable": null,
+          "title": "Introduction to Tourism and Hospitality in BC, bab 6.1 Festivals and Events (BCcampus)",
+          "url": "https://opentextbc.ca/introtourism2e/chapter/festivals-and-events/",
+          "kind": "textbook"
+        },
+        {
+          "id": "fund-s6",
+          "description": "Glosarium resmi EIC dengan sekitar 1.350 istilah industri event dan MICE, bisa ditelusuri tanpa login.",
+          "embeddable": null,
+          "title": "Events Industry Council Industry Glossary",
+          "url": "https://insights.eventscouncil.org/Industry-glossary",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "fund-q1",
+          "stem": "Wedding dan launching produk termasuk kategori event yang berbeda. Perbedaan yang paling menentukan cara kerja EO?",
+          "options": [
+            "Jumlah tamu",
+            "Tujuan event dan sumber pendapatannya",
+            "Warna dekorasi",
+            "Durasi acara"
+          ],
+          "correct_index": 1,
+          "explanation": "Tujuan (private vs corporate) menentukan siapa yang membayar, ukuran keberhasilan, dan pola risikonya."
+        },
+        {
+          "id": "fund-q2",
+          "stem": "Dari lima tahap siklus event, tahap mana yang paling sering dilewati EO kecil padahal menentukan pekerjaan berikutnya?",
+          "options": [
+            "Riset dan konsep",
+            "Perencanaan",
+            "Produksi",
+            "Evaluasi"
+          ],
+          "correct_index": 3,
+          "explanation": "Evaluasi sering dilewati karena tim lelah setelah hari H, padahal laporannya menjadi bahan proposal dan perbaikan event berikutnya."
+        },
+        {
+          "id": "fund-q3",
+          "stem": "Sumber informasi industri mana yang paling layak dijadikan acuan saat menyusun SOP?",
+          "options": [
+            "Cuplikan video event viral",
+            "Unit kompetensi resmi dan standar industri",
+            "Pendapat teman sesama EO",
+            "Komentar tamu di media sosial"
+          ],
+          "correct_index": 1,
+          "explanation": "Unit kompetensi dan standar ditulis untuk diaudit dan dipakai lintas organisasi, jadi lebih andal untuk SOP."
+        }
+      ]
+    },
+    {
+      "slug": "pm",
+      "title": "Project management untuk event",
+      "curriculum_ref": "Official: Project Management",
+      "phase_id": 1,
+      "week_from": 2,
+      "week_to": 2,
+      "sort_order": 2,
+      "summary": "Setiap event adalah proyek: punya awal, akhir, anggaran, dan hasil yang jelas. Topik ini memberi alat dasar untuk memecah pekerjaan, mengurutkan, menjadwalkan, dan memantau kemajuannya.",
+      "units": [
+        {
+          "unit_code": "SITXMGT006",
+          "unit_name": "Manage projects",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMGT006"
+        }
+      ],
+      "university": [
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "9507AR Project Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        },
+        {
+          "institution": "Tio Business School (Belanda)",
+          "programme": "Bachelor International Tourism Management, tema Event Management",
+          "module": "Project Management",
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/"
+        }
+      ],
+      "points": [
+        "Work Breakdown Structure (WBS) memecah event menjadi paket kerja yang bisa diberikan ke satu orang: misalnya 'dekorasi pelaminan' bukan 'dekorasi'.",
+        "Setiap paket kerja punya pemilik, tenggat, dan hasil yang bisa dicek (deliverable). Tanpa tiga itu, paket kerja hanya harapan.",
+        "Urutan ketergantungan menentukan jalur kritis: pekerjaan yang kalau terlambat akan menggeser hari H, misalnya konfirmasi venue sebelum cetak undangan.",
+        "Jadwal proyek dibaca mundur dari hari H (backward planning), lalu diberi buffer pada pekerjaan yang bergantung pada pihak luar.",
+        "Rapat kemajuan mingguan cukup 15 menit dengan tiga pertanyaan: apa yang selesai, apa yang terhambat, apa yang perlu keputusan.",
+        "Perubahan lingkup (scope change) dari klien dicatat tertulis dengan dampaknya ke biaya dan jadwal sebelum disetujui."
+      ],
+      "evidence_brief": "Susun WBS dan jadwal (Gantt sederhana boleh di spreadsheet) untuk satu event yang akan kamu kerjakan dalam tiga bulan ke depan. Tandai jalur kritis dan tulis siapa pemilik tiap paket kerja.",
+      "sources": [
+        {
+          "id": "pm-s1",
+          "description": "Menyusun rencana proyek, melaksanakan kegiatan proyek, memantau kemajuan agar tujuan tercapai, dan mengevaluasi seluruh aspek proyek.",
+          "embeddable": null,
+          "title": "SITXMGT006 Manage projects (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMGT006_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "pm-s2",
+          "description": "Modul acuan: 9507AR Project Management.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "pm-s3",
+          "description": "Modul acuan: Project Management.",
+          "embeddable": null,
+          "title": "Tio Business School (Belanda): Bachelor International Tourism Management, tema Event Management",
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
+          "kind": "university"
+        },
+        {
+          "id": "pm-s4",
+          "description": "Kursus gratis tentang apa itu proyek, studi kelayakan, siklus hidup proyek, dan peran project manager.",
+          "embeddable": null,
+          "title": "Project management: the start of the project journey (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/money-business/leadership-management/project-management-the-start-the-project-journey/content-section-0",
+          "kind": "course"
+        },
+        {
+          "id": "pm-s5",
+          "description": "Kursus gratis yang mengikuti lima process group PMI (initiating sampai closing) dengan sertifikat gratis.",
+          "embeddable": null,
+          "title": "BUS402: Introduction to Project Management (Saylor Academy)",
+          "url": "https://learn.saylor.org/course/view.php?id=1147",
+          "kind": "course"
+        },
+        {
+          "id": "pm-s6",
+          "description": "Catatan kuliah MIT gratis tentang CPM, PERT, penjadwalan, pemantauan kemajuan dan Earned Value Management.",
+          "embeddable": null,
+          "title": "ESD.36 System Project Management (MIT OpenCourseWare)",
+          "url": "https://ocw.mit.edu/courses/esd-36-system-project-management-fall-2012/",
+          "kind": "university"
+        }
+      ],
+      "questions": [
+        {
+          "id": "pm-q1",
+          "stem": "Mana contoh paket kerja WBS yang cukup kecil untuk diberikan ke satu orang?",
+          "options": [
+            "Dekorasi",
+            "Acara resepsi",
+            "Pemasangan backdrop pelaminan selesai H-1 pukul 20.00",
+            "Sukses acara"
+          ],
+          "correct_index": 2,
+          "explanation": "Paket kerja yang baik punya hasil konkret dan bisa dicek. 'Dekorasi' terlalu luas untuk satu pemilik."
+        },
+        {
+          "id": "pm-q2",
+          "stem": "Konfirmasi venue terlambat dua minggu. Mengapa ini menggeser hari H sementara keterlambatan pemilihan souvenir tidak?",
+          "options": [
+            "Venue lebih mahal",
+            "Venue berada di jalur kritis karena banyak pekerjaan bergantung padanya",
+            "Souvenir tidak penting",
+            "Klien lebih peduli venue"
+          ],
+          "correct_index": 1,
+          "explanation": "Pekerjaan di jalur kritis punya rantai ketergantungan panjang; menundanya menunda semua yang mengikutinya."
+        },
+        {
+          "id": "pm-q3",
+          "stem": "Klien meminta tambahan sesi foto outdoor seminggu sebelum acara. Tindakan yang benar?",
+          "options": [
+            "Langsung mengiyakan agar klien senang",
+            "Menolak karena sudah terlambat",
+            "Mencatat perubahan lingkup dengan dampak biaya dan jadwal, lalu minta persetujuan tertulis",
+            "Meminta vendor foto menanggung biayanya"
+          ],
+          "correct_index": 2,
+          "explanation": "Perubahan lingkup harus terdokumentasi dengan dampaknya supaya tidak menjadi sengketa saat tagihan akhir."
+        }
+      ]
+    },
+    {
+      "slug": "proposal",
+      "title": "Proposal dan perencanaan event",
+      "curriculum_ref": "Knowledge 2",
+      "phase_id": 1,
+      "week_from": 3,
+      "week_to": 3,
+      "sort_order": 3,
+      "summary": "Proposal adalah dokumen penjualan sekaligus rencana kerja awal. Yang baik menjawab kebutuhan klien dengan konsep, rencana, dan harga yang bisa dipertanggungjawabkan, lalu berkembang menjadi event plan setelah disetujui.",
+      "units": [
+        {
+          "unit_code": "SITXMPR016",
+          "unit_name": "Prepare and present proposals",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMPR016"
+        }
+      ],
+      "university": [
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "The UG Live Event Project (Event Planning & Marketing)",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Proposal dimulai dari brief klien: tujuan, tanggal, jumlah tamu, anggaran, dan hal yang tidak boleh terjadi. Tanpa brief tertulis, proposal menebak.",
+        "Struktur proposal: pemahaman kebutuhan, konsep dan tema, rencana acara (rundown garis besar), lingkup pekerjaan, tim, portofolio, harga dan syarat pembayaran, jadwal keputusan.",
+        "Lingkup pekerjaan (scope of work) menyebut apa yang termasuk dan yang tidak termasuk. Bagian 'tidak termasuk' mencegah perselisihan.",
+        "Event plan setelah proposal disetujui memuat: tujuan terukur, timeline, anggaran rinci, daftar vendor, layout, rundown, rencana risiko, dan rencana komunikasi.",
+        "Harga di proposal disusun dari anggaran (bukan sebaliknya), dengan margin dan cadangan yang jelas untuk internal.",
+        "Proposal dikirim dengan tenggat berlaku (validity) supaya harga vendor yang berubah tidak merugikan."
+      ],
+      "evidence_brief": "Unggah satu proposal event nyata yang kamu tulis (harga boleh disamarkan) beserta brief klien yang mendasarinya. Tandai bagian lingkup pekerjaan 'termasuk' dan 'tidak termasuk'.",
+      "sources": [
+        {
+          "id": "proposal-s1",
+          "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "embeddable": null,
+          "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "proposal-s2",
+          "description": "Modul acuan: The UG Live Event Project (Event Planning & Marketing).",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "proposal-s3",
+          "description": "Modul acuan: Event Management.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "proposal-s4",
+          "description": "Panduan resmi HSE Inggris tentang langkah awal merencanakan event: struktur tanggung jawab, rencana keselamatan, memilih kontraktor, plus checklist perencanaan.",
+          "embeddable": null,
+          "title": "HSE Event safety: Getting started",
+          "url": "https://www.hse.gov.uk/event-safety/getting-started.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "proposal-s5",
+          "description": "Toolkit universitas berisi tahapan perencanaan event dari tujuan, timeline sampai checklist yang bisa dipakai sebagai kerangka event plan.",
+          "embeddable": null,
+          "title": "University of Exeter Event Toolkit: Planning an event",
+          "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/planning-event/",
+          "kind": "university"
+        },
+        {
+          "id": "proposal-s6",
+          "description": "Template EMP dari pemerintah daerah Inggris dengan catatan panduan tiap bagian, untuk event kecil sampai festival besar.",
+          "embeddable": null,
+          "title": "Thurrock Council: Event Management Plan template",
+          "url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/event-management-plan-v01.pdf",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "proposal-q1",
+          "stem": "Apa yang harus ada sebelum kamu mulai menulis proposal?",
+          "options": [
+            "Daftar vendor favorit",
+            "Brief klien tertulis: tujuan, tanggal, tamu, anggaran, batasan",
+            "Template desain yang bagus",
+            "Harga kompetitor"
+          ],
+          "correct_index": 1,
+          "explanation": "Proposal menjawab kebutuhan. Tanpa brief tertulis, proposal berisi tebakan dan sering harus ditulis ulang."
+        },
+        {
+          "id": "proposal-q2",
+          "stem": "Mengapa bagian 'tidak termasuk' penting dalam lingkup pekerjaan?",
+          "options": [
+            "Supaya proposal lebih panjang",
+            "Untuk mencegah klien mengira sesuatu sudah termasuk padahal belum dianggarkan",
+            "Karena aturan asosiasi",
+            "Agar bisa menaikkan harga nanti"
+          ],
+          "correct_index": 1,
+          "explanation": "Perselisihan paling sering muncul dari asumsi klien tentang hal yang tidak pernah dianggarkan. Menuliskannya melindungi kedua pihak."
+        },
+        {
+          "id": "proposal-q3",
+          "stem": "Urutan yang benar saat menentukan harga di proposal?",
+          "options": [
+            "Tentukan harga pasar dulu, lalu sesuaikan anggaran",
+            "Susun anggaran rinci, tambah margin dan cadangan, baru tetapkan harga",
+            "Ikuti harga event sebelumnya",
+            "Tanyakan klien mau bayar berapa"
+          ],
+          "correct_index": 1,
+          "explanation": "Harga yang dibangun dari anggaran memastikan margin nyata; harga yang ditebak sering membuat event rugi."
+        }
+      ]
+    },
+    {
+      "slug": "bizdoc",
+      "title": "Dokumen bisnis: kontrak, penawaran, MoU, invoice",
+      "curriculum_ref": "Knowledge 12",
+      "phase_id": 1,
+      "week_from": 4,
+      "week_to": 4,
+      "sort_order": 4,
+      "summary": "Dokumen bisnis melindungi uang dan hubungan kerja. Topik ini membahas dokumen yang dipakai EO dan WO setiap hari: penawaran, kontrak klien, perjanjian vendor, MoU, invoice, berita acara, dan SOP.",
+      "units": [
+        {
+          "unit_code": "BSBWRT411",
+          "unit_name": "Write complex documents",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBWRT411"
+        },
+        {
+          "unit_code": "SITXMGT005",
+          "unit_name": "Establish and conduct business relationships",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMGT005"
+        }
+      ],
+      "university": [
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "9120IM Business Communication",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        },
+        {
+          "institution": "Penn State University (AS)",
+          "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "module": "HM 485 Advanced Meeting and Event Management",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+        }
+      ],
+      "points": [
+        "Kontrak klien minimal memuat: para pihak, lingkup pekerjaan, tanggal dan tempat, harga dan jadwal pembayaran, ketentuan perubahan, pembatalan dan force majeure, tanggung jawab kerusakan, tanda tangan.",
+        "Perjanjian vendor mencerminkan kontrak klien: jadwal, spesifikasi teknis, denda keterlambatan, dan syarat pembayaran yang lebih lambat dari pembayaran klien ke kamu.",
+        "Invoice yang benar menyebut nomor, tanggal, rincian, pajak jika ada, jatuh tempo, dan rekening. Kirim segera setelah termin tercapai.",
+        "Berita acara serah terima (setelah event) menutup pekerjaan dan menjadi dasar pembayaran akhir.",
+        "MoU dipakai untuk kerja sama jangka panjang dengan venue atau vendor, mengikat prinsip kerja sama sebelum kontrak per event.",
+        "Semua dokumen memakai penomoran dan versi. Simpan di satu folder per event dengan nama file yang konsisten."
+      ],
+      "evidence_brief": "Kumpulkan set dokumen dari satu event nyata: penawaran, kontrak klien, satu perjanjian vendor, invoice termin, dan berita acara (data sensitif disamarkan). Tambahkan checklist klausul kontrak yang kamu pakai.",
+      "sources": [
+        {
+          "id": "bizdoc-s1",
+          "description": "Merencanakan, menyusun draf, dan memfinalkan dokumen kompleks yang memerlukan tinjauan dan analisis berbagai sumber informasi.",
+          "embeddable": null,
+          "title": "BSBWRT411 Write complex documents (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBWRT411_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizdoc-s2",
+          "description": "Membangun dan mengelola hubungan bisnis yang positif, termasuk negosiasi formal dan membuat perjanjian bisnis-ke-bisnis yang bernilai komersial.",
+          "embeddable": null,
+          "title": "SITXMGT005 Establish and conduct business relationships (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMGT005_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizdoc-s3",
+          "description": "Modul acuan: 9120IM Business Communication.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "bizdoc-s4",
+          "description": "Modul acuan: HM 485 Advanced Meeting and Event Management.",
+          "embeddable": null,
+          "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "kind": "university"
+        },
+        {
+          "id": "bizdoc-s5",
+          "description": "Unsur kontrak yang sah, jenis kontrak, pelanggaran dan pemulihannya, dasar untuk memahami kontrak klien dan vendor.",
+          "embeddable": null,
+          "title": "OpenStax Business Law I Essentials, bab 7: Contract Law",
+          "url": "https://openstax.org/books/business-law-i-essentials/pages/7-introduction",
+          "kind": "textbook"
+        },
+        {
+          "id": "bizdoc-s6",
+          "description": "Panduan menulis MoU bagian per bagian (tujuan, ruang lingkup, definisi, kebijakan, prosedur, pengawasan) yang bisa diadaptasi untuk kerja sama vendor atau venue.",
+          "embeddable": null,
+          "title": "CISA: Writing Guide for a Memorandum of Understanding (MOU)",
+          "url": "https://www.cisa.gov/sites/default/files/publications/Writing%20Guide%20for%20a%20Memorandum%20of%20Understanding%20(MOU).pdf",
+          "kind": "guide"
+        },
+        {
+          "id": "bizdoc-s7",
+          "description": "Panduan menyusun SOP teknis maupun administratif: struktur dokumen, tingkat detail, pengendalian versi, dengan contoh.",
+          "embeddable": null,
+          "title": "US EPA: Guidance for Preparing Standard Operating Procedures (SOPs)",
+          "url": "https://www.epa.gov/sites/default/files/2015-06/documents/g6-final.pdf",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bizdoc-q1",
+          "stem": "Klausul kontrak mana yang paling melindungi EO saat acara batal karena banjir?",
+          "options": [
+            "Klausul harga",
+            "Klausul pembatalan dan force majeure",
+            "Klausul tanda tangan",
+            "Klausul lingkup pekerjaan"
+          ],
+          "correct_index": 1,
+          "explanation": "Klausul pembatalan dan force majeure mengatur siapa menanggung biaya yang sudah keluar saat kejadian di luar kendali."
+        },
+        {
+          "id": "bizdoc-q2",
+          "stem": "Mengapa syarat pembayaran ke vendor sebaiknya lebih lambat dari pembayaran klien ke kamu?",
+          "options": [
+            "Agar vendor lebih rajin",
+            "Supaya arus kas EO tidak menalangi biaya vendor",
+            "Karena vendor tidak butuh uang cepat",
+            "Tidak ada alasan khusus"
+          ],
+          "correct_index": 1,
+          "explanation": "Menyelaraskan termin menjaga kas: uang klien masuk dulu, baru dibayarkan ke vendor."
+        },
+        {
+          "id": "bizdoc-q3",
+          "stem": "Dokumen apa yang menjadi dasar penagihan pembayaran akhir setelah event selesai?",
+          "options": [
+            "Proposal",
+            "Berita acara serah terima",
+            "MoU",
+            "Rundown"
+          ],
+          "correct_index": 1,
+          "explanation": "Berita acara menyatakan pekerjaan selesai diterima klien, sehingga invoice akhir punya dasar yang jelas."
+        }
+      ]
+    },
+    {
+      "slug": "bud",
+      "title": "Budgeting: anggaran dan kontrol biaya event",
+      "curriculum_ref": "Knowledge 4",
+      "phase_id": 2,
+      "week_from": 5,
+      "week_to": 6,
+      "sort_order": 5,
+      "summary": "Anggaran adalah rencana event dalam angka. Dua minggu ini melatih menyusun anggaran dari nol, menetapkan margin dan cadangan, memantau realisasi, dan menjaga arus kas agar EO tidak menalangi klien.",
+      "units": [
+        {
+          "unit_code": "SITXFIN009",
+          "unit_name": "Manage finances within a budget",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXFIN009"
+        },
+        {
+          "unit_code": "SITXFIN010",
+          "unit_name": "Prepare and monitor budgets",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXFIN010"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Penn State University (AS)",
+          "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "module": "HM 336 Hospitality Managerial Accounting",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+        },
+        {
+          "institution": "EHL Hospitality Business School (Swiss)",
+          "programme": "BSc International Hospitality Management",
+          "module": "9302IC Managerial Accounting",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+        }
+      ],
+      "points": [
+        "Anggaran disusun per kategori biaya: venue, produksi teknis, dekorasi, catering, dokumentasi, hiburan, kru, transportasi, perizinan, dan lain-lain, ditambah cadangan 5 sampai 10 persen.",
+        "Bedakan biaya tetap (sewa venue) dan biaya variabel (catering per pax). Biaya variabel ikut berubah saat jumlah tamu berubah.",
+        "Margin dihitung dari total biaya, bukan dari harga jual. Harga jual = biaya + cadangan + margin yang kamu inginkan.",
+        "Arus kas direncanakan per termin: DP klien harus menutup DP vendor, pelunasan klien sebelum pelunasan vendor.",
+        "Selama produksi, catat realisasi tiap pengeluaran di kolom sebelah anggaran. Selisih di atas 10 persen pada satu kategori harus dilaporkan dan diputuskan, bukan didiamkan.",
+        "Laporan keuangan event sederhana setelah acara: anggaran vs realisasi, margin nyata, dan pelajaran untuk penawaran berikutnya."
+      ],
+      "evidence_brief": "Unggah spreadsheet anggaran vs realisasi dari satu event yang sudah selesai: kategori biaya, anggaran, realisasi, selisih, dan margin akhir. Tulis tiga baris pelajaran keuangan dari event itu.",
+      "sources": [
+        {
+          "id": "bud-s1",
+          "description": "Mengelola keuangan dalam anggaran yang sudah ditetapkan: menafsirkan kebutuhan anggaran, mengalokasikan sumber daya, memantau pendapatan dan pengeluaran aktual, serta melaporkan penyimpangan.",
+          "embeddable": null,
+          "title": "SITXFIN009 Manage finances within a budget (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXFIN009_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bud-s2",
+          "description": "Menganalisis informasi keuangan dan bisnis untuk menyusun dan memantau anggaran, termasuk merancang dan menegosiasikan anggaran serta mengidentifikasi penyimpangan.",
+          "embeddable": null,
+          "title": "SITXFIN010 Prepare and monitor budgets (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXFIN010_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bud-s3",
+          "description": "Modul acuan: HM 336 Hospitality Managerial Accounting.",
+          "embeddable": null,
+          "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "kind": "university"
+        },
+        {
+          "id": "bud-s4",
+          "description": "Modul acuan: 9302IC Managerial Accounting.",
+          "embeddable": null,
+          "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "kind": "university"
+        },
+        {
+          "id": "bud-s5",
+          "description": "Awal bab budgeting buku teks gratis: anggaran operasional, anggaran kas, dan flexible budget untuk mengendalikan biaya.",
+          "embeddable": null,
+          "title": "OpenStax Principles of Accounting Vol. 2, 7.1 Describe How and Why Managers Use Budgets",
+          "url": "https://openstax.org/books/principles-managerial-accounting/pages/7-1-describe-how-and-why-managers-use-budgets",
+          "kind": "textbook"
+        },
+        {
+          "id": "bud-s6",
+          "description": "Materi pelatihan tentang anggaran event yang layak: estimasi peserta konservatif, break even, arus kas negatif sementara, dan persetujuan anggaran.",
+          "embeddable": null,
+          "title": "Imperial College Union eActivities: Event Finances",
+          "url": "https://eactivities.union.ic.ac.uk/training/finance/events",
+          "kind": "university"
+        },
+        {
+          "id": "bud-s7",
+          "description": "Cara menyusun anggaran dan menghitung biaya event, termasuk template anggaran untuk beberapa jenis event.",
+          "embeddable": null,
+          "title": "University of Exeter Event Toolkit: Budget and costing events",
+          "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/budget-costing/",
+          "kind": "university"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bud-q1",
+          "stem": "Total biaya event Rp 100 juta dan kamu ingin margin 20 persen dari biaya. Harga jual sebelum cadangan?",
+          "options": [
+            "Rp 110 juta",
+            "Rp 120 juta",
+            "Rp 125 juta",
+            "Rp 80 juta"
+          ],
+          "correct_index": 1,
+          "explanation": "Margin dari biaya: 100 juta + 20 persen x 100 juta = 120 juta. Cadangan ditambahkan terpisah."
+        },
+        {
+          "id": "bud-q2",
+          "stem": "Jumlah tamu naik dari 300 ke 400 orang. Kategori biaya mana yang paling langsung terpengaruh?",
+          "options": [
+            "Sewa venue (harga paket)",
+            "Catering per pax",
+            "Honor MC",
+            "Biaya desain undangan"
+          ],
+          "correct_index": 1,
+          "explanation": "Catering adalah biaya variabel per orang; sewa venue dan honor MC umumnya biaya tetap."
+        },
+        {
+          "id": "bud-q3",
+          "stem": "Realisasi dekorasi melebihi anggaran 18 persen di tengah produksi. Tindakan yang tepat?",
+          "options": [
+            "Diamkan, tutup dari margin",
+            "Laporkan selisihnya dan putuskan: kurangi lingkup, pakai cadangan, atau ajukan tambahan ke klien",
+            "Batalkan vendor dekorasi",
+            "Kurangi honor kru"
+          ],
+          "correct_index": 1,
+          "explanation": "Selisih besar harus diputuskan secara sadar. Mendiamkannya menghabiskan margin tanpa keputusan."
+        }
+      ]
+    },
+    {
+      "slug": "bizplan",
+      "title": "Business plan untuk usaha EO dan WO",
+      "curriculum_ref": "Knowledge 3",
+      "phase_id": 2,
+      "week_from": 7,
+      "week_to": 7,
+      "sort_order": 6,
+      "summary": "Rencana bisnis menjawab: siapa pelanggan, layanan apa yang dijual, berapa harga dan biayanya, dan bagaimana usaha tumbuh. Topik ini menyusun rencana bisnis ringkas satu tahun untuk usaha eventmu.",
+      "units": [
+        {
+          "unit_code": "BSBESB401",
+          "unit_name": "Research and develop business plans",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBESB401"
+        },
+        {
+          "unit_code": "BSBOPS502",
+          "unit_name": "Manage business operational plans",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBOPS502"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Ulster University (Irlandia Utara)",
+          "programme": "BSc (Hons) Event Management",
+          "module": "The Business Plan",
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258"
+        },
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Business Plan and Start-Up Ventures",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        }
+      ],
+      "points": [
+        "Rencana bisnis satu halaman cukup untuk mulai: segmen pelanggan, layanan, keunggulan, saluran pemasaran, struktur biaya, sumber pendapatan, dan target angka.",
+        "Segmen yang jelas mengalahkan pasar yang luas: 'wedding intimate 100 sampai 300 tamu di kota X' lebih mudah dipasarkan daripada 'semua acara'.",
+        "Hitung titik impas bulanan: biaya tetap usaha (gaji inti, kantor, alat) dibagi margin rata-rata per event menghasilkan jumlah event minimum per bulan.",
+        "Proyeksi 12 bulan memuat musim ramai dan sepi. Rencanakan kas untuk bulan sepi dari surplus bulan ramai.",
+        "Rencana operasional menurunkan target tahunan menjadi kegiatan bulanan: berapa prospek dihubungi, berapa proposal dikirim, berapa event dijalankan.",
+        "Tinjau rencana tiap kuartal: bandingkan target dan realisasi, lalu ubah satu hal saja untuk kuartal berikutnya."
+      ],
+      "evidence_brief": "Tulis rencana bisnis satu halaman untuk usaha eventmu untuk 12 bulan ke depan, termasuk perhitungan titik impas bulanan dan target jumlah event per bulan. Lampirkan proyeksi kas sederhana per bulan.",
+      "sources": [
+        {
+          "id": "bizplan-s1",
+          "description": "Meneliti dan menyusun rencana bisnis untuk mencapai tujuan dan sasaran bisnis, baik untuk usaha mandiri maupun usaha baru di dalam organisasi yang lebih besar.",
+          "embeddable": null,
+          "title": "BSBESB401 Research and develop business plans (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBESB401_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizplan-s2",
+          "description": "Menyusun dan memantau pelaksanaan rencana operasional untuk mendukung praktik kerja yang efisien serta produktivitas dan profitabilitas organisasi.",
+          "embeddable": null,
+          "title": "BSBOPS502 Manage business operational plans (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBOPS502_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizplan-s3",
+          "description": "Modul acuan: The Business Plan.",
+          "embeddable": null,
+          "title": "Ulster University (Irlandia Utara): BSc (Hons) Event Management",
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
+          "kind": "university"
+        },
+        {
+          "id": "bizplan-s4",
+          "description": "Modul acuan: Business Plan and Start-Up Ventures.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "bizplan-s5",
+          "description": "Panduan pemerintah AS tentang format business plan tradisional dan lean startup, sembilan bagian bakunya, plus contoh unduhan.",
+          "embeddable": null,
+          "title": "U.S. SBA: Write your business plan",
+          "url": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+          "kind": "guide"
+        },
+        {
+          "id": "bizplan-s6",
+          "description": "Bab buku teks gratis tentang merancang model bisnis, analisis kelayakan, dan menyusun business plan yang berfokus pada pelanggan.",
+          "embeddable": null,
+          "title": "OpenStax Entrepreneurship, bab 11: Business Model and Plan",
+          "url": "https://openstax.org/books/entrepreneurship/pages/11-introduction",
+          "kind": "textbook"
+        },
+        {
+          "id": "bizplan-s7",
+          "description": "Kursus pengantar gratis tentang struktur usaha kecil, pemasaran, kewajiban legal dan finansial.",
+          "embeddable": null,
+          "title": "Starting your small business (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/money-management/starting-your-small-business",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bizplan-q1",
+          "stem": "Biaya tetap usaha Rp 30 juta per bulan dan margin rata-rata per event Rp 10 juta. Berapa event minimum per bulan untuk impas?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct_index": 2,
+          "explanation": "Titik impas = biaya tetap dibagi margin per event = 30 juta / 10 juta = 3 event."
+        },
+        {
+          "id": "bizplan-q2",
+          "stem": "Mengapa segmen pelanggan yang sempit sering lebih menguntungkan bagi EO kecil?",
+          "options": [
+            "Karena pesaing lebih sedikit di semua segmen",
+            "Pesan pemasaran, portofolio, dan proses jadi lebih tajam dan mudah dipercaya",
+            "Karena harga bisa lebih rendah",
+            "Tidak ada alasan, pasar luas selalu lebih baik"
+          ],
+          "correct_index": 1,
+          "explanation": "Segmen sempit memungkinkan spesialisasi yang terlihat oleh calon klien dan efisiensi proses."
+        },
+        {
+          "id": "bizplan-q3",
+          "stem": "Apa fungsi tinjauan kuartalan rencana bisnis?",
+          "options": [
+            "Menulis ulang seluruh rencana",
+            "Membandingkan target dan realisasi lalu mengubah satu hal untuk kuartal berikutnya",
+            "Mengganti segmen pelanggan",
+            "Menaikkan harga"
+          ],
+          "correct_index": 1,
+          "explanation": "Tinjauan rutin menjaga rencana tetap dipakai. Mengubah satu hal saja membuat dampaknya bisa diukur."
+        }
+      ]
+    },
+    {
+      "slug": "bizdev",
+      "title": "Business development: prospek, penjualan, dan hubungan bisnis",
+      "curriculum_ref": "Official: Business Development",
+      "phase_id": 2,
+      "week_from": 8,
+      "week_to": 8,
+      "sort_order": 7,
+      "summary": "Event datang dari hubungan. Topik ini membahas cara mencari prospek, mengelola pipeline penjualan, bernegosiasi, dan menjaga hubungan dengan klien, venue, dan vendor supaya pekerjaan berulang.",
+      "units": [
+        {
+          "unit_code": "SITXMPR011",
+          "unit_name": "Plan and implement sales activities",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMPR011"
+        },
+        {
+          "unit_code": "SITXMGT005",
+          "unit_name": "Establish and conduct business relationships",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMGT005"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3523 Event Sales",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "Les Roches (Swiss)",
+          "programme": "MSc International Hospitality Management",
+          "module": "Event Design & Management",
+          "url": "https://lesroches.edu/programs/masters-degrees/master-of-science-in-hospitality-management/"
+        }
+      ],
+      "points": [
+        "Pipeline penjualan punya tahap tetap: prospek, kontak pertama, brief, proposal, negosiasi, kontrak. Catat tiap prospek di tahap mana dan kapan tindak lanjut berikutnya.",
+        "Sumber prospek terbaik EO dan WO: klien lama, rujukan vendor dan venue, serta komunitas. Media sosial memperkuat, bukan menggantikan.",
+        "Negosiasi dimulai dari mengetahui batas bawahmu (harga minimum yang masih untung) dan hal yang bisa ditukar selain harga: lingkup, termin, tanggal.",
+        "Hubungan dengan venue dan vendor dibangun dengan bayar tepat waktu, brief yang jelas, dan ucapan terima kasih tertulis setelah event.",
+        "Tindak lanjut setelah event: kirim foto terpilih, minta testimoni, dan tanyakan rencana acara berikutnya dalam 30 hari.",
+        "Laporan penjualan bulanan sederhana: jumlah prospek baru, proposal terkirim, tingkat konversi, nilai kontrak."
+      ],
+      "evidence_brief": "Buat pipeline penjualan (spreadsheet) berisi minimal 10 prospek nyata dengan tahap dan tanggal tindak lanjut, plus satu laporan penjualan bulan lalu. Tambahkan catatan satu negosiasi nyata: batas bawahmu, apa yang ditukar, hasilnya.",
+      "sources": [
+        {
+          "id": "bizdev-s1",
+          "description": "Merencanakan dan melaksanakan kegiatan penjualan: menganalisis kebutuhan pasar dan pelanggan, menargetkan pelanggan lama dan baru, melakukan kunjungan penjualan, serta menyusun laporan penjualan.",
+          "embeddable": null,
+          "title": "SITXMPR011 Plan and implement sales activities (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR011_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizdev-s2",
+          "description": "Membangun dan mengelola hubungan bisnis yang positif, termasuk negosiasi formal dan membuat perjanjian bisnis-ke-bisnis yang bernilai komersial.",
+          "embeddable": null,
+          "title": "SITXMGT005 Establish and conduct business relationships (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMGT005_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "bizdev-s3",
+          "description": "Modul acuan: HFT3523 Event Sales.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "bizdev-s4",
+          "description": "Modul acuan: Event Design & Management.",
+          "embeddable": null,
+          "title": "Les Roches (Swiss): MSc International Hospitality Management",
+          "url": "https://lesroches.edu/programs/masters-degrees/master-of-science-in-hospitality-management/",
+          "kind": "university"
+        },
+        {
+          "id": "bizdev-s5",
+          "description": "Kursus gratis tentang seluruh proses penjualan: memahami kebutuhan pelanggan, consultative selling, follow-up, menjaga loyalitas, dan pemakaian CRM.",
+          "embeddable": null,
+          "title": "BUS633: Sales Management (Saylor Academy)",
+          "url": "https://learn.saylor.org/course/bus633",
+          "kind": "course"
+        },
+        {
+          "id": "bizdev-s6",
+          "description": "Sertifikasi gratis sekitar 3 jam (perlu akun gratis) tentang empat tahap penjualan inbound: identify, connect, explore, advise.",
+          "embeddable": null,
+          "title": "Inbound Sales Certification (HubSpot Academy)",
+          "url": "https://academy.hubspot.com/courses/inbound-sales",
+          "kind": "certification"
+        },
+        {
+          "id": "bizdev-s7",
+          "description": "Kursus gratis 8 jam tentang perbedaan pemasaran konsumen dan B2B serta proses keputusan pembelian organisasi, berguna untuk klien korporat.",
+          "embeddable": null,
+          "title": "Understanding your customers (OpenLearn, The Open University)",
+          "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers/content-section-0",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bizdev-q1",
+          "stem": "Calon klien meminta diskon 15 persen dari harga penawaran. Persiapan apa yang paling menentukan sebelum kamu menjawab?",
+          "options": [
+            "Mengetahui harga pesaing",
+            "Mengetahui batas bawah harga dan hal lain yang bisa ditukar (lingkup, termin, tanggal)",
+            "Menyiapkan alasan menolak",
+            "Menghubungi vendor untuk minta potongan"
+          ],
+          "correct_index": 1,
+          "explanation": "Negosiasi yang sehat bertumpu pada batas bawah yang jelas dan alternatif tukar selain harga."
+        },
+        {
+          "id": "bizdev-q2",
+          "stem": "Mana sumber prospek yang biasanya paling tinggi tingkat konversinya untuk WO?",
+          "options": [
+            "Iklan berbayar ke audiens umum",
+            "Rujukan dari klien lama, venue, dan vendor",
+            "Pesan massal ke nomor acak",
+            "Pameran di luar kota"
+          ],
+          "correct_index": 1,
+          "explanation": "Rujukan membawa kepercayaan yang sudah terbentuk sehingga siklus penjualan lebih pendek."
+        },
+        {
+          "id": "bizdev-q3",
+          "stem": "Fungsi utama mencatat tahap tiap prospek di pipeline?",
+          "options": [
+            "Untuk laporan pajak",
+            "Agar tindak lanjut tidak terlewat dan konversi bisa diukur",
+            "Supaya terlihat profesional",
+            "Agar bisa menaikkan harga"
+          ],
+          "correct_index": 1,
+          "explanation": "Pipeline yang tercatat membuat tindak lanjut terjadwal dan memperlihatkan di tahap mana prospek sering hilang."
+        }
+      ]
+    },
+    {
+      "slug": "prodplan",
+      "title": "Production planning: jadwal produksi dan logistik",
+      "curriculum_ref": "Knowledge 8",
+      "phase_id": 3,
+      "week_from": 9,
+      "week_to": 9,
+      "sort_order": 8,
+      "summary": "Rencana produksi menerjemahkan konsep menjadi jadwal loading, daftar peralatan, dan alur logistik. Topik ini membangun production schedule dan checklist yang dipakai semua vendor.",
+      "units": [
+        {
+          "unit_code": "SITEEVT026",
+          "unit_name": "Manage event production components",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT026"
+        },
+        {
+          "unit_code": "SITEEVT027",
+          "unit_name": "Organise event infrastructure",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITEEVT027"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT4394 Event Operations",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Event Operation",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        }
+      ],
+      "points": [
+        "Production schedule menyusun urutan pemasangan dari yang paling bawah dan paling lama: rigging dan panggung, listrik, sound dan lighting, dekorasi, meja kursi, lalu detail.",
+        "Setiap vendor menerima jam masuk, jam selesai, area kerja, dan kontak koordinator lapangan. Dua vendor di area yang sama pada jam yang sama adalah sumber konflik.",
+        "Daftar kebutuhan infrastruktur: daya listrik (kVA), genset cadangan, air, toilet, tenda, akses bongkar muat, parkir kru, area penyimpanan.",
+        "Rencana logistik memuat kendaraan, jalur masuk, jadwal pengiriman, dan orang yang menerima barang di lokasi.",
+        "Checklist pra-event dicek H-1 dengan berjalan mengikuti alur tamu: dari parkir, pintu masuk, registrasi, area utama, sampai keluar.",
+        "Bongkar (load-out) direncanakan sama teliti dengan pemasangan: urutan terbalik, batas waktu venue, dan pemeriksaan kerusakan."
+      ],
+      "evidence_brief": "Unggah production schedule satu event nyata (per vendor: jam masuk, area, kontak) beserta daftar kebutuhan infrastruktur dan rencana logistiknya. Sertakan foto checklist H-1 yang sudah dicentang.",
+      "sources": [
+        {
+          "id": "prodplan-s1",
+          "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "embeddable": null,
+          "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "prodplan-s2",
+          "description": "Mengatur infrastruktur dan fasilitas event ketika venue atau lokasi belum menyediakannya.",
+          "embeddable": null,
+          "title": "SITEEVT027 Organise event infrastructure (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT027_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "prodplan-s3",
+          "description": "Modul acuan: HFT4394 Event Operations.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "prodplan-s4",
+          "description": "Modul acuan: Event Operation.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "prodplan-s5",
+          "description": "Mengelola keselamatan selama build-up, load-in, breakdown, dan load-out: koordinasi kontraktor, briefing kru, pemantauan, dan debrief.",
+          "embeddable": null,
+          "title": "HSE Event safety: Managing an event",
+          "url": "https://www.hse.gov.uk/event-safety/managing-an-event.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "prodplan-s6",
+          "description": "Pengelolaan lalu lintas kendaraan dan pejalan kaki di lokasi event, termasuk pergerakan kendaraan produksi saat load in dan load out.",
+          "embeddable": null,
+          "title": "HSE Event safety: Transport",
+          "url": "https://www.hse.gov.uk/event-safety/transport.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "prodplan-s7",
+          "description": "Instruksi resmi pemerintah kota tentang isi production schedule dan run of show yang wajib dilampirkan pada izin event.",
+          "embeddable": null,
+          "title": "City of Seattle Special Events: Run of Show / Production Schedule Instructions",
+          "url": "https://www.seattle.gov/documents/departments/specialevents/addendums/add_a_runofshowinstructions.pdf",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "prodplan-q1",
+          "stem": "Urutan pemasangan yang paling masuk akal di venue ballroom?",
+          "options": [
+            "Dekorasi, lalu panggung, lalu sound",
+            "Panggung dan rigging, listrik, sound dan lighting, dekorasi, meja kursi",
+            "Meja kursi dulu supaya ruangan terlihat penuh",
+            "Semua vendor masuk bersamaan agar cepat"
+          ],
+          "correct_index": 1,
+          "explanation": "Yang paling bawah dan paling lama dipasang dulu; dekorasi dan furnitur menyusul agar tidak terhalang atau rusak."
+        },
+        {
+          "id": "prodplan-q2",
+          "stem": "Apa risiko utama saat dua vendor dijadwalkan di area yang sama pada jam yang sama?",
+          "options": [
+            "Biaya lebih tinggi",
+            "Konflik area kerja yang memperlambat keduanya dan berpotensi merusak hasil",
+            "Tidak ada risiko",
+            "Vendor menjadi lebih cepat"
+          ],
+          "correct_index": 1,
+          "explanation": "Production schedule mengatur area dan waktu justru untuk mencegah tabrakan pekerjaan."
+        },
+        {
+          "id": "prodplan-q3",
+          "stem": "Mengapa checklist H-1 dicek dengan berjalan mengikuti alur tamu?",
+          "options": [
+            "Supaya olahraga",
+            "Karena kekurangan paling mudah terlihat dari sudut pandang orang yang mengalaminya",
+            "Karena klien memintanya",
+            "Untuk menghitung jumlah kursi"
+          ],
+          "correct_index": 1,
+          "explanation": "Berjalan sebagai tamu memperlihatkan penanda arah, pencahayaan, dan antrean yang tidak terlihat dari meja koordinator."
+        }
+      ]
+    },
+    {
+      "slug": "venue",
+      "title": "Venue management: pemilihan, site plan, dan kontrak venue",
+      "curriculum_ref": "Knowledge 9",
+      "phase_id": 3,
+      "week_from": 10,
+      "week_to": 10,
+      "sort_order": 9,
+      "summary": "Venue menentukan separuh kualitas event dan sebagian besar biayanya. Topik ini membahas cara menilai venue, menyusun site plan dan layout, serta hal yang harus ada dalam kontrak venue.",
+      "units": [
+        {
+          "unit_code": "SITEEVT025",
+          "unit_name": "Select event venues and sites",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITEEVT025"
+        }
+      ],
+      "university": [
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Venue Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        },
+        {
+          "institution": "De Montfort University (Inggris)",
+          "programme": "BA (Hons) Arts and Festivals Management",
+          "module": "Running and Promoting a Venue",
+          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx"
+        }
+      ],
+      "points": [
+        "Spesifikasi venue disusun dari rencana event: kapasitas (duduk vs berdiri), tinggi plafon untuk rigging, daya listrik, akses loading, parkir, waktu akses, dan aturan vendor luar.",
+        "Survei venue memakai checklist tetap dan diambil fotonya: titik listrik, pintu darurat, jalur kabel, area vendor, toilet, dan area tunggu pengantin atau pembicara.",
+        "Site plan atau floor plan berskala menunjukkan panggung, meja, jalur evakuasi, posisi FOH (sound), dan alur tamu. Kirim ke semua vendor sebelum loading.",
+        "Kontrak venue memuat: jam akses dan bongkar, biaya lembur, deposit kerusakan, vendor wajib (catering, sound), kebijakan pembatalan, dan siapa PIC venue di hari H.",
+        "Venue outdoor menambah kebutuhan: tenda, lantai, genset, toilet portabel, dan rencana cuaca (wet weather plan).",
+        "Bandingkan minimal dua venue dengan tabel yang sama supaya keputusan berdasar spesifikasi, bukan kesan."
+      ],
+      "evidence_brief": "Unggah hasil survei satu venue nyata (checklist terisi dan foto), floor plan berskala yang kamu buat untuk event di venue itu, dan tabel perbandingan dua venue dengan kriteria yang sama.",
+      "sources": [
+        {
+          "id": "venue-s1",
+          "description": "Mencari dan memilih venue atau lokasi event: menganalisis rencana event untuk menentukan kebutuhan, menyusun spesifikasi seleksi, lalu menilai, memilih, dan mengontrak venue.",
+          "embeddable": null,
+          "title": "SITEEVT025 Select event venues and sites (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT025_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "venue-s2",
+          "description": "Modul acuan: Venue Management.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "venue-s3",
+          "description": "Modul acuan: Running and Promoting a Venue.",
+          "embeddable": null,
+          "title": "De Montfort University (Inggris): BA (Hons) Arts and Festivals Management",
+          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
+          "kind": "university"
+        },
+        {
+          "id": "venue-s4",
+          "description": "Menilai kapasitas venue, akses kendaraan dan pejalan kaki, serta menyusun site plan (struktur, fasilitas, pagar, pintu masuk dan keluar).",
+          "embeddable": null,
+          "title": "HSE Event safety: Venue and site design",
+          "url": "https://www.hse.gov.uk/event-safety/venue-site-design.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "venue-s5",
+          "description": "Contoh alur memesan ruang dan peralatan audiovisual untuk event.",
+          "embeddable": null,
+          "title": "University of Exeter Event Toolkit: Booking facilities",
+          "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/booking-facilities/",
+          "kind": "university"
+        },
+        {
+          "id": "venue-s6",
+          "description": "Contoh nyata kontrak sewa venue dari pemerintah kota: syarat pemesanan, deposit, kewajiban penyewa, dan kondisi khusus.",
+          "embeddable": null,
+          "title": "City of Sydney: Venue Hire Agreement (community venues)",
+          "url": "https://www.cityofsydney.nsw.gov.au/-/media/corporate/files/places-and-spaces/community-centres/conditions-of-hire/booking-confirmation-and-special-conditions-venues-unstaffed.pdf?download=true",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "venue-q1",
+          "stem": "Klien ingin panggung dengan rigging truss untuk lighting. Spesifikasi venue mana yang wajib dicek lebih dulu?",
+          "options": [
+            "Warna dinding",
+            "Tinggi plafon dan titik gantung",
+            "Jumlah toilet",
+            "Harga parkir"
+          ],
+          "correct_index": 1,
+          "explanation": "Rigging bergantung pada tinggi plafon dan kekuatan titik gantung. Tanpa itu, konsep lighting harus diubah."
+        },
+        {
+          "id": "venue-q2",
+          "stem": "Apa akibat paling umum jika jam akses venue tidak tertulis di kontrak?",
+          "options": [
+            "Venue lebih murah",
+            "Biaya lembur atau waktu pemasangan yang terlalu pendek di hari H",
+            "Tidak ada akibat",
+            "Vendor lebih senang"
+          ],
+          "correct_index": 1,
+          "explanation": "Jam akses menentukan berapa lama vendor bisa memasang. Ketidakjelasan berujung lembur atau pemasangan terburu-buru."
+        },
+        {
+          "id": "venue-q3",
+          "stem": "Mengapa floor plan harus dikirim ke semua vendor sebelum loading?",
+          "options": [
+            "Untuk memenuhi syarat venue",
+            "Agar setiap vendor tahu posisi dan area kerja sehingga tidak saling menghalangi",
+            "Supaya klien terkesan",
+            "Karena vendor memintanya"
+          ],
+          "correct_index": 1,
+          "explanation": "Floor plan adalah acuan bersama; vendor yang bekerja dari gambar yang sama jarang bertabrakan."
+        }
+      ]
+    },
+    {
+      "slug": "tech",
+      "title": "Technical production: sound, lighting, AV, dan panggung",
+      "curriculum_ref": "Knowledge 7",
+      "phase_id": 3,
+      "week_from": 11,
+      "week_to": 11,
+      "sort_order": 10,
+      "summary": "Kamu tidak harus menjadi teknisi, tapi harus bisa membaca kebutuhan teknis, menulis brief untuk vendor, dan mengecek hasilnya. Topik ini memberi dasar sound, lighting, AV, listrik, dan panggung.",
+      "units": [
+        {
+          "unit_code": "SITEEVT026",
+          "unit_name": "Manage event production components",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT026"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3443 Event Technology",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Festival & Event Design and Delivery",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Brief teknis ke vendor berisi: jenis acara, jumlah tamu dan ukuran ruang, kebutuhan input (mic wireless, laptop, instrumen), output (speaker, layar), dan rundown dengan cue.",
+        "Sound: kebutuhan mic (handheld, clip-on, headset), monitor untuk pengisi acara, posisi FOH yang bisa mendengar ruangan, dan sound check dengan orang yang benar-benar tampil.",
+        "Lighting: bedakan cahaya kerja (agar orang melihat), cahaya suasana (warna, wash), dan cahaya sorot (follow spot, key light untuk dokumentasi).",
+        "AV dan LED: resolusi konten harus sesuai rasio layar; minta template ke vendor sebelum desainer membuat konten. Siapkan laptop cadangan dengan file yang sama.",
+        "Listrik: hitung kebutuhan total (kVA) dari daftar alat, pisahkan jalur sound dari lighting, siapkan genset cadangan dengan ATS untuk acara penting.",
+        "Keselamatan teknis: kabel dilindungi ramp atau lakban di jalur tamu, truss dipasang teknisi bersertifikat, dan sertifikat alat berat disimpan bersama dokumen event."
+      ],
+      "evidence_brief": "Tulis brief teknis lengkap untuk satu event nyata (input, output, rundown dengan cue, kebutuhan daya) dan unggah bersama gambar penempatan sound, lighting, dan layar di floor plan. Tambahkan catatan hasil sound check.",
+      "sources": [
+        {
+          "id": "tech-s1",
+          "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "embeddable": null,
+          "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "tech-s2",
+          "description": "Modul acuan: HFT3443 Event Technology.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "tech-s3",
+          "description": "Modul acuan: Festival & Event Design and Delivery.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "tech-s4",
+          "description": "Buku teks terbuka 15 modul tentang ruang panggung, peralatan, scenery, lighting, sound, stage management, dan etika kru, dengan penekanan keselamatan.",
+          "embeddable": null,
+          "title": "An Introduction to Technical Theatre (Tal Sanders, Open Textbook Library)",
+          "url": "https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-technical-theatre",
+          "kind": "textbook"
+        },
+        {
+          "id": "tech-s5",
+          "description": "Bab singkat tentang dasar tata cahaya panggung; bab 1.9 di buku yang sama membahas dasar tata suara.",
+          "embeddable": null,
+          "title": "Technical Theatre Practicum (Boltz), 1.7 Stage Lighting (LibreTexts)",
+          "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.07:_Stage_Lighting",
+          "kind": "textbook"
+        },
+        {
+          "id": "tech-s6",
+          "description": "Panduan keselamatan pemasangan dan pembongkaran struktur sementara (panggung, tower speaker, lighting).",
+          "embeddable": null,
+          "title": "HSE Event safety: Temporary demountable structures",
+          "url": "https://www.hse.gov.uk/event-safety/temporary-demountable-structures.htm",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-q1",
+          "stem": "Mengapa sound check sebaiknya dilakukan dengan orang yang benar-benar akan tampil?",
+          "options": [
+            "Supaya lebih cepat",
+            "Karena volume dan karakter suara tiap orang berbeda, pengaturan yang tepat hanya didapat dari orang itu",
+            "Agar vendor bisa pulang lebih awal",
+            "Tidak ada alasan khusus"
+          ],
+          "correct_index": 1,
+          "explanation": "Pengaturan mic dan monitor bergantung pada suara dan kebiasaan orang yang tampil."
+        },
+        {
+          "id": "tech-q2",
+          "stem": "Konten video terlihat gepeng di layar LED. Penyebab yang paling mungkin?",
+          "options": [
+            "Kabel terlalu panjang",
+            "Rasio konten tidak sama dengan rasio layar",
+            "Lampu terlalu terang",
+            "Laptop terlalu lama"
+          ],
+          "correct_index": 1,
+          "explanation": "Konten harus dibuat sesuai rasio dan resolusi layar; karena itu template dari vendor diminta sebelum desain."
+        },
+        {
+          "id": "tech-q3",
+          "stem": "Untuk acara penting, apa fungsi ATS pada genset cadangan?",
+          "options": [
+            "Mengurangi suara genset",
+            "Memindahkan beban ke genset secara otomatis saat listrik utama padam",
+            "Menghemat bahan bakar",
+            "Menambah daya listrik"
+          ],
+          "correct_index": 1,
+          "explanation": "ATS (automatic transfer switch) memindahkan sumber daya tanpa menunggu operator sehingga acara tidak gelap lama."
+        }
+      ]
+    },
+    {
+      "slug": "prod",
+      "title": "Event production: dari rencana menjadi acara",
+      "curriculum_ref": "Knowledge 13",
+      "phase_id": 3,
+      "week_from": 12,
+      "week_to": 12,
+      "sort_order": 11,
+      "summary": "Produksi mengoordinasikan semua komponen (teknis, dekorasi, catering, hiburan, dokumentasi) menjadi satu acara yang utuh. Topik ini membahas production book, koordinasi vendor, dan pengelolaan hari H dari sisi produksi.",
+      "units": [
+        {
+          "unit_code": "SITEEVT026",
+          "unit_name": "Manage event production components",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT026"
+        },
+        {
+          "unit_code": "SITEEVT028",
+          "unit_name": "Manage on-site event operations",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT028"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Festival & Event Design and Delivery",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "MSc International Festival & Event Management",
+          "module": "Festival and Event Management",
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Production book adalah satu dokumen yang berisi semuanya: kontak, rundown, floor plan, production schedule, brief tiap vendor, rencana risiko, dan checklist. Semua koordinator memegang versi yang sama.",
+        "Rapat produksi terakhir (H-3 sampai H-1) mengumpulkan semua vendor untuk membaca rundown bersama dan menyelesaikan tabrakan jadwal.",
+        "Struktur komando hari H: satu show director, koordinator per area (panggung, tamu, vendor, klien), dan jalur radio dengan protokol singkat.",
+        "Komponen produksi dicek dengan standar yang tertulis di brief: bukan 'bagus atau tidak', tapi 'sesuai brief atau tidak'.",
+        "Perubahan di hari H dicatat di log produksi (jam, apa, siapa yang memutuskan) untuk laporan dan evaluasi.",
+        "Setelah acara: pengecekan kerusakan bersama venue, pengembalian alat, dan pembayaran vendor sesuai berita acara."
+      ],
+      "evidence_brief": "Unggah production book satu event nyata (boleh PDF gabungan): kontak, rundown, floor plan, production schedule, brief vendor, checklist. Tambahkan log produksi hari H yang kamu isi.",
+      "sources": [
+        {
+          "id": "prod-s1",
+          "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "embeddable": null,
+          "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "prod-s2",
+          "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "embeddable": null,
+          "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "prod-s3",
+          "description": "Modul acuan: Festival & Event Design and Delivery.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "prod-s4",
+          "description": "Modul acuan: Festival and Event Management.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: MSc International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "prod-s5",
+          "description": "Buku pegangan yang merunut kerja stage manager dari pra-produksi, rehearsal, calling cues, show run, sampai strike dan laporan pasca-show.",
+          "embeddable": null,
+          "title": "CCSU Theatre: Stage Management and Assistant Stage Management Handbook (2023)",
+          "url": "https://www.ccsu.edu/sites/default/files/2024-06/SM%20and%20ASM%20Handbook.pdf",
+          "kind": "university"
+        },
+        {
+          "id": "prod-s6",
+          "description": "Laporan produksi (rehearsal dan performance report) sebagai bagian dari dokumen produksi.",
+          "embeddable": null,
+          "title": "Technical Theatre Practicum (Boltz), 1.11 Production Reports (LibreTexts)",
+          "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.11:_Production_Reports",
+          "kind": "textbook"
+        },
+        {
+          "id": "prod-s7",
+          "description": "Pelajaran gratis dengan video stage manager profesional tentang isi prompt book (kontak, laporan, props tracking, calling script).",
+          "embeddable": null,
+          "title": "Utah Shakespeare Festival: Stage Management, Lesson 2 (prompt book)",
+          "url": "https://www.bard.org/lesson-plans/stage-managementlesson-2/",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "prod-q1",
+          "stem": "Apa manfaat utama rapat produksi H-3 yang mengumpulkan semua vendor?",
+          "options": [
+            "Membagikan snack",
+            "Membaca rundown bersama dan menyelesaikan tabrakan jadwal sebelum hari H",
+            "Menegosiasikan harga ulang",
+            "Memilih seragam"
+          ],
+          "correct_index": 1,
+          "explanation": "Tabrakan jadwal dan asumsi antar vendor paling murah diselesaikan sebelum loading, bukan di lokasi."
+        },
+        {
+          "id": "prod-q2",
+          "stem": "Cara yang benar menilai apakah dekorasi yang terpasang bisa diterima?",
+          "options": [
+            "Berdasarkan selera koordinator",
+            "Dibandingkan dengan brief dan gambar yang disetujui klien",
+            "Bertanya ke tamu pertama",
+            "Berdasarkan harga vendor"
+          ],
+          "correct_index": 1,
+          "explanation": "Standar penerimaan adalah brief tertulis. Itu yang melindungi EO dan vendor dari perdebatan selera."
+        },
+        {
+          "id": "prod-q3",
+          "stem": "Mengapa perubahan di hari H perlu dicatat di log produksi?",
+          "options": [
+            "Untuk menyalahkan orang",
+            "Sebagai dasar laporan, tagihan tambahan, dan evaluasi",
+            "Karena aturan venue",
+            "Supaya log terlihat penuh"
+          ],
+          "correct_index": 1,
+          "explanation": "Log yang rapi menjadi bukti keputusan dan sumber pelajaran untuk event berikutnya."
+        }
+      ]
+    },
+    {
+      "slug": "show",
+      "title": "Show management: rundown, cue, dan show calling",
+      "curriculum_ref": "Knowledge 14",
+      "phase_id": 3,
+      "week_from": 13,
+      "week_to": 13,
+      "sort_order": 12,
+      "summary": "Show management memastikan acara berjalan sesuai rundown menit demi menit. Topik ini membahas cara menulis rundown dan cue sheet, memimpin show sebagai show director, dan menangani penyimpangan tanpa panik.",
+      "units": [
+        {
+          "unit_code": "SITEEVT028",
+          "unit_name": "Manage on-site event operations",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT028"
+        }
+      ],
+      "university": [
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "The UG Live Event Project (Event Delivery & Evaluation)",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        },
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT4795 Entertainment Arts and Events",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        }
+      ],
+      "points": [
+        "Rundown menit per menit memuat: jam, durasi, segmen, siapa di panggung, cue sound, cue lighting, cue video, dan catatan. Satu baris satu kejadian.",
+        "Cue diberi nomor dan dipanggil dengan pola tetap: 'standby cue 12', jeda, 'go cue 12'. Semua operator menjawab 'standby' saat siap.",
+        "Show director berada di posisi yang bisa melihat panggung dan mendengar ruangan, memegang rundown induk, dan menjadi satu-satunya yang memberi 'go'.",
+        "Jam acara dipatok pada satu jam acuan (jam show director). Semua radio dan operator menyamakan waktu sebelum pintu dibuka.",
+        "Rencana B ada untuk segmen berisiko: pengisi acara terlambat, video tidak jalan, pengantin belum siap. Tiap rencana B punya pemicu dan orang yang memutuskan.",
+        "Setelah show: catat selisih jam rencana dan jam nyata tiap segmen untuk evaluasi rundown berikutnya."
+      ],
+      "evidence_brief": "Unggah rundown menit per menit dan cue sheet dari satu event yang kamu jalankan sebagai show director, ditambah catatan jam nyata tiap segmen dan satu rencana B yang benar-benar dipakai (atau disiapkan).",
+      "sources": [
+        {
+          "id": "show-s1",
+          "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "embeddable": null,
+          "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "show-s2",
+          "description": "Modul acuan: The UG Live Event Project (Event Delivery & Evaluation).",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "show-s3",
+          "description": "Modul acuan: HFT4795 Entertainment Arts and Events.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "show-s4",
+          "description": "Cara memanggil cue: warning, standby, go, penomoran cue lampu dan suara, paper tech, dan menandai naskah.",
+          "embeddable": null,
+          "title": "Technical Theatre Practicum (Boltz), 1.12 Cueing Scripts (LibreTexts)",
+          "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.12:_Cueing_Scripts",
+          "kind": "textbook"
+        },
+        {
+          "id": "show-s5",
+          "description": "Bagian Calling Cues, Pre-Performance Routine, dan Show Run menjelaskan prosedur show calling dan penanganan insiden saat pertunjukan.",
+          "embeddable": null,
+          "title": "CCSU Theatre: Stage Management Handbook (bagian Calling Cues dan Show Run)",
+          "url": "https://www.ccsu.edu/sites/default/files/2024-06/SM%20and%20ASM%20Handbook.pdf",
+          "kind": "university"
+        }
+      ],
+      "questions": [
+        {
+          "id": "show-q1",
+          "stem": "Pola panggilan cue yang benar?",
+          "options": [
+            "'Cue 12 sekarang' tanpa peringatan",
+            "'Standby cue 12', tunggu jawaban operator, lalu 'go cue 12'",
+            "Menyebut nama operator saja",
+            "Memberi kode warna"
+          ],
+          "correct_index": 1,
+          "explanation": "Standby memberi waktu operator bersiap; 'go' yang terpisah memastikan eksekusi serentak."
+        },
+        {
+          "id": "show-q2",
+          "stem": "Mengapa hanya show director yang boleh memberi perintah 'go'?",
+          "options": [
+            "Karena jabatannya paling tinggi",
+            "Agar tidak ada dua perintah yang bertentangan dan urutan cue tetap satu",
+            "Supaya operator tidak bosan",
+            "Karena klien memintanya"
+          ],
+          "correct_index": 1,
+          "explanation": "Satu sumber perintah mencegah kebingungan operator saat banyak hal terjadi bersamaan."
+        },
+        {
+          "id": "show-q3",
+          "stem": "Video sambutan tidak jalan saat cue dipanggil. Apa yang menentukan respons tim?",
+          "options": [
+            "Kepanikan tim",
+            "Rencana B yang sudah disiapkan dengan pemicu dan pengambil keputusan",
+            "Keputusan klien saat itu",
+            "Sound engineer"
+          ],
+          "correct_index": 1,
+          "explanation": "Rencana B yang tertulis membuat respons cepat dan terkoordinasi, misalnya MC mengisi sementara operator membuka cadangan."
+        }
+      ]
+    },
+    {
+      "slug": "risk",
+      "title": "Risk management: penilaian risiko dan rencana darurat",
+      "curriculum_ref": "Knowledge 11",
+      "phase_id": 4,
+      "week_from": 14,
+      "week_to": 14,
+      "sort_order": 13,
+      "summary": "Setiap event punya risiko yang bisa diperkirakan. Topik ini melatih mengidentifikasi bahaya, menilai kemungkinan dan dampak, menetapkan pengendalian, dan menyusun rencana darurat yang benar-benar bisa dijalankan kru.",
+      "units": [
+        {
+          "unit_code": "SITXWHS006",
+          "unit_name": "Identify hazards, assess and control safety risks",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXWHS006"
+        },
+        {
+          "unit_code": "SITXWHS007",
+          "unit_name": "Implement and monitor work health and safety practices",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXWHS007"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3670 Hospitality and Event Risk Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Crisis Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        }
+      ],
+      "points": [
+        "Proses penilaian risiko: identifikasi bahaya, nilai kemungkinan dan dampak (matriks 1 sampai 5), tentukan pengendalian, tetapkan pemilik, tinjau ulang setelah perubahan.",
+        "Hierarki pengendalian dari yang paling kuat: hilangkan bahaya, ganti dengan yang lebih aman, pengendalian teknis (pagar, ramp kabel), pengendalian administratif (SOP, briefing), alat pelindung diri.",
+        "Bahaya khas event: listrik dan kabel, struktur (panggung, truss, tenda), kebakaran dan kembang api, cuaca, makanan, kerumunan, lalu lintas kendaraan saat loading.",
+        "Rencana darurat memuat: titik kumpul, jalur evakuasi, nomor darurat, siapa yang memutuskan evakuasi, cara mengumumkan ke tamu, dan lokasi P3K serta APAR.",
+        "Kru dibriefing tentang rencana darurat sebelum pintu dibuka; kru kunci tahu posisi APAR dan jalur evakuasi terdekat dari posnya.",
+        "Insiden sekecil apa pun dicatat (near miss termasuk) dan ditinjau setelah event untuk memperbaiki pengendalian."
+      ],
+      "evidence_brief": "Unggah dokumen penilaian risiko satu event nyata (tabel bahaya, kemungkinan, dampak, pengendalian, pemilik) dan rencana daruratnya (titik kumpul, jalur evakuasi di floor plan, nomor darurat, pengambil keputusan).",
+      "sources": [
+        {
+          "id": "risk-s1",
+          "description": "Mengidentifikasi bahaya, menilai risiko keselamatan kerja, mengambil langkah untuk menghilangkan atau meminimalkan risiko, dan mendokumentasikan seluruh prosesnya.",
+          "embeddable": null,
+          "title": "SITXWHS006 Identify hazards, assess and control safety risks (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXWHS006_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "risk-s2",
+          "description": "Menerapkan dan memantau praktik kesehatan, keselamatan, dan keamanan kerja yang ditetapkan manajemen, termasuk konsultasi, penilaian risiko, pelatihan WHS, dan pencatatan.",
+          "embeddable": null,
+          "title": "SITXWHS007 Implement and monitor work health and safety practices (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXWHS007_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "risk-s3",
+          "description": "Modul acuan: HFT3670 Hospitality and Event Risk Management.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "risk-s4",
+          "description": "Modul acuan: Crisis Management.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "risk-s5",
+          "description": "Ringkasan resmi ISO (gratis, ada 'Read sample') tentang prinsip, kerangka, dan proses manajemen risiko; teks standar lengkap berbayar.",
+          "embeddable": null,
+          "title": "ISO 31000:2018 Risk management, Guidelines (halaman resmi ISO)",
+          "url": "https://www.iso.org/standard/65694.html",
+          "kind": "standard"
+        },
+        {
+          "id": "risk-s6",
+          "description": "Langkah demi langkah menyusun risk assessment (identifikasi bahaya, nilai risiko, kendali) lengkap dengan template dan contoh.",
+          "embeddable": null,
+          "title": "HSE: Managing risks and risk assessment at work",
+          "url": "https://www.hse.gov.uk/simple-health-safety/risk/index.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "risk-s7",
+          "description": "Menyusun emergency plan event: evakuasi, show stop, koordinasi dengan polisi dan ambulans, uji table-top, dan rencana kontingensi.",
+          "embeddable": null,
+          "title": "HSE Event safety: Planning for incidents and emergencies",
+          "url": "https://www.hse.gov.uk/event-safety/incidents-and-emergencies.htm",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "risk-q1",
+          "stem": "Kabel sound melintang di jalur tamu. Pengendalian mana yang paling kuat menurut hierarki pengendalian?",
+          "options": [
+            "Memasang tanda 'hati-hati kabel'",
+            "Mengubah jalur kabel agar tidak melintasi jalur tamu",
+            "Meminta kru mengingatkan tamu",
+            "Memberi kru sepatu safety"
+          ],
+          "correct_index": 1,
+          "explanation": "Menghilangkan bahaya (kabel tidak melintasi jalur tamu) berada di puncak hierarki; tanda dan pengingat adalah pengendalian administratif yang lebih lemah."
+        },
+        {
+          "id": "risk-q2",
+          "stem": "Apa yang membuat rencana darurat bisa dijalankan, bukan sekadar dokumen?",
+          "options": [
+            "Ditulis dalam bahasa Inggris",
+            "Kru dibriefing sebelum pintu dibuka dan tahu peran, jalur, dan titik kumpul",
+            "Ditandatangani klien",
+            "Dicetak berwarna"
+          ],
+          "correct_index": 1,
+          "explanation": "Rencana hanya bekerja jika orang di lapangan tahu apa yang harus dilakukan tanpa membaca dokumen saat darurat."
+        },
+        {
+          "id": "risk-q3",
+          "stem": "Mengapa near miss (hampir celaka) tetap harus dicatat?",
+          "options": [
+            "Untuk menyalahkan vendor",
+            "Karena near miss menunjukkan pengendalian yang gagal sebelum ada korban",
+            "Untuk laporan pajak",
+            "Tidak perlu dicatat"
+          ],
+          "correct_index": 1,
+          "explanation": "Near miss adalah peringatan gratis. Menindaklanjutinya mencegah insiden yang sama berulang dengan akibat lebih berat."
+        }
+      ]
+    },
+    {
+      "slug": "crowd",
+      "title": "Crowd management: alur tamu, kapasitas, dan keamanan",
+      "curriculum_ref": "Knowledge 15",
+      "phase_id": 4,
+      "week_from": 15,
+      "week_to": 15,
+      "sort_order": 14,
+      "summary": "Kerumunan yang tidak dikelola adalah risiko terbesar event publik dan juga wedding besar. Topik ini membahas perhitungan kapasitas, desain alur masuk dan keluar, penempatan petugas, dan koordinasi dengan keamanan.",
+      "units": [
+        {
+          "unit_code": "SITEEVT034",
+          "unit_name": "Develop crowd management plans",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITEEVT034"
+        }
+      ],
+      "university": [
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Crisis Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        },
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3670 Hospitality and Event Risk Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        }
+      ],
+      "points": [
+        "Kapasitas aman dihitung dari luas area yang bisa dipakai, lebar dan jumlah pintu keluar, serta waktu evakuasi, bukan dari jumlah undangan yang diinginkan klien.",
+        "Tiga fase kerumunan: masuk (ingress), selama acara (circulation), keluar (egress). Antrean masuk dan momen keluar serentak adalah titik paling rawan.",
+        "Alur masuk didesain agar registrasi tidak menjadi sumbatan: jumlah meja registrasi sesuai laju kedatangan, jalur tamu VIP terpisah, area tunggu yang teduh.",
+        "Kepadatan dipantau di titik kritis (depan panggung, pintu, tangga). Pada kepadatan tinggi petugas menghentikan aliran masuk ke area itu.",
+        "Petugas keamanan dan kru diberi posisi, tugas, dan kata sandi radio. Untuk event besar, koordinasi dengan kepolisian dan pengelola venue dilakukan sebelum hari H.",
+        "Rencana kerumunan ditulis singkat: peta alur, kapasitas per area, posisi petugas, pemicu tindakan (misalnya menutup pintu), dan pengumuman yang disiapkan."
+      ],
+      "evidence_brief": "Buat rencana crowd management untuk satu event nyata: peta alur masuk dan keluar di floor plan, perhitungan kapasitas per area, posisi petugas, dan daftar pemicu tindakan. Unggah beserta foto kondisi antrean saat event (jika ada).",
+      "sources": [
+        {
+          "id": "crowd-s1",
+          "description": "Menyusun rencana dan prosedur untuk mengatur masuk, penempatan, dan pembubaran kerumunan demi keselamatan dan keamanan personel serta peserta.",
+          "embeddable": null,
+          "title": "SITEEVT034 Develop crowd management plans (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT034_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "crowd-s2",
+          "description": "Modul acuan: Crisis Management.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "crowd-s3",
+          "description": "Modul acuan: HFT3670 Hospitality and Event Risk Management.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "crowd-s4",
+          "description": "Struktur organisasi, penilaian risiko kerumunan, kendali fisik dan prosedural, pemantauan aktif, dan keselamatan area panggung.",
+          "embeddable": null,
+          "title": "HSE Event safety: Crowd management",
+          "url": "https://www.hse.gov.uk/event-safety/crowd-management.htm",
+          "kind": "guide"
+        },
+        {
+          "id": "crowd-s5",
+          "description": "Panduan praktis perilaku kerumunan, simulasi, dan evakuasi darurat dari pemerintah Inggris.",
+          "embeddable": null,
+          "title": "UK Cabinet Office: Understanding Crowd Behaviours, Guidance and Lessons Identified",
+          "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/62638/guidancelessons1_0.pdf",
+          "kind": "guide"
+        },
+        {
+          "id": "crowd-s6",
+          "description": "Panduan 39 bab: emergency planning, crowd management, cuaca, komunikasi, rigging, staging. Salinan yang di-host pemerintah negara bagian Montana; halaman resmi ESA ada di eventsafetyalliance.org/standards-guidance-2.",
+          "embeddable": null,
+          "title": "Event Safety Alliance: The Event Safety Guide (PDF gratis)",
+          "url": "https://commerce.mt.gov/_shared/brand/Tourism-Grants/Docs/The_Event_Safety_Guide.pdf",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "crowd-q1",
+          "stem": "Dasar yang benar untuk menentukan kapasitas maksimum sebuah area?",
+          "options": [
+            "Jumlah undangan yang dicetak",
+            "Luas area yang bisa dipakai, pintu keluar, dan waktu evakuasi",
+            "Jumlah kursi yang tersedia di gudang",
+            "Permintaan klien"
+          ],
+          "correct_index": 1,
+          "explanation": "Kapasitas adalah soal keselamatan: berapa orang yang bisa keluar dengan aman dalam waktu tertentu."
+        },
+        {
+          "id": "crowd-q2",
+          "stem": "Fase kerumunan mana yang biasanya paling rawan?",
+          "options": [
+            "Saat makan",
+            "Masuk dan keluar serentak (ingress dan egress)",
+            "Saat sambutan",
+            "Saat foto bersama"
+          ],
+          "correct_index": 1,
+          "explanation": "Ingress dan egress memusatkan banyak orang di pintu dalam waktu singkat sehingga kepadatan melonjak."
+        },
+        {
+          "id": "crowd-q3",
+          "stem": "Kepadatan di depan panggung sudah sangat tinggi. Tindakan petugas yang tepat?",
+          "options": [
+            "Membiarkan karena acara hampir selesai",
+            "Menghentikan aliran masuk ke area itu dan membuka jalur keluar",
+            "Meminta tamu berdiri lebih rapat",
+            "Mematikan lampu"
+          ],
+          "correct_index": 1,
+          "explanation": "Menutup aliran masuk ke titik padat dan membuka jalur keluar menurunkan kepadatan tanpa memicu kepanikan."
+        }
+      ]
+    },
+    {
+      "slug": "legal",
+      "title": "Perizinan, hukum, dan kepatuhan",
+      "curriculum_ref": "Tambahan (tidak ada di kurikulum Enter Event House)",
+      "phase_id": 4,
+      "week_from": 16,
+      "week_to": 16,
+      "sort_order": 15,
+      "summary": "Topik tambahan dari acuan AQF yang tidak ada di kurikulum asli: izin keramaian, hak cipta musik, asuransi, dan kewajiban hukum lain yang sering terlewat oleh EO kecil. Diletakkan di fase keselamatan karena akibatnya sama seriusnya.",
+      "units": [
+        {
+          "unit_code": "SITXGLC002",
+          "unit_name": "Identify and manage legal risks and comply with law",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXGLC002"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Planning and Public Policy for Festival & Events",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        },
+        {
+          "institution": "Penn State University (AS)",
+          "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "module": "HM 355 Legal Aspects of the Hospitality Industry",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+        }
+      ],
+      "points": [
+        "Buat daftar kepatuhan per jenis event: izin keramaian ke kepolisian untuk acara publik, pemberitahuan ke pengelola kawasan, izin penggunaan ruang publik, dan aturan venue.",
+        "Musik yang diputar atau dimainkan di acara komersial punya konsekuensi royalti; cek kewajiban lisensi ke lembaga manajemen kolektif yang berlaku dan siapa (venue atau organizer) yang menanggungnya.",
+        "Asuransi event (public liability) melindungi dari tuntutan pihak ketiga atas cedera atau kerusakan; tanyakan juga asuransi vendor untuk alat berat dan rigging.",
+        "Data pribadi tamu (daftar hadir, nomor telepon) dikumpulkan seperlunya, disimpan aman, dan tidak dibagikan ke vendor tanpa perlu.",
+        "Kewajiban ketenagakerjaan untuk kru harian: perjanjian kerja singkat, upah sesuai kesepakatan, jam kerja wajar, dan perlindungan kecelakaan kerja.",
+        "Semua izin dan polis disimpan di production book dan salinannya dibawa ke lokasi pada hari H."
+      ],
+      "evidence_brief": "Susun checklist kepatuhan untuk satu event nyata (izin, lisensi musik, asuransi, data tamu, kru) beserta status tiap butir dan dokumen buktinya (salinan izin atau korespondensi, data sensitif disamarkan).",
+      "sources": [
+        {
+          "id": "legal-s1",
+          "description": "Mengidentifikasi dan mengelola risiko hukum serta mematuhi peraturan yang berlaku pada operasional bisnis, termasuk mengakses dan menafsirkan informasi regulasi.",
+          "embeddable": null,
+          "title": "SITXGLC002 Identify and manage legal risks and comply with law (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXGLC002_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "legal-s2",
+          "description": "Modul acuan: Planning and Public Policy for Festival & Events.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "legal-s3",
+          "description": "Modul acuan: HM 355 Legal Aspects of the Hospitality Industry.",
+          "embeddable": null,
+          "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "kind": "university"
+        },
+        {
+          "id": "legal-s4",
+          "description": "Panduan ringkas tentang izin dan lisensi, keselamatan, keamanan pangan, asuransi public liability, dan penutupan jalan.",
+          "embeddable": null,
+          "title": "GOV.UK: The can-do guide to organising and running voluntary and community events",
+          "url": "https://www.gov.uk/government/publications/can-do-guide-for-organisers-of-voluntary-events/the-can-do-guide-to-organising-and-running-voluntary-and-community-events",
+          "kind": "guide"
+        },
+        {
+          "id": "legal-s5",
+          "description": "Penjelasan lembaga royalti Inggris tentang lisensi musik untuk festival, konser, dan event komunitas.",
+          "embeddable": null,
+          "title": "PRS for Music: Live music and events licence",
+          "url": "https://www.prsformusic.com/licences/live-performances",
+          "kind": "guide"
+        },
+        {
+          "id": "legal-s6",
+          "description": "Penjelasan lembaga manajemen kolektif Indonesia tentang lisensi pertunjukan publik musik untuk konser, konferensi, pameran, dan bazar.",
+          "embeddable": null,
+          "title": "SELMI (LMK di bawah LMKN): Public Performance License",
+          "url": "https://selmi.or.id/en/music-licensing/public-performance-license/",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "legal-q1",
+          "stem": "Konser komunitas di lapangan terbuka dengan 2.000 penonton. Izin apa yang paling mendasar?",
+          "options": [
+            "Izin dari vendor sound",
+            "Izin keramaian dari kepolisian dan izin penggunaan ruang publik",
+            "Izin dari sponsor",
+            "Tidak perlu izin"
+          ],
+          "correct_index": 1,
+          "explanation": "Acara publik di ruang terbuka memerlukan izin keramaian dan izin pemakaian lokasi dari pihak berwenang."
+        },
+        {
+          "id": "legal-q2",
+          "stem": "Apa yang dilindungi oleh asuransi public liability?",
+          "options": [
+            "Kerugian jika klien tidak membayar",
+            "Tuntutan pihak ketiga atas cedera atau kerusakan yang terjadi di event",
+            "Kerusakan alat vendor",
+            "Biaya pemasaran"
+          ],
+          "correct_index": 1,
+          "explanation": "Public liability menanggung klaim dari pihak ketiga, misalnya tamu yang terluka karena struktur yang roboh."
+        },
+        {
+          "id": "legal-q3",
+          "stem": "Vendor dokumentasi meminta seluruh daftar tamu beserta nomor telepon. Respons yang benar?",
+          "options": [
+            "Berikan semuanya agar mudah",
+            "Berikan hanya data yang benar-benar diperlukan untuk tugasnya",
+            "Tolak semua komunikasi",
+            "Unggah daftar ke grup vendor"
+          ],
+          "correct_index": 1,
+          "explanation": "Data pribadi dibagikan seperlunya. Nomor telepon tamu jarang diperlukan vendor dokumentasi."
+        }
+      ]
+    },
+    {
+      "slug": "concept",
+      "title": "Creative concept development: dari brief menjadi pengalaman",
+      "curriculum_ref": "Knowledge 1",
+      "phase_id": 5,
+      "week_from": 17,
+      "week_to": 18,
+      "sort_order": 16,
+      "summary": "Konsep yang kuat lahir dari brief yang dipahami, bukan dari tren. Dua minggu ini melatih cara menggali cerita klien, menyusun tema, merancang pengalaman tamu dari datang sampai pulang, dan menjaga konsep tetap bisa diproduksi dan dibayar.",
+      "units": [
+        {
+          "unit_code": "SITXMPR016",
+          "unit_name": "Prepare and present proposals",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMPR016"
+        },
+        {
+          "unit_code": "SITEEVT020",
+          "unit_name": "Source and use information on the events industry",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT020"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Tio Business School (Belanda)",
+          "programme": "Bachelor International Tourism Management, tema Event Management",
+          "module": "Creative Concept Design",
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "MSc International Festival & Event Management",
+          "module": "Experience Design and Management for Tourism, Hospitality and Events",
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Konsep dimulai dari pertanyaan ke klien: apa yang ingin tamu rasakan, cerita apa yang ingin diceritakan, apa yang tidak boleh terjadi. Jawabannya menjadi 'kalimat konsep' satu baris.",
+        "Tema diturunkan menjadi elemen konkret: palet warna, material, musik, pencahayaan, tata ruang, dan momen kunci (grand entrance, first dance, penyerahan simbolis).",
+        "Perjalanan tamu (guest journey) dipetakan dari undangan, tiba, registrasi, area utama, makan, hiburan, sampai pulang. Tiap titik punya satu hal yang dirancang.",
+        "Moodboard dan sketsa layout dibuat sebelum rendering mahal; setujui arah dulu, detail kemudian.",
+        "Setiap ide kreatif dicek tiga hal: bisa diproduksi di venue itu, masuk anggaran, dan aman. Ide yang gagal salah satunya diubah, bukan dipaksakan.",
+        "Presentasi konsep memakai cerita: mulai dari perasaan yang ingin dicapai, lalu tunjukkan bagaimana tiap elemen mendukungnya."
+      ],
+      "evidence_brief": "Unggah dokumen konsep satu event nyata: kalimat konsep, moodboard, peta perjalanan tamu, daftar elemen tema, dan catatan uji 'bisa diproduksi, masuk anggaran, aman' untuk tiga ide utama.",
+      "sources": [
+        {
+          "id": "concept-s1",
+          "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "embeddable": null,
+          "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "concept-s2",
+          "description": "Mengakses dan menafsirkan informasi terkini tentang industri event (struktur industri, teknologi, hukum, dan etika) untuk meningkatkan kualitas koordinasi event.",
+          "embeddable": null,
+          "title": "SITEEVT020 Source and use information on the events industry (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT020_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "concept-s3",
+          "description": "Modul acuan: Creative Concept Design.",
+          "embeddable": null,
+          "title": "Tio Business School (Belanda): Bachelor International Tourism Management, tema Event Management",
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
+          "kind": "university"
+        },
+        {
+          "id": "concept-s4",
+          "description": "Modul acuan: Experience Design and Management for Tourism, Hospitality and Events.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: MSc International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "concept-s5",
+          "description": "Kanvas desain event (CC BY-NC-ND) yang bisa diunduh gratis, memandu 10 langkah merancang event dari stakeholder dan empathy map sampai prototipe.",
+          "embeddable": null,
+          "title": "#EventCanvas (Event Design Collective)",
+          "url": "https://edco.global/eventcanvas/",
+          "kind": "framework"
+        },
+        {
+          "id": "concept-s6",
+          "description": "Kursus gratis 10 jam untuk menstrukturkan kreativitas: prinsip desain, berpikir visual, dan cara menjelaskan keputusan desain.",
+          "embeddable": null,
+          "title": "Design thinking (OpenLearn, The Open University)",
+          "url": "https://www.open.edu/openlearn/science-maths-technology/design-innovation/design-thinking/",
+          "kind": "course"
+        },
+        {
+          "id": "concept-s7",
+          "description": "Kursus gratis 10 jam tentang kreativitas individu dan organisasi serta budaya yang mendukung ide baru.",
+          "embeddable": null,
+          "title": "Making creativity and innovation happen (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/money-business/making-creativity-and-innovation-happen/content-section-0",
+          "kind": "course"
+        }
+      ],
+      "questions": [
+        {
+          "id": "concept-q1",
+          "stem": "Sumber terbaik untuk kalimat konsep sebuah wedding?",
+          "options": [
+            "Tren dekorasi tahun ini",
+            "Jawaban klien tentang apa yang ingin dirasakan tamu dan cerita yang ingin diceritakan",
+            "Portofolio EO lain",
+            "Ketersediaan vendor"
+          ],
+          "correct_index": 1,
+          "explanation": "Konsep yang bermakna bagi klien berasal dari cerita mereka; tren hanya alat bantu eksekusi."
+        },
+        {
+          "id": "concept-q2",
+          "stem": "Apa manfaat memetakan perjalanan tamu dari undangan sampai pulang?",
+          "options": [
+            "Supaya proposal lebih tebal",
+            "Memastikan setiap titik sentuh dirancang, bukan hanya area utama",
+            "Untuk menghitung biaya parkir",
+            "Tidak ada manfaat"
+          ],
+          "correct_index": 1,
+          "explanation": "Pengalaman tamu terbentuk dari seluruh perjalanan; titik yang tidak dirancang (parkir, antrean) sering merusak kesan."
+        },
+        {
+          "id": "concept-q3",
+          "stem": "Ide instalasi lampu gantung besar lolos anggaran tapi venue tidak punya titik gantung yang kuat. Keputusan yang benar?",
+          "options": [
+            "Paksakan dengan struktur seadanya",
+            "Ubah ide menjadi versi yang bisa diproduksi dengan aman di venue itu",
+            "Batalkan seluruh konsep",
+            "Minta klien pindah venue"
+          ],
+          "correct_index": 1,
+          "explanation": "Uji 'bisa diproduksi, masuk anggaran, aman' gagal di keamanan; idenya diubah, bukan dipaksakan."
+        }
+      ]
+    },
+    {
+      "slug": "mkt",
+      "title": "Marketing dan promosi event",
+      "curriculum_ref": "Knowledge 6",
+      "phase_id": 5,
+      "week_from": 19,
+      "week_to": 19,
+      "sort_order": 17,
+      "summary": "Ada dua pemasaran dalam bisnis event: memasarkan event ke pesertanya (untuk event publik) dan memasarkan jasa EO ke calon klien. Topik ini membahas keduanya, termasuk sponsorship sebagai sumber dana.",
+      "units": [
+        {
+          "unit_code": "SITXMPR012",
+          "unit_name": "Coordinate marketing activities",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXMPR012"
+        },
+        {
+          "unit_code": "SITXMPR015",
+          "unit_name": "Obtain and manage sponsorship",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXMPR015"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3512 Event Promotion",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Digital Services Marketing",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Rencana pemasaran satu halaman: target audiens, pesan utama, saluran, jadwal, anggaran, dan ukuran keberhasilan (pendaftar, tiket terjual, prospek masuk).",
+        "Untuk event publik, timeline promosi mundur dari hari H: pengumuman, early bird, konten pengisi acara, pengingat terakhir. Penjualan tiket biasanya menumpuk di akhir.",
+        "Untuk jasa EO dan WO, portofolio adalah alat pemasaran utama: dokumentasi yang rapi, testimoni, dan studi kasus singkat (masalah, solusi, hasil).",
+        "Sponsorship dijual sebagai akses ke audiens tertentu, bukan sebagai permintaan bantuan. Proposal sponsor memuat profil audiens, paket manfaat, dan harga.",
+        "Kemitraan dengan venue dan vendor (saling merekomendasikan) sering lebih murah dan lebih efektif daripada iklan.",
+        "Ukur tiap saluran: dari mana prospek atau pendaftar datang, lalu pindahkan anggaran ke saluran yang terbukti."
+      ],
+      "evidence_brief": "Unggah rencana pemasaran satu halaman untuk event nyata atau untuk jasa EO-mu, beserta satu studi kasus portofolio (masalah, solusi, hasil, foto) dan, jika ada, satu proposal sponsor yang pernah dikirim.",
+      "sources": [
+        {
+          "id": "mkt-s1",
+          "description": "Merencanakan dan mengoordinasikan berbagai kegiatan pemasaran dan promosi di tingkat operasional dalam kerangka strategi pemasaran yang sudah ada.",
+          "embeddable": null,
+          "title": "SITXMPR012 Coordinate marketing activities (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR012_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "mkt-s2",
+          "description": "Mendapatkan dan mengelola sponsor untuk kegiatan bisnis, produk, layanan, atau event, termasuk menentukan kebutuhan sponsor, bernegosiasi dengan calon sponsor, dan mengelola perjanjian sponsor.",
+          "embeddable": null,
+          "title": "SITXMPR015 Obtain and manage sponsorship (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXMPR015_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "mkt-s3",
+          "description": "Modul acuan: HFT3512 Event Promotion.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "mkt-s4",
+          "description": "Modul acuan: Digital Services Marketing.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "mkt-s5",
+          "description": "Kursus gratis 12 jam tentang model komunikasi pemasaran, desain pesan, dan alat digital termasuk media sosial, email, dan online PR.",
+          "embeddable": null,
+          "title": "Marketing communications in the digital age (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/money-business/marketing/marketing-communications-the-digital-age/content-section-0",
+          "kind": "course"
+        },
+        {
+          "id": "mkt-s6",
+          "description": "Buku teks pemasaran gratis yang bisa dibaca per bab, termasuk bab promosi dan bab tentang direct, online, social media, dan mobile marketing.",
+          "embeddable": null,
+          "title": "OpenStax Principles of Marketing",
+          "url": "https://openstax.org/books/principles-marketing/pages/1-1-marketing-and-the-marketing-process",
+          "kind": "textbook"
+        },
+        {
+          "id": "mkt-s7",
+          "description": "PDF gratis berisi enam langkah mengamankan dan mempertahankan sponsor, dari memahami brand sendiri sampai mengelola kemitraan (terbit 2012, kerangkanya masih dipakai).",
+          "embeddable": null,
+          "title": "Sport New Zealand: Sport Sponsorship, Securing and Retaining Commercial Partners",
+          "url": "https://sportnz.org.nz/resources/commercial-sponsorship-and-partnership/",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "mkt-q1",
+          "stem": "Cara yang benar menawarkan sponsorship ke sebuah merek?",
+          "options": [
+            "Meminta bantuan dana karena anggaran kurang",
+            "Menawarkan akses ke audiens tertentu dengan paket manfaat dan harga yang jelas",
+            "Mengirim rundown acara",
+            "Menjanjikan logo di semua tempat tanpa rincian"
+          ],
+          "correct_index": 1,
+          "explanation": "Sponsor membeli akses ke audiens dan manfaat terukur, bukan menyumbang."
+        },
+        {
+          "id": "mkt-q2",
+          "stem": "Apa alat pemasaran paling penting bagi jasa WO?",
+          "options": [
+            "Iklan koran",
+            "Portofolio dengan dokumentasi rapi, testimoni, dan studi kasus",
+            "Kartu nama",
+            "Diskon besar"
+          ],
+          "correct_index": 1,
+          "explanation": "Calon klien memutuskan berdasarkan bukti hasil kerja yang bisa mereka lihat."
+        },
+        {
+          "id": "mkt-q3",
+          "stem": "Mengapa sumber tiap prospek atau pendaftar perlu dicatat?",
+          "options": [
+            "Untuk laporan pajak",
+            "Agar anggaran promosi bisa dipindahkan ke saluran yang terbukti menghasilkan",
+            "Supaya data lengkap",
+            "Tidak perlu dicatat"
+          ],
+          "correct_index": 1,
+          "explanation": "Tanpa pengukuran per saluran, anggaran promosi terbuang ke saluran yang tidak menghasilkan."
+        }
+      ]
+    },
+    {
+      "slug": "reg",
+      "title": "Event registration: pendaftaran, tiket, dan check-in",
+      "curriculum_ref": "Knowledge 10",
+      "phase_id": 5,
+      "week_from": 20,
+      "week_to": 20,
+      "sort_order": 18,
+      "summary": "Registrasi adalah kesan pertama tamu dan sumber data event. Topik ini membahas desain alur pendaftaran, pilihan sistem (formulir, tiket digital, QR), persiapan materi, dan pelaksanaan check-in di lokasi.",
+      "units": [
+        {
+          "unit_code": "SITEEVT021",
+          "unit_name": "Administer event registrations",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITEEVT021"
+        }
+      ],
+      "university": [
+        {
+          "institution": "UCF Rosen College (AS)",
+          "programme": "BS Event Management",
+          "module": "HFT3443 Event Technology",
+          "url": "https://www.ucf.edu/degree/event-management-bs/"
+        },
+        {
+          "institution": "De Montfort University (Inggris)",
+          "programme": "BA (Hons) Arts and Festivals Management",
+          "module": "Running and Promoting a Venue",
+          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx"
+        }
+      ],
+      "points": [
+        "Tentukan data yang benar-benar diperlukan dari peserta; formulir pendek meningkatkan penyelesaian pendaftaran.",
+        "Sistem registrasi dipilih sesuai skala: spreadsheet dan formulir daring untuk acara kecil, platform tiket dengan QR untuk acara berbayar atau ribuan peserta.",
+        "Konfirmasi otomatis berisi tanggal, lokasi, cara masuk, dan kode atau QR. Kirim pengingat H-3 dan H-1.",
+        "Check-in di lokasi: jumlah meja sesuai laju kedatangan, jalur terpisah untuk yang sudah daftar, tamu VIP, dan pendaftaran di tempat; cadangan daftar cetak jika sistem mati.",
+        "Kru registrasi dilatih untuk kasus umum: nama tidak ditemukan, tamu tambahan, pembayaran di tempat, dan cara eskalasi.",
+        "Data kehadiran (jam datang, jumlah hadir vs daftar) dilaporkan setelah acara untuk evaluasi dan promosi berikutnya."
+      ],
+      "evidence_brief": "Unggah desain alur registrasi satu event nyata (formulir, konfirmasi, pengingat), layout meja check-in di floor plan, panduan kru registrasi, dan laporan kehadiran (hadir vs daftar, per jam).",
+      "sources": [
+        {
+          "id": "reg-s1",
+          "description": "Memproses pendaftaran peserta event sampai selesai, menyiapkan materi registrasi, serta menyiapkan dan menjalankan registrasi di lokasi event.",
+          "embeddable": null,
+          "title": "SITEEVT021 Administer event registrations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT021_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "reg-s2",
+          "description": "Modul acuan: HFT3443 Event Technology.",
+          "embeddable": null,
+          "title": "UCF Rosen College (AS): BS Event Management",
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "kind": "university"
+        },
+        {
+          "id": "reg-s3",
+          "description": "Modul acuan: Running and Promoting a Venue.",
+          "embeddable": null,
+          "title": "De Montfort University (Inggris): BA (Hons) Arts and Festivals Management",
+          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
+          "kind": "university"
+        },
+        {
+          "id": "reg-s4",
+          "description": "Kode praktik industri tiket Inggris: transparansi harga, refund bila event batal, syarat tiket, penanganan komplain.",
+          "embeddable": null,
+          "title": "STAR (Society of Ticket Agents and Retailers) Code of Practice",
+          "url": "https://www.star.org.uk/wp-content/uploads/STAR-Code-Of-Practice.pdf",
+          "kind": "standard"
+        },
+        {
+          "id": "reg-s5",
+          "description": "Checklist dan contoh formulir registrasi aksesibilitas agar pendaftaran dan check-in inklusif.",
+          "embeddable": null,
+          "title": "NSW Government: Toolkit for Accessible and Inclusive Events",
+          "url": "https://www.nsw.gov.au/sites/default/files/2023-07/Toolkit-for-Accessible-and-Inclusive-Events.pdf",
+          "kind": "guide"
+        },
+        {
+          "id": "reg-s6",
+          "description": "Memakai Eventbrite untuk registrasi peserta dan menggabungkannya dengan promosi event.",
+          "embeddable": null,
+          "title": "University of Exeter Event Toolkit: Eventbrite, event marketing and publicity",
+          "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/eventbriteeventmarketingandpublicity/",
+          "kind": "university"
+        }
+      ],
+      "questions": [
+        {
+          "id": "reg-q1",
+          "stem": "Mengapa formulir pendaftaran sebaiknya hanya meminta data yang benar-benar diperlukan?",
+          "options": [
+            "Supaya hemat kertas",
+            "Karena formulir panjang menurunkan jumlah yang menyelesaikan pendaftaran dan menambah risiko data pribadi",
+            "Karena aturan platform",
+            "Tidak ada alasan"
+          ],
+          "correct_index": 1,
+          "explanation": "Setiap kolom tambahan mengurangi penyelesaian dan menambah data yang harus dijaga."
+        },
+        {
+          "id": "reg-q2",
+          "stem": "Sistem registrasi mati saat check-in berlangsung. Persiapan apa yang menyelamatkan situasi?",
+          "options": [
+            "Meminta tamu menunggu",
+            "Daftar cetak cadangan dan prosedur manual yang sudah dilatih ke kru",
+            "Menutup registrasi",
+            "Menghubungi vendor sistem"
+          ],
+          "correct_index": 1,
+          "explanation": "Cadangan manual yang disiapkan sebelumnya membuat antrean tetap bergerak saat sistem gagal."
+        },
+        {
+          "id": "reg-q3",
+          "stem": "Data apa dari registrasi yang paling berguna untuk evaluasi dan promosi berikutnya?",
+          "options": [
+            "Warna baju tamu",
+            "Hadir vs daftar dan pola jam kedatangan",
+            "Nomor kursi",
+            "Jumlah kru"
+          ],
+          "correct_index": 1,
+          "explanation": "Tingkat kehadiran dan pola kedatangan memperbaiki perkiraan catering, jadwal, dan strategi promosi."
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "title": "Team management: kru, vendor, dan relawan",
+      "curriculum_ref": "Knowledge 5",
+      "phase_id": 6,
+      "week_from": 21,
+      "week_to": 22,
+      "sort_order": 19,
+      "summary": "Event dikerjakan oleh orang: tim inti, kru harian, vendor, dan kadang relawan. Dua minggu ini membahas cara merekrut, membagi peran, membriefing, memantau kinerja, dan menjaga orang baik tetap mau bekerja bersamamu.",
+      "units": [
+        {
+          "unit_code": "SITXHRM009",
+          "unit_name": "Lead and manage people",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXHRM009"
+        },
+        {
+          "unit_code": "SITXHRM010",
+          "unit_name": "Recruit, select and induct staff",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITXHRM010"
+        },
+        {
+          "unit_code": "SITXHRM011",
+          "unit_name": "Manage volunteers",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXHRM011"
+        },
+        {
+          "unit_code": "SITXHRM012",
+          "unit_name": "Monitor staff performance",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/SITXHRM012"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Penn State University (AS)",
+          "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "module": "HM 265W Teams and Leadership in the Hospitality Industry",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+        },
+        {
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Managing Organisations and Human Resources",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+        }
+      ],
+      "points": [
+        "Struktur tim per event ditulis dalam bagan: show director, koordinator area, kru per area, dan vendor dengan PIC-nya. Setiap orang tahu lapor ke siapa.",
+        "Rekrutmen kru harian memakai kriteria tertulis (pengalaman, fisik, sikap) dan induksi singkat: aturan kerja, keselamatan, jam, upah, dan kontak.",
+        "Deskripsi tugas per posisi satu halaman: tanggung jawab, jam, area, alat yang dipegang, dan ukuran 'selesai'.",
+        "Relawan dikelola seperti kru berbayar dalam hal briefing dan keselamatan, ditambah penghargaan yang jelas: makan, sertifikat, pengalaman yang bisa ditulis.",
+        "Kinerja dipantau selama event lewat koordinator area dan dievaluasi singkat setelah acara; umpan balik disampaikan pribadi, penghargaan disampaikan terbuka.",
+        "Bangun daftar kru andalan: catat siapa yang bisa diandalkan untuk posisi apa, dan hubungi mereka lebih dulu untuk event berikutnya."
+      ],
+      "evidence_brief": "Unggah bagan tim satu event nyata, deskripsi tugas untuk tiga posisi, materi induksi kru, dan lembar evaluasi kinerja kru yang kamu isi setelah event (nama boleh disamarkan).",
+      "sources": [
+        {
+          "id": "team-s1",
+          "description": "Memimpin dan mengelola orang secara individu maupun tim, memberi teladan, dan mengelola kinerja lewat kepemimpinan yang efektif.",
+          "embeddable": null,
+          "title": "SITXHRM009 Lead and manage people (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXHRM009_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "team-s2",
+          "description": "Mengoordinasikan rekrutmen, seleksi, dan induksi staf baru sesuai kebijakan SDM yang berlaku, termasuk menyusun kriteria seleksi dan program induksi.",
+          "embeddable": null,
+          "title": "SITXHRM010 Recruit, select and induct staff (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXHRM010_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "team-s3",
+          "description": "Mengelola tenaga sukarelawan agar tetap bertahan, termasuk menentukan kebutuhan sukarelawan serta mengoordinasikan rekrutmen dan pelatihannya.",
+          "embeddable": null,
+          "title": "SITXHRM011 Manage volunteers (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXHRM011_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "team-s4",
+          "description": "Memantau kinerja staf dalam kerangka sistem manajemen kinerja yang ada, termasuk penilaian kinerja terstruktur dan sesi konseling formal.",
+          "embeddable": null,
+          "title": "SITXHRM012 Monitor staff performance (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITXHRM012_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "team-s5",
+          "description": "Modul acuan: HM 265W Teams and Leadership in the Hospitality Industry.",
+          "embeddable": null,
+          "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "kind": "university"
+        },
+        {
+          "id": "team-s6",
+          "description": "Modul acuan: Managing Organisations and Human Resources.",
+          "embeddable": null,
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "kind": "university"
+        },
+        {
+          "id": "team-s7",
+          "description": "Kursus gratis 8 jam tentang peran dalam tim, tahap perkembangan tim, mengelola konflik, dan mengevaluasi kinerja tim.",
+          "embeddable": null,
+          "title": "Working in groups and teams (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
+          "kind": "course"
+        },
+        {
+          "id": "team-s8",
+          "description": "Kursus gratis yang di minggu ke-2 khusus membahas merekrut, melatih, memotivasi, dan mempertahankan relawan.",
+          "embeddable": null,
+          "title": "Working in the voluntary sector (OpenLearn)",
+          "url": "https://www.open.edu/openlearn/society-politics-law/sociology/working-the-voluntary-sector/content-section-overview",
+          "kind": "course"
+        },
+        {
+          "id": "team-s9",
+          "description": "Tanggung jawab tiap peran di event: organiser, kontraktor, pemilik venue, supervisor, pekerja, dan relawan. Berguna untuk briefing dan pembagian peran kru.",
+          "embeddable": null,
+          "title": "HSE Event safety: roles at events",
+          "url": "https://www.hse.gov.uk/event-safety/roles.htm",
+          "kind": "guide"
+        }
+      ],
+      "questions": [
+        {
+          "id": "team-q1",
+          "stem": "Apa isi minimum induksi kru harian sebelum event?",
+          "options": [
+            "Sejarah perusahaan",
+            "Aturan kerja, keselamatan, jam, upah, dan kontak",
+            "Daftar klien",
+            "Tema dekorasi"
+          ],
+          "correct_index": 1,
+          "explanation": "Induksi memastikan kru tahu cara bekerja aman dan apa haknya sebelum mulai."
+        },
+        {
+          "id": "team-q2",
+          "stem": "Cara yang tepat menyampaikan umpan balik ke kru yang melakukan kesalahan di hari H?",
+          "options": [
+            "Di depan tim agar semua belajar",
+            "Secara pribadi, spesifik pada perilaku, dampak, dan perubahan yang diminta",
+            "Lewat pesan grup",
+            "Tidak perlu, cukup tidak dipanggil lagi"
+          ],
+          "correct_index": 1,
+          "explanation": "Umpan balik pribadi dan spesifik memperbaiki perilaku tanpa mempermalukan; penghargaan justru disampaikan terbuka."
+        },
+        {
+          "id": "team-q3",
+          "stem": "Mengapa relawan tetap harus mendapat briefing keselamatan yang sama dengan kru berbayar?",
+          "options": [
+            "Karena mereka meminta",
+            "Karena risiko di lokasi tidak membedakan status pekerja, dan tanggung jawab hukum tetap pada organizer",
+            "Supaya mereka merasa dihargai",
+            "Tidak perlu, mereka hanya membantu"
+          ],
+          "correct_index": 1,
+          "explanation": "Keselamatan berlaku untuk semua orang di lokasi; organizer bertanggung jawab atas relawan seperti atas kru."
+        }
+      ]
+    },
+    {
+      "slug": "eval",
+      "title": "Report dan evaluasi event",
+      "curriculum_ref": "Knowledge 16",
+      "phase_id": 6,
+      "week_from": 23,
+      "week_to": 24,
+      "sort_order": 20,
+      "summary": "Laporan event menutup siklus dan membuka event berikutnya. Dua minggu terakhir menyusun laporan pascaevent yang lengkap: pencapaian tujuan, keuangan, operasional, insiden, umpan balik, dan rekomendasi, dalam format yang bisa dibawa ke uji kompetensi.",
+      "units": [
+        {
+          "unit_code": "SITEEVT028",
+          "unit_name": "Manage on-site event operations",
+          "is_core": true,
+          "url": "https://training.gov.au/training/details/SITEEVT028"
+        },
+        {
+          "unit_code": "BSBFIN401",
+          "unit_name": "Report on financial activity",
+          "is_core": false,
+          "url": "https://training.gov.au/training/details/BSBFIN401"
+        }
+      ],
+      "university": [
+        {
+          "institution": "Ulster University (Irlandia Utara)",
+          "programme": "BSc (Hons) Event Management",
+          "module": "Event Delivery and Evaluation",
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258"
+        },
+        {
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Festival & Event Impacts and Sustainability",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+        }
+      ],
+      "points": [
+        "Evaluasi dimulai dari tujuan yang ditetapkan di awal: apakah tercapai, diukur dengan angka yang sama (jumlah hadir, kepuasan, penjualan, liputan).",
+        "Struktur laporan pascaevent: ringkasan, tujuan dan hasil, keuangan (anggaran vs realisasi), operasional (jadwal rencana vs nyata), insiden dan risiko, umpan balik klien dan tamu, rekomendasi.",
+        "Kumpulkan umpan balik dalam 48 jam: survei singkat ke tamu atau peserta, wawancara klien, dan debrief kru 30 menit dengan tiga pertanyaan (apa yang berjalan baik, apa yang tidak, apa yang diubah).",
+        "Laporan keuangan event sederhana memakai format yang sama tiap event supaya bisa dibandingkan antarwaktu.",
+        "Rekomendasi ditulis sebagai tindakan konkret dengan pemilik dan tenggat, bukan daftar keluhan.",
+        "Laporan yang rapi menjadi bagian portofolio: bukti bahwa kamu merencanakan, menjalankan, dan menilai event secara profesional."
+      ],
+      "evidence_brief": "Susun laporan pascaevent lengkap untuk satu event nyata mengikuti struktur di inti materi, termasuk hasil survei atau umpan balik dan rekomendasi dengan pemilik dan tenggat. Ini dokumen penutup portofolio uji kompetensi.",
+      "sources": [
+        {
+          "id": "eval-s1",
+          "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "embeddable": null,
+          "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "eval-s2",
+          "description": "Menyusun laporan keuangan sesuai ketentuan pelaporan resmi, termasuk mengumpulkan dan menganalisis data keuangan.",
+          "embeddable": null,
+          "title": "BSBFIN401 Report on financial activity (PDF resmi training.gov.au)",
+          "url": "https://training.gov.au/assets/BSB/BSBFIN401_R1.pdf",
+          "kind": "aqf_unit"
+        },
+        {
+          "id": "eval-s3",
+          "description": "Modul acuan: Event Delivery and Evaluation.",
+          "embeddable": null,
+          "title": "Ulster University (Irlandia Utara): BSc (Hons) Event Management",
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
+          "kind": "university"
+        },
+        {
+          "id": "eval-s4",
+          "description": "Modul acuan: Festival & Event Impacts and Sustainability.",
+          "embeddable": null,
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "kind": "university"
+        },
+        {
+          "id": "eval-s5",
+          "description": "Toolkit evaluasi event: cara mengukur attendance, dampak ekonomi (ada kalkulator), sosial, lingkungan, dan media, plus contoh survei.",
+          "embeddable": null,
+          "title": "eventIMPACTS (UK Sport, EventScotland, Welsh Government, Tourism NI)",
+          "url": "https://www.eventimpacts.com/",
+          "kind": "guide"
+        },
+        {
+          "id": "eval-s6",
+          "description": "Ringkasan resmi ISO edisi 2024 tentang sistem manajemen keberlanjutan event; teks standar berbayar.",
+          "embeddable": null,
+          "title": "ISO 20121:2024 Event sustainability management systems (halaman resmi ISO)",
+          "url": "https://www.iso.org/standard/86389.html",
+          "kind": "standard"
+        },
+        {
+          "id": "eval-s7",
+          "description": "Ringkasan delapan standar EIC dengan kriteria dan level Bronze sampai Platinum yang bisa dijadikan KPI laporan pasca-event.",
+          "embeddable": null,
+          "title": "Events Industry Council: Sustainable Event Standards",
+          "url": "https://insights.eventscouncil.org/Sustainability/Sustainability-Events-Standards",
+          "kind": "standard"
+        }
+      ],
+      "questions": [
+        {
+          "id": "eval-q1",
+          "stem": "Dasar yang benar untuk menilai keberhasilan event dalam laporan?",
+          "options": [
+            "Kesan pribadi koordinator",
+            "Tujuan yang ditetapkan di awal, diukur dengan angka yang sama",
+            "Jumlah foto yang diunggah",
+            "Pujian dari vendor"
+          ],
+          "correct_index": 1,
+          "explanation": "Evaluasi yang jujur membandingkan hasil dengan tujuan awal memakai ukuran yang sama."
+        },
+        {
+          "id": "eval-q2",
+          "stem": "Mengapa umpan balik dikumpulkan dalam 48 jam setelah event?",
+          "options": [
+            "Karena aturan asosiasi",
+            "Karena ingatan tamu dan kru masih segar sehingga masukannya lebih akurat",
+            "Supaya laporan cepat selesai",
+            "Tidak ada alasan khusus"
+          ],
+          "correct_index": 1,
+          "explanation": "Detail cepat hilang dari ingatan; umpan balik yang dikumpulkan cepat lebih spesifik dan berguna."
+        },
+        {
+          "id": "eval-q3",
+          "stem": "Bentuk rekomendasi yang paling berguna dalam laporan pascaevent?",
+          "options": [
+            "'Registrasi harus lebih baik'",
+            "'Tambah dua meja registrasi dan cadangan daftar cetak, pemilik: koordinator tamu, sebelum event berikutnya'",
+            "'Semua vendor harus profesional'",
+            "'Perlu evaluasi lebih lanjut'"
+          ],
+          "correct_index": 1,
+          "explanation": "Rekomendasi konkret dengan pemilik dan tenggat bisa dijalankan dan dicek pada event berikutnya."
+        }
+      ]
+    }
+  ]
+}

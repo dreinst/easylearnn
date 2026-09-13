@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Production Book
 
-## Getting Started
+Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 topik, dengan acuan unit kompetensi AQF SIT50322 Diploma of Event Management dan modul kampus luar negeri. Aplikasi jalan di Vercel, data (progres dan jurnal bukti kerja) tersimpan sebagai berkas di satu folder di VPS.
 
-First, run the development server:
+## Cara kerja singkat
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Sebelum mulai, halaman roadmap menampilkan 6 fase dengan tanggal terhitung dari tanggal mulai yang dipilih.
+- Hari belajar hanya tercatat kalau kuis dikerjakan atau bukti kerja diunggah. Tombol "sudah baca" tidak ada.
+- Topik selesai kalau kuis lulus (minimal 2 dari 3 benar) dan bukti kerja ada.
+- Pengingat push dikirim pada jam yang diatur kalau hari itu belum ada hari belajar.
+- Halaman portfolio mengumpulkan semua bukti kerja untuk uji kompetensi BNSP.
+- Halaman admin untuk mengedit soal, sumber, dan materi tanpa membuka kode.
+- Tombol "Tanya AI" (Claude Haiku 4.5) menjawab pertanyaan seputar topik yang sedang dibuka.
+
+## Struktur
+
+```
+app/                 halaman dan API (Next.js 16, App Router)
+components/          komponen client (kuis, bukti kerja, chatbot, dll.)
+lib/                 logika murni: timeline, streak, kuis, tanggal; klien ke layanan data
+content/src/         sumber konten (topik, unit AQF, modul kampus, sumber belajar)
+content/topics.json  hasil build konten, dipakai sebagai seed di VPS
+vps/                 layanan data untuk VPS (Node, tanpa database)
+tests/               unit test (Vitest)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Menjalankan lokal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm test                 # unit test timeline, streak, kuis, integritas konten
+npm run build:content    # kalau mengubah content/src/*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# layanan data lokal (folder /tmp/el-data)
+DATA_DIR=/tmp/el-data SEED_FILE=$PWD/content/topics.json DATA_TOKEN=testtoken PORT=3210 node vps/server.js
 
-## Learn More
+# aplikasi (terminal lain)
+cp .env.example .env.local   # isi DATA_API_URL=http://127.0.0.1:3210, DATA_TOKEN=testtoken, kode akses, secret
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy layanan data ke VPS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Layanan jalan sebagai container Docker di network `coolify`, Traefik memberi HTTPS otomatis lewat Let's Encrypt di domain `easylearn-api.187.53.129.205.sslip.io`. Data ada di `/srv/easylearn/data/`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+/srv/easylearn/
+├── .env                 token, kunci VAPID, alamat aplikasi (dari vps/.env.example)
+├── app/                 server.js, package.json, Dockerfile
+├── seed/topics.json     konten awal
+└── data/
+    ├── content.json     konten yang bisa diedit dari halaman admin
+    ├── progress.json    pengaturan, hasil kuis, hari belajar, perangkat push, log pengingat
+    └── jurnal/
+        ├── 2026-09-14-bud-1a2b3c4d.md    satu berkas markdown per bukti kerja
+        └── lampiran/                     berkas yang diunggah
+```
 
-## Deploy on Vercel
+Langkah:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# sekali: buat .env di VPS
+ssh root@187.53.129.205 'mkdir -p /srv/easylearn && cat > /srv/easylearn/.env' < vps/.env.example   # lalu isi nilainya
+# kunci VAPID: npx web-push generate-vapid-keys
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# setiap ada perubahan di vps/ atau content/topics.json
+bash vps/deploy.sh
+```
+
+Cadangan: cukup salin folder `/srv/easylearn/data/`.
+
+## Deploy aplikasi ke Vercel
+
+1. Import repo ini di Vercel (framework Next.js, root repo).
+2. Isi environment variables sesuai `.env.example`: `DATA_API_URL`, `DATA_TOKEN`, `APP_ACCESS_CODE`, `APP_SESSION_SECRET`, dan `ANTHROPIC_API_KEY` (opsional, untuk chatbot).
+3. Deploy. Setiap push ke `main` otomatis dideploy.
+4. Buka alamat Vercel, masuk dengan kode akses, pilih tanggal mulai di roadmap.
+
+Setelah alamat Vercel diketahui, samakan `APP_URL` di `/srv/easylearn/.env` (dipakai untuk tautan di notifikasi) lalu jalankan `bash vps/deploy.sh` lagi.
+
+## Notifikasi push
+
+Buka Pengaturan, tekan "Aktifkan notifikasi di perangkat ini", lalu "Kirim notifikasi uji". Di iPhone, pasang dulu app ke layar utama (Share, Add to Home Screen) dan buka dari sana. Pengingat dikirim sekali sehari pada jam yang diatur, hanya kalau hari itu belum ada kuis atau bukti kerja.
+
+## Mengubah konten
+
+Dua cara: lewat halaman Admin di aplikasi (tersimpan di `content.json` di VPS), atau ubah `content/src/*.mjs` lalu `npm run build:content`, deploy VPS, dan tekan "Kembalikan ke seed" di halaman admin.
+
+## Keputusan desain
+
+Lihat `DECISIONS.md` untuk semua penyimpangan dari `architecture.md` dan alasannya.

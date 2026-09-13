@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-navy: #1b2a4a;
+  --color-navy-2: #243b68;
+  --color-navy-3: #0f1a30;
+  --color-orange: #f07e1f;
+  --color-orange-2: #d96c0f;
+  --color-cream: #f6f4ef;
+  --color-ink: #1c1f26;
+  --color-mute: #6b7280;
+  --color-line: #e5e1d8;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { color-scheme: light; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
 }
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+@utility card { @apply rounded-lg border border-line bg-white p-5 shadow-sm; }
+@utility label { @apply block text-xs font-semibold uppercase tracking-wide text-mute mb-1; }
+@utility input { @apply w-full rounded-md border border-line bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-orange/50; }
+@utility badge { @apply inline-flex items-center rounded px-2 py-0.5 text-xs font-semibold; }
+
+@layer components {
+  .btn-orange { @apply btn bg-orange text-white hover:bg-orange-2; }
+  .btn-navy { @apply btn bg-navy text-white hover:bg-navy-2; }
+  .btn-ghost { @apply btn border border-line bg-white text-navy hover:bg-cream; }
+  .btn-danger { @apply btn border border-red-300 bg-white text-red-700 hover:bg-red-50; }
+  .badge-ok { @apply badge bg-emerald-100 text-emerald-800; }
+  .badge-no { @apply badge bg-gray-100 text-gray-600; }
+  .badge-warn { @apply badge bg-amber-100 text-amber-800; }
+  .badge-orange { @apply badge bg-orange/15 text-orange-2; }
+}
+
+.prose-pb p { @apply my-2 leading-relaxed; }
+.prose-pb ul { @apply my-2 list-disc pl-5; }
+.prose-pb ol { @apply my-2 list-decimal pl-5; }
+.prose-pb li { @apply my-1; }
+.prose-pb code { @apply rounded bg-cream px-1 py-0.5 font-mono text-[0.85em]; }
+.prose-pb pre { @apply my-2 overflow-x-auto rounded bg-navy-3 p-3 text-xs text-white; }
+.prose-pb h1, .prose-pb h2, .prose-pb h3 { @apply mt-3 mb-1 font-semibold; }

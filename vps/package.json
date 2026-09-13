@@ -1,0 +1,13 @@
+{
+  "name": "easylearn-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Layanan penyimpanan progres dan jurnal belajar (folder di VPS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
