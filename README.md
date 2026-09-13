@@ -9,7 +9,7 @@ Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 
 - Topik selesai kalau kuis lulus (minimal 2 dari 3 benar) dan bukti kerja ada.
 - Pengingat push dikirim pada jam yang diatur kalau hari itu belum ada hari belajar.
 - Halaman portfolio mengumpulkan semua bukti kerja untuk uji kompetensi BNSP.
-- Tiap topik dan portfolio bisa diunduh sebagai PDF (materi plus jurnal bukti kerja) atau rangkuman teks biasa (.txt, berpoin, tanpa simbol Markdown). Tombol "Lihat cepat" menampilkan rangkuman di pop-up yang bisa di-scroll.
+- Tiap topik dan portfolio bisa diunduh sebagai PDF (materi plus jurnal bukti kerja) atau rangkuman teks biasa (.txt, berpoin, tanpa simbol Markdown). Tombol "Lihat rangkuman" menampilkan rangkuman di pop-up yang bisa di-scroll.
 - Tombol "Tanya AI" menjawab pertanyaan seputar topik yang sedang dibuka. Pertanyaan diteruskan ke Hermes yang terpasang di VPS (`hermes -z`, tanpa alat), jadi memakai kredensial Anthropic yang sudah ada di sana.
 
 ## Struktur

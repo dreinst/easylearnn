@@ -17,7 +17,7 @@ export default function QuickView({ title, html, downloads }: { title: string; h
 
   return (
     <>
-      <button type="button" className="btn-ghost text-xs" onClick={() => setOpen(true)}>Lihat cepat</button>
+      <button type="button" className="btn-ghost text-xs" onClick={() => setOpen(true)}>Lihat rangkuman</button>
       {open && (
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 p-0 sm:items-center sm:p-6" onClick={() => setOpen(false)} role="dialog" aria-modal="true" aria-label={title}>
           <div className="flex h-[92vh] w-full max-w-3xl flex-col rounded-t-xl bg-white shadow-2xl sm:h-[85vh] sm:rounded-xl" onClick={(e) => e.stopPropagation()}>
