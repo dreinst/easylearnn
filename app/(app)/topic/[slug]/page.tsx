@@ -52,7 +52,11 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
           <span className={st.quiz_passed ? "badge-ok" : "badge-no"}>Kuis {st.quiz_passed ? "lulus" : "belum lulus"}{st.best_score != null ? ` (terbaik ${st.best_score}/${topic.questions.length})` : ""}</span>
           <span className={st.evidence_done ? "badge-ok" : "badge-no"}>Bukti kerja {st.evidence_done ? `${evidence.length} berkas` : "belum ada"}</span>
           <span className={st.done ? "badge-ok" : "badge-warn"}>{st.done ? "Topik selesai" : "Belum selesai: perlu kuis lulus dan bukti kerja"}</span>
-          <a href={`/api/topic/${slug}/export`} className="btn-ghost ml-auto text-xs">Download materi (.md)</a>
+          <div className="flex w-full flex-wrap gap-2 sm:ml-auto sm:w-auto">
+            <a href={`/api/topic/${slug}/pdf`} className="btn-navy text-xs">Unduh PDF (materi + jurnal)</a>
+            <a href={`/api/topic/${slug}/export`} className="btn-ghost text-xs">Unduh rangkuman (.md)</a>
+            <a href={`/api/topic/${slug}/export?inline=1`} target="_blank" rel="noreferrer" className="btn-ghost text-xs">Pratinjau .md</a>
+          </div>
         </div>
       </header>
 

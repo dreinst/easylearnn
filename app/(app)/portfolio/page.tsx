@@ -18,6 +18,11 @@ export default async function PortfolioPage() {
       <header className="card">
         <h1 className="text-2xl font-bold text-navy">Portfolio bukti kerja</h1>
         <p className="mt-1 text-sm text-mute">Kumpulan bukti kerja dari event nyata untuk dibawa ke uji kompetensi BNSP. Semua tersimpan sebagai berkas di folder jurnal di VPS.</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <a href="/api/portfolio/pdf" className="btn-navy text-xs">Unduh portfolio (PDF)</a>
+          <a href="/api/portfolio/export" className="btn-ghost text-xs">Unduh rangkuman (.md)</a>
+          <a href="/api/portfolio/export?inline=1" target="_blank" rel="noreferrer" className="btn-ghost text-xs">Pratinjau .md</a>
+        </div>
         <div className="mt-3 flex flex-wrap gap-4 text-sm">
           <span><b>{items.length}</b> bukti kerja</span>
           <span><b>{sum.evidence}</b> dari {sum.total} topik punya bukti</span>

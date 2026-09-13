@@ -62,13 +62,14 @@ export default function Chatbot() {
     <>
       <button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-4 right-4 z-40 rounded-full bg-orange px-4 py-3 text-sm font-semibold text-white shadow-lg hover:bg-orange-2"
+        className="fixed right-4 z-40 rounded-full bg-orange px-4 py-3 text-sm font-semibold text-white shadow-lg hover:bg-orange-2"
+        style={{ bottom: "max(1rem, env(safe-area-inset-bottom))" }}
         aria-label="Tanya AI"
       >
         {open ? "Tutup" : "Tanya AI"}
       </button>
       {open && (
-        <div className="fixed bottom-20 right-4 z-40 flex h-[70vh] w-[min(420px,calc(100vw-2rem))] flex-col rounded-lg border border-line bg-white shadow-2xl">
+        <div className="fixed right-4 z-40 flex h-[min(70vh,640px)] w-[min(420px,calc(100vw-2rem))] flex-col rounded-lg border border-line bg-white shadow-2xl" style={{ bottom: "calc(max(1rem, env(safe-area-inset-bottom)) + 3.75rem)" }}>
           <div className="border-b border-line px-4 py-2">
             <div className="text-sm font-semibold text-navy">Tutor AI</div>
             <div className="text-[11px] text-mute">{slug ? `Konteks: topik ${slug}. ` : ""}Dijawab lewat Hermes di VPS. Percakapan tidak disimpan.</div>

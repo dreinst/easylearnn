@@ -29,10 +29,13 @@ export default function AppShell({ sidebar, streak, children }: { sidebar: React
           <button className="btn-ghost px-3 lg:hidden" aria-label="Buka rundown" onClick={() => setOpen(true)}>
             <span aria-hidden>☰</span> Rundown
           </button>
-          <Link href="/" className="font-semibold text-navy lg:hidden">Production Book</Link>
+          <Link href="/" className="flex items-center gap-2 font-semibold text-navy lg:hidden">
+            <span className="inline-block h-5 w-5 rounded bg-orange" />
+            <span className="hidden sm:inline">Production Book</span>
+          </Link>
           <div className="ml-auto flex items-center gap-3">{streak}</div>
         </header>
-        <main className="flex-1 px-4 py-6 lg:px-8">{children}</main>
+        <main className="flex-1 px-4 py-6 pb-28 lg:px-8 lg:pb-24">{children}</main>
       </div>
     </div>
   );

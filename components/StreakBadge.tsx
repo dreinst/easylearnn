@@ -7,15 +7,15 @@ export default function StreakBadge({ streak, days, compact = false }: { streak:
         {days.map((d) => (
           <span
             key={d.day}
-            className={`h-3 w-3 rounded-full ${d.studied ? "bg-orange" : "bg-line"}`}
+            className={`${compact ? "h-2.5 w-2.5" : "h-3 w-3"} rounded-full ${d.studied ? "bg-orange" : "bg-line"}`}
             title={`${d.day}: ${d.studied ? "belajar" : "tidak"}`}
           />
         ))}
       </div>
       <div className="leading-tight">
-        <div className="text-sm font-bold text-navy">
+        <div className="whitespace-nowrap text-sm font-bold text-navy">
           {streak.count} hari
-          <span className="ml-1 font-normal text-mute">streak</span>
+          <span className={`ml-1 font-normal text-mute ${compact ? "hidden sm:inline" : ""}`}>streak</span>
         </div>
         {!compact && (
           <div className="text-xs text-mute">
