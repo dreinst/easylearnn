@@ -1,6 +1,9 @@
 import { getContent, getProgress } from "@/lib/data";
 import { overall, statusMap } from "@/lib/status";
 import EvidenceList from "@/components/EvidenceList";
+import QuickView from "@/components/QuickView";
+import { portfolioToMarkdown } from "@/lib/export";
+import { markdownToHtml } from "@/lib/mdhtml";
 
 export const metadata = { title: "Portfolio" };
 
@@ -12,6 +15,7 @@ export default async function PortfolioPage() {
   const ordered = [...content.topics].sort((a, b) => a.sort_order - b.sort_order);
   const items = progress.evidence.map((e) => ({ ...e, topic_title: titles[e.topic] || e.topic })).sort((a, b) => (a.submitted_at < b.submitted_at ? 1 : -1));
   const missing = ordered.filter((t) => !statuses[t.slug].evidence_done);
+  const summaryHtml = markdownToHtml(portfolioToMarkdown(content, progress));
 
   return (
     <div className="mx-auto max-w-4xl space-y-6">
@@ -19,9 +23,16 @@ export default async function PortfolioPage() {
         <h1 className="text-2xl font-bold text-navy">Portfolio bukti kerja</h1>
         <p className="mt-1 text-sm text-mute">Kumpulan bukti kerja dari event nyata untuk dibawa ke uji kompetensi BNSP. Semua tersimpan sebagai berkas di folder jurnal di VPS.</p>
         <div className="mt-3 flex flex-wrap gap-2">
-          <a href="/api/portfolio/pdf" className="btn-navy text-xs">Unduh portfolio (PDF)</a>
-          <a href="/api/portfolio/export" className="btn-ghost text-xs">Unduh rangkuman (.md)</a>
-          <a href="/api/portfolio/export?inline=1" target="_blank" rel="noreferrer" className="btn-ghost text-xs">Pratinjau .md</a>
+          <QuickView
+            title="Rangkuman portfolio"
+            html={summaryHtml}
+            downloads={[
+              { label: "Unduh portfolio (PDF)", href: "/api/portfolio/pdf", primary: true },
+              { label: "Unduh rangkuman", href: "/api/portfolio/export" },
+            ]}
+          />
+          <a href="/api/portfolio/pdf" className="btn-navy text-xs">Unduh PDF</a>
+          <a href="/api/portfolio/export" className="btn-ghost text-xs">Unduh rangkuman</a>
         </div>
         <div className="mt-3 flex flex-wrap gap-4 text-sm">
           <span><b>{items.length}</b> bukti kerja</span>

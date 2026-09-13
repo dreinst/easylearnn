@@ -10,6 +10,9 @@ import Quiz from "@/components/Quiz";
 import EvidenceForm from "@/components/EvidenceForm";
 import EvidenceList from "@/components/EvidenceList";
 import SourceList from "@/components/SourceList";
+import QuickView from "@/components/QuickView";
+import { topicToMarkdown } from "@/lib/export";
+import { markdownToHtml } from "@/lib/mdhtml";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -33,6 +36,7 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
   const evidence = progress.evidence.filter((e) => e.topic === slug).sort((a, b) => (a.submitted_at < b.submitted_at ? 1 : -1));
   const attempts = progress.quiz_attempts.filter((a) => a.topic === slug);
   const today = todayInTz(progress.settings.timezone);
+  const summaryHtml = markdownToHtml(topicToMarkdown(topic, content, progress));
 
   return (
     <article className="mx-auto max-w-4xl space-y-6">
@@ -53,9 +57,16 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
           <span className={st.evidence_done ? "badge-ok" : "badge-no"}>Bukti kerja {st.evidence_done ? `${evidence.length} berkas` : "belum ada"}</span>
           <span className={st.done ? "badge-ok" : "badge-warn"}>{st.done ? "Topik selesai" : "Belum selesai: perlu kuis lulus dan bukti kerja"}</span>
           <div className="flex w-full flex-wrap gap-2 sm:ml-auto sm:w-auto">
-            <a href={`/api/topic/${slug}/pdf`} className="btn-navy text-xs">Unduh PDF (materi + jurnal)</a>
-            <a href={`/api/topic/${slug}/export`} className="btn-ghost text-xs">Unduh rangkuman (.md)</a>
-            <a href={`/api/topic/${slug}/export?inline=1`} target="_blank" rel="noreferrer" className="btn-ghost text-xs">Pratinjau .md</a>
+            <QuickView
+              title={`Rangkuman: ${topic.title}`}
+              html={summaryHtml}
+              downloads={[
+                { label: "Unduh PDF (materi + jurnal)", href: `/api/topic/${slug}/pdf`, primary: true },
+                { label: "Unduh rangkuman", href: `/api/topic/${slug}/export` },
+              ]}
+            />
+            <a href={`/api/topic/${slug}/pdf`} className="btn-navy text-xs">Unduh PDF</a>
+            <a href={`/api/topic/${slug}/export`} className="btn-ghost text-xs">Unduh rangkuman</a>
           </div>
         </div>
       </header>

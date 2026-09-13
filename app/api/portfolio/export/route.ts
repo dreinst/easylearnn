@@ -1,17 +1,12 @@
 import { getContent, getProgress } from "@/lib/data";
-import { portfolioToMarkdown } from "@/lib/export";
-import { previewPage } from "@/lib/mdhtml";
+import { portfolioToText } from "@/lib/export";
 
-export async function GET(req: Request) {
+export async function GET() {
   const [content, progress] = await Promise.all([getContent(), getProgress()]);
-  const md = portfolioToMarkdown(content, progress);
-  if (new URL(req.url).searchParams.get("inline") === "1") {
-    return new Response(previewPage("Portfolio bukti kerja", md, "/api/portfolio/export"), { headers: { "content-type": "text/html; charset=utf-8" } });
-  }
-  return new Response(md, {
+  return new Response(portfolioToText(content, progress), {
     headers: {
-      "content-type": "text/markdown; charset=utf-8",
-      "content-disposition": `attachment; filename="portfolio.md"`,
+      "content-type": "text/plain; charset=utf-8",
+      "content-disposition": 'attachment; filename="portfolio-rangkuman.txt"',
     },
   });
 }

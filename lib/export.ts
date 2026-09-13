@@ -188,3 +188,101 @@ export function portfolioToBlocks(content: Content, progress: Progress): Block[]
   if (!any) B.push({ type: "p", text: "Belum ada bukti kerja." });
   return B;
 }
+
+// ---------- Teks biasa (.txt): bisa dibuka di perangkat apa pun, tanpa simbol Markdown ----------
+
+const BULLET = "\u2022";
+
+function textEvidence(e: Evidence, indent = "  "): string[] {
+  const L: string[] = [];
+  L.push(`${indent}${BULLET} ${e.title} (${formatYmd(e.submitted_at.slice(0, 10), true)})`);
+  if (e.note) for (const ln of e.note.split("\n")) L.push(`${indent}    ${ln}`);
+  if (e.link) L.push(`${indent}    Tautan: ${e.link}`);
+  if (e.file) L.push(`${indent}    Lampiran: ${e.file.replace(/^[0-9a-f]{8}-/, "")}`);
+  L.push(`${indent}    Berkas jurnal: jurnal/${e.journal_file}`);
+  return L;
+}
+
+/** Rangkuman topik sebagai teks biasa berpoin, termasuk jurnal bukti kerja. */
+export function topicToText(topic: Topic, content: Content, progress: Progress): string {
+  const phase = content.phases.find((p) => p.id === topic.phase_id);
+  const st = topicStatus(progress, topic.slug);
+  const evidence = progress.evidence.filter((e) => e.topic === topic.slug).sort((a, b) => (a.submitted_at < b.submitted_at ? 1 : -1));
+  const L: string[] = [];
+  L.push(topic.title.toUpperCase(), "");
+  L.push(topic.summary, "");
+  L.push(`Acuan kurikulum : ${topic.curriculum_ref}`);
+  if (phase) L.push(`Fase            : ${phase.id === 0 ? phase.name : `${phase.id}. ${phase.name}`}`);
+  L.push(`Jadwal          : ${weekLabel(topic)}`);
+  L.push(`Kuis            : ${st.quiz_passed ? "lulus" : "belum lulus"}${st.best_score != null ? ` (terbaik ${st.best_score} dari ${topic.questions.length})` : ""}`);
+  L.push(`Bukti kerja     : ${st.evidence_done ? `${evidence.length} berkas` : "belum ada"}`);
+  L.push(`Status topik    : ${st.done ? "selesai" : "belum selesai"}`, "");
+
+  L.push("ACUAN", "");
+  L.push("Unit kompetensi AQF (SIT50322):");
+  for (const u of topic.units) L.push(`  ${BULLET} ${u.unit_code} ${u.unit_name}${u.is_core ? " (unit inti)" : ""}`, `      ${u.url}`);
+  if (topic.university.length) {
+    L.push("Modul kampus pembanding:");
+    for (const m of topic.university) L.push(`  ${BULLET} ${m.module}, ${m.institution}, ${m.programme}`, `      ${m.url}`);
+  }
+  L.push("");
+  L.push("INTI MATERI", "");
+  topic.points.forEach((pt, i) => L.push(`  ${i + 1}. ${pt}`));
+  L.push("");
+  L.push("BUKTI KERJA YANG DIMINTA", "", topic.evidence_brief, "");
+  L.push("JURNAL BUKTI KERJA", "");
+  if (!evidence.length) L.push("  Belum ada bukti kerja untuk topik ini.");
+  for (const e of evidence) L.push(...textEvidence(e), "");
+  if (evidence.length) L.pop();
+  L.push("", "SUMBER", "");
+  for (const src of topic.sources) {
+    L.push(`  ${BULLET} [${KIND[src.kind] || src.kind}] ${src.title}`);
+    if (src.description) L.push(`      ${src.description}`);
+    L.push(`      ${src.url}`);
+  }
+  L.push("", "KUIS (TANPA KUNCI JAWABAN)", "");
+  topic.questions.forEach((q, i) => {
+    L.push(`  ${i + 1}. ${q.stem}`);
+    q.options.forEach((o, j) => L.push(`     ${String.fromCharCode(65 + j)}. ${o}`));
+    L.push("");
+  });
+  L.push(`Production Book, Enter Event House. Dibuat ${formatYmd(new Date().toISOString().slice(0, 10), true)}.`, "");
+  return L.join("\n");
+}
+
+/** Rangkuman portfolio sebagai teks biasa berpoin. */
+export function portfolioToText(content: Content, progress: Progress): string {
+  const statuses = statusMap(content, progress);
+  const sum = overall(content, statuses);
+  const ordered = [...content.topics].sort((a, b) => a.sort_order - b.sort_order);
+  const L: string[] = [];
+  L.push("PORTFOLIO BUKTI KERJA", "");
+  L.push(`Program belajar event management Enter Event House, 6 fase, ${content.program_weeks} minggu. Acuan AQF SIT50322 Diploma of Event Management.`, "");
+  L.push(`Nama                  : ${progress.settings.display_name || "-"}`);
+  L.push(`Mulai program         : ${progress.settings.program_start ? formatYmd(progress.settings.program_start, true) : "-"}`);
+  L.push(`Topik selesai         : ${sum.done} dari ${sum.total}`);
+  L.push(`Kuis lulus            : ${sum.quiz}`);
+  L.push(`Topik dengan bukti    : ${sum.evidence}`);
+  L.push(`Jumlah bukti kerja    : ${progress.evidence.length}`);
+  L.push(`Hari belajar tercatat : ${progress.study_days.length}`, "");
+  L.push("RINGKASAN PER TOPIK", "");
+  for (const t of ordered) {
+    const st = statuses[t.slug];
+    const n = progress.evidence.filter((e) => e.topic === t.slug).length;
+    L.push(`  ${BULLET} ${weekLabel(t)}: ${t.title}`);
+    L.push(`      Kuis ${st.quiz_passed ? "lulus" : "belum"}, bukti kerja ${n}, ${st.done ? "selesai" : "belum selesai"}`);
+  }
+  L.push("", "BUKTI KERJA", "");
+  let any = false;
+  for (const t of ordered) {
+    const items = progress.evidence.filter((e) => e.topic === t.slug).sort((a, b) => (a.submitted_at < b.submitted_at ? 1 : -1));
+    if (!items.length) continue;
+    any = true;
+    L.push(t.title.toUpperCase());
+    L.push(`${t.curriculum_ref}. Unit AQF: ${t.units.map((u) => `${u.unit_code} ${u.unit_name}`).join("; ")}`, "");
+    for (const e of items) L.push(...textEvidence(e), "");
+  }
+  if (!any) L.push("  Belum ada bukti kerja.", "");
+  L.push(`Production Book, Enter Event House. Dibuat ${formatYmd(new Date().toISOString().slice(0, 10), true)}.`, "");
+  return L.join("\n");
+}

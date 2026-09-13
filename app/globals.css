@@ -48,3 +48,20 @@ body {
 .prose-pb code { @apply rounded bg-cream px-1 py-0.5 font-mono text-[0.85em]; }
 .prose-pb pre { @apply my-2 overflow-x-auto rounded bg-navy-3 p-3 text-xs text-white; }
 .prose-pb h1, .prose-pb h2, .prose-pb h3 { @apply mt-3 mb-1 font-semibold; }
+
+/* Tampilan rangkuman (hasil Markdown) di pop-up lihat cepat */
+.md-view { @apply text-[15px] leading-relaxed text-ink; }
+.md-view h1 { @apply mb-3 text-2xl font-bold leading-tight text-navy; }
+.md-view h2 { @apply mt-7 mb-2 border-b border-line pb-1 text-lg font-bold text-navy; }
+.md-view h3 { @apply mt-5 mb-1.5 text-base font-semibold text-navy; }
+.md-view p { @apply my-2; }
+.md-view blockquote { @apply my-3 rounded-r-md border-l-4 border-orange bg-orange/10 px-3.5 py-2.5; }
+.md-view table { @apply my-3 block w-full overflow-x-auto border-collapse text-sm; }
+.md-view th, .md-view td { @apply border border-line px-2.5 py-1.5 text-left align-top; }
+.md-view th { @apply bg-cream; }
+.md-view ol { @apply my-2 list-decimal pl-6; }
+.md-view ul { @apply my-2 list-disc pl-6; }
+.md-view li { @apply my-1; }
+.md-view a { @apply text-orange-2 underline; }
+.md-view hr { @apply my-6 border-line; }
+.md-view em { @apply text-mute; }
