@@ -64,7 +64,7 @@ export function topicToMarkdown(topic: Topic, content: Content, progress?: Progr
   }
   L.push("## Sumber", "");
   L.push("| Jenis | Sumber | Asal dan tahun | Keterangan |", "|---|---|---|---|");
-  for (const s of topic.sources) L.push(`| ${KIND[s.kind] || s.kind} | [${s.title}](${s.url}) | ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation})` : ""} | ${s.description || ""} |`);
+  for (const s of topic.sources) L.push(`| ${KIND[s.kind] || s.kind} | [${s.title}](${s.url}) | ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation}${s.exempt ? `, ${s.exempt}` : ""})` : ""} | ${s.description || ""} |`);
   L.push("");
   L.push("## Kuis (tanpa kunci jawaban)", "");
   topic.questions.forEach((q, i) => {
@@ -109,7 +109,7 @@ export function topicToBlocks(topic: Topic, content: Content, progress: Progress
   }
 
   B.push({ type: "h1", text: "Sumber" });
-  for (const s of topic.sources) B.push({ type: "li", text: `[${KIND[s.kind] || s.kind}] ${s.title}. ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation})` : ""}. ${s.url}` });
+  for (const s of topic.sources) B.push({ type: "li", text: `[${KIND[s.kind] || s.kind}] ${s.title}. ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation}${s.exempt ? `, ${s.exempt}` : ""})` : ""}. ${s.url}` });
   return B;
 }
 
@@ -237,7 +237,7 @@ export function topicToText(topic: Topic, content: Content, progress: Progress):
   L.push("", "SUMBER", "");
   for (const src of topic.sources) {
     L.push(`  ${BULLET} [${KIND[src.kind] || src.kind}] ${src.title}`);
-    if (src.publisher || src.year) L.push(`      Asal: ${[src.publisher, src.year].filter(Boolean).join(", ")}${src.accreditation ? ` (${src.accreditation})` : ""}`);
+    if (src.publisher || src.year) L.push(`      Asal: ${[src.publisher, src.year].filter(Boolean).join(", ")}${src.accreditation ? ` (${src.accreditation}${src.exempt ? `, ${src.exempt}` : ""})` : ""}`);
     if (src.description) L.push(`      ${src.description}`);
     L.push(`      ${src.url}`);
   }

@@ -19,7 +19,7 @@ export default function SourceList({ sources }: { sources: Source[] }) {
               {s.description && <p className="text-xs text-mute">{s.description}</p>}
               {(s.publisher || s.year) && (
                 <p className="mt-0.5 text-[11px] text-mute">
-                  Sumber: {s.publisher}{s.year ? `, ${s.year}` : ""}{s.accreditation ? ` · ${s.accreditation}` : ""}
+                  Sumber: {s.publisher}{s.year ? `, ${s.year}` : ""}{s.accreditation ? ` · ${s.accreditation}` : ""}{s.exempt ? ` · ${s.exempt}` : ""}
                 </p>
               )}
             </div>

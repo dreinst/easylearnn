@@ -40,6 +40,7 @@ export type Source = {
   publisher: string; // lembaga penerbit
   year: string; // tahun terbit atau pembaruan terakhir
   accreditation: string; // universitas terakreditasi, badan pemerintah, badan standar, asosiasi industri
+  exempt?: string; // diisi hanya untuk standar/kode yang masih berlaku walau terbit sebelum 2020
   embeddable: boolean | null; // null = belum dicek
 };
 

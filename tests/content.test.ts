@@ -57,6 +57,17 @@ describe("seed content", () => {
     for (const t of c.topics) for (const m of t.university) expect(m.catalogue, `${t.slug} ${m.module}`).toBeTruthy();
   });
 
+  it("sumber belajar bertahun 2020 sampai 2026, kecuali standar yang masih berlaku", () => {
+    for (const t of c.topics) for (const s of t.sources) {
+      if (s.kind === "aqf_unit" || s.kind === "university") continue; // unit AQF rilis 2022; katalog kampus 2025 sampai 2027
+      const m = s.year.match(/\d{4}/);
+      expect(m, `${t.slug} ${s.title}: tahun tidak ada`).toBeTruthy();
+      const y = Number(m![0]);
+      const exempt = s.kind === "standard" && Boolean(s.exempt);
+      expect(exempt || (y >= 2020 && y <= 2026), `${t.slug} ${s.title}: ${s.year}`).toBe(true);
+    }
+  });
+
   it("tidak ada tanda pisah panjang di teks", () => {
     const text = JSON.stringify(c);
     expect(text).not.toMatch(/[—–]/);
