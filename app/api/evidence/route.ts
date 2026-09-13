@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-import { addEvidence, DataError, getContent } from "@/lib/data";
+import { addEvidence, DataError, getContent, getProgress } from "@/lib/data";
+import { lockInfo } from "@/lib/progression";
+import { statusMap } from "@/lib/status";
 import { findTopic } from "@/lib/status";
 
 const MAX_BYTES = 3 * 1024 * 1024;
@@ -10,6 +12,8 @@ export async function POST(req: Request) {
   const content = await getContent();
   const topic = findTopic(content, slug);
   if (!topic) return NextResponse.json({ error: "Topik tidak ditemukan" }, { status: 404 });
+  const lock = lockInfo(content, statusMap(content, await getProgress()), topic.slug);
+  if (lock.locked) return NextResponse.json({ error: `Modul terkunci. Selesaikan dulu: ${lock.blocker?.title}` }, { status: 403 });
   const file = fd.get("file");
   let file_name: string | undefined;
   let file_base64: string | undefined;

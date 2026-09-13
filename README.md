@@ -7,6 +7,8 @@ Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 
 - Sebelum mulai, halaman roadmap menampilkan 6 fase dengan tanggal terhitung dari tanggal mulai yang dipilih.
 - Hari belajar hanya tercatat kalau kuis dikerjakan atau bukti kerja diunggah. Tombol "sudah baca" tidak ada.
 - Topik selesai kalau kuis lulus (minimal 2 dari 3 benar) dan bukti kerja ada.
+- Modul mingguan dibuka berurutan: topik berikutnya terkunci (pop-up mengarahkan ke modul yang belum selesai) sampai semua topik sebelumnya selesai; server ikut menolak kuis dan bukti kerja untuk topik terkunci. Tiga topik sepanjang program selalu terbuka.
+- Kuis baru terbuka setelah waktu baca minimal terpenuhi (jumlah kata dibagi 300 kata per menit, hanya dihitung saat halaman terlihat, disimpan di perangkat) dan bagian kuis tergulir. Rangkuman dan unduhan topik muncul di bagian bawah setelah kuis lulus.
 - Pengingat push dikirim pada jam yang diatur kalau hari itu belum ada hari belajar.
 - Halaman portfolio mengumpulkan semua bukti kerja untuk uji kompetensi BNSP.
 - Tiap topik dan portfolio bisa diunduh sebagai PDF (materi plus jurnal bukti kerja) atau rangkuman teks biasa (.txt, berpoin, tanpa simbol Markdown). Tombol "Lihat rangkuman" menampilkan rangkuman di pop-up yang bisa di-scroll.

@@ -6,6 +6,7 @@ import { ongoingTopics, topicsForWeek, weekEnd, weekOf, weekStart } from "@/lib/
 import { computeStreak, lastSevenDays } from "@/lib/streak";
 import { overall, statusMap } from "@/lib/status";
 import StreakBadge from "@/components/StreakBadge";
+import { currentModule, lockInfo } from "@/lib/progression";
 
 export default async function Dashboard() {
   const [content, progress] = await Promise.all([getContent(), getStartedProgress()]);
@@ -21,6 +22,7 @@ export default async function Dashboard() {
   const weekTopics = week >= 1 && week <= content.program_weeks ? topicsForWeek(content.topics, week) : [];
   const phase = week >= 1 && week <= content.program_weeks ? content.phases.find((p) => p.week_from! <= week && week <= p.week_to!) : null;
   const studiedToday = progress.study_days.find((d) => d.day === today);
+  const current = currentModule(content, statuses);
 
   return (
     <div className="mx-auto max-w-4xl space-y-6">
@@ -51,6 +53,23 @@ export default async function Dashboard() {
         </div>
       </div>
 
+      {current && (
+        <section className="rounded-lg border border-orange/40 bg-orange/10 p-5">
+          <div className="text-xs font-semibold uppercase tracking-wide text-orange-2">Modul yang harus diselesaikan sekarang</div>
+          <div className="mt-1 flex flex-wrap items-center gap-3">
+            <div className="min-w-0 flex-1">
+              <div className="font-semibold text-navy">{current.title}</div>
+              <div className="mt-1 flex gap-2">
+                <span className={statuses[current.slug].quiz_passed ? "badge-ok" : "badge-no"}>Kuis {statuses[current.slug].quiz_passed ? "lulus" : "belum"}</span>
+                <span className={statuses[current.slug].evidence_done ? "badge-ok" : "badge-no"}>Bukti kerja {statuses[current.slug].evidence_done ? "ada" : "belum"}</span>
+              </div>
+              <p className="mt-1 text-xs text-mute">Modul berikutnya terbuka setelah kuis lulus dan bukti kerja diunggah.</p>
+            </div>
+            <Link href={`/topic/${current.slug}`} className="btn-orange">Lanjutkan modul</Link>
+          </div>
+        </section>
+      )}
+
       <section className="card">
         <div className="flex items-baseline justify-between">
           <h2 className="text-lg font-semibold text-navy">Minggu ini</h2>
@@ -61,6 +80,7 @@ export default async function Dashboard() {
         {weekTopics.length === 0 && <p className="mt-2 text-sm text-mute">Tidak ada topik mingguan untuk saat ini.</p>}
         {weekTopics.map((t) => {
           const st = statuses[t.slug];
+          const lock = lockInfo(content, statuses, t.slug);
           return (
             <div key={t.slug} className="mt-3 flex flex-wrap items-center gap-3 rounded-md border border-line p-4">
               <div className="min-w-0 flex-1">
@@ -70,9 +90,14 @@ export default async function Dashboard() {
                 <div className="mt-2 flex gap-2">
                   <span className={st.quiz_passed ? "badge-ok" : "badge-no"}>Kuis {st.quiz_passed ? "lulus" : "belum"}</span>
                   <span className={st.evidence_done ? "badge-ok" : "badge-no"}>Bukti kerja {st.evidence_done ? "ada" : "belum"}</span>
+                  {lock.locked && lock.blocker && <span className="badge-warn">Terkunci, selesaikan dulu: {lock.blocker.title}</span>}
                 </div>
               </div>
-              <Link href={`/topic/${t.slug}`} className="btn-orange">Buka topik</Link>
+              {lock.locked && lock.blocker ? (
+                <Link href={`/topic/${lock.blocker.slug}`} className="btn-orange">Lanjutkan {lock.blocker.title.length > 24 ? "modul sebelumnya" : lock.blocker.title}</Link>
+              ) : (
+                <Link href={`/topic/${t.slug}`} className="btn-orange">Buka topik</Link>
+              )}
             </div>
           );
         })}

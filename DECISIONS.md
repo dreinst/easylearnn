@@ -45,3 +45,7 @@ Belum dikerjakan, menunggu template pesan disetujui Meta. Halaman pengaturan han
 ## 11. Lampiran maksimal 3 MB
 
 Vercel membatasi body permintaan sekitar 4,5 MB. Lampiran di atas 3 MB diminta diunggah ke Drive lalu ditempel tautannya.
+
+## 12. Pembatas modul dan pembatas baca
+
+Permintaan Donny 13 September 2026 malam. Modul mingguan dibuka berurutan menurut `sort_order`; topik terkunci kalau ada topik mingguan sebelumnya yang belum selesai (kuis lulus dan bukti kerja). Pengecekan ada di halaman (pop-up dengan tombol ke modul yang belum selesai) dan di API kuis serta bukti kerja (403). Tiga topik sepanjang program tidak dikunci karena memang paralel. Kuis dibatasi waktu baca minimal di sisi client (`components/ReadingGate.tsx`, patokan 300 kata per menit supaya pembaca cepat tetap lolos, hanya dihitung saat halaman terlihat, kemajuan disimpan di localStorage). Ini pembatas disiplin diri, bukan keamanan: satu-satunya pengguna adalah pemilik sendiri. Rangkuman dan unduhan topik dipindah ke bagian paling bawah dan hanya muncul setelah kuis lulus.

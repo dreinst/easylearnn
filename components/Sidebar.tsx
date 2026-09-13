@@ -7,7 +7,7 @@ import { formatYmd } from "@/lib/dates";
 type Row = { week: number; from: string; to: string; phase_id: number | null; topics: { slug: string; title: string; week_from: number | null }[] };
 
 export default function Sidebar({
-  phases, rows, ongoing, statuses, currentWeek, summary,
+  phases, rows, ongoing, statuses, currentWeek, summary, locked,
 }: {
   phases: Phase[];
   rows: Row[];
@@ -15,7 +15,9 @@ export default function Sidebar({
   statuses: Record<string, TopicStatus>;
   currentWeek: number;
   summary: { total: number; done: number; percent: number };
+  locked: string[];
 }) {
+  const lockedSet = new Set(locked);
   const pathname = usePathname();
   const nav = [
     { href: "/", label: "Dashboard" },
@@ -70,20 +72,25 @@ export default function Sidebar({
               const href = t ? `/topic/${t.slug}` : "#";
               const selected = t && pathname === href;
               const continuation = t && t.week_from !== r.week;
+              const isLocked = t ? lockedSet.has(t.slug) : false;
               return (
                 <Link
                   key={r.week}
                   href={href}
                   className={`group flex items-center gap-2 rounded px-2 py-1.5 text-[13px] leading-tight ${
                     active ? "bg-orange/20 ring-1 ring-orange/60" : selected ? "bg-white/10" : "hover:bg-white/10"
-                  }`}
+                  } ${isLocked ? "opacity-50" : ""}`}
+                  title={isLocked ? "Terkunci: selesaikan modul sebelumnya" : undefined}
                 >
                   <span className={`w-8 shrink-0 font-mono text-[11px] ${active ? "text-orange" : "text-white/50"}`}>M{String(r.week).padStart(2, "0")}</span>
                   <span className="w-[62px] shrink-0 font-mono text-[10px] text-white/50">{shortDate(r.from)}</span>
                   <span className={`min-w-0 flex-1 truncate ${continuation ? "text-white/60 italic" : "text-white/90"}`}>
                     {t ? t.title : "Tanpa topik"}{continuation ? " (lanjutan)" : ""}
                   </span>
-                  {st && (
+                  {isLocked && (
+                    <svg className="h-3 w-3 shrink-0 text-white/70" viewBox="0 0 16 16" fill="currentColor" aria-label="terkunci"><path d="M4 7V5a4 4 0 1 1 8 0v2h1a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1zm2 0h4V5a2 2 0 1 0-4 0v2z"/></svg>
+                  )}
+                  {st && !isLocked && (
                     <span className="flex shrink-0 gap-0.5" title={`Kuis ${st.quiz_passed ? "lulus" : "belum"}, bukti ${st.evidence_done ? "ada" : "belum"}`}>
                       <span className={`h-2 w-2 rounded-sm ${st.quiz_passed ? "bg-emerald-400" : "bg-white/20"}`} />
                       <span className={`h-2 w-2 rounded-sm ${st.evidence_done ? "bg-emerald-400" : "bg-white/20"}`} />
@@ -114,7 +121,7 @@ export default function Sidebar({
             );
           })}
         </div>
-        <div className="mt-4 px-2 text-[10px] text-white/40">Kotak hijau: kiri = kuis lulus, kanan = bukti kerja ada.</div>
+        <div className="mt-4 px-2 text-[10px] text-white/40">Kotak hijau: kiri = kuis lulus, kanan = bukti kerja ada. Gembok: terkunci sampai modul sebelumnya selesai.</div>
       </div>
     </div>
   );

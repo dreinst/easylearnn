@@ -10,6 +10,7 @@ import AppShell from "@/components/AppShell";
 import Sidebar from "@/components/Sidebar";
 import StreakBadge from "@/components/StreakBadge";
 import Chatbot from "@/components/Chatbot";
+import { lockedSlugs } from "@/lib/progression";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const [content, progress] = await Promise.all([getContent(), getProgress()]);
@@ -23,6 +24,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   const seven = lastSevenDays(progress.study_days.map((d) => d.day), today);
   const rundown = buildRundown(s.program_start, content.phases, content.topics, content.program_weeks);
   const sum = overall(content, statuses);
+  const locked = [...lockedSlugs(content, statuses)];
 
   const sidebar = (
     <Sidebar
@@ -32,6 +34,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
       statuses={statuses}
       currentWeek={week}
       summary={sum}
+      locked={locked}
     />
   );
 

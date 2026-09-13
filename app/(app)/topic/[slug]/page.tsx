@@ -13,6 +13,10 @@ import SourceList from "@/components/SourceList";
 import QuickView from "@/components/QuickView";
 import { topicToMarkdown } from "@/lib/export";
 import { markdownToHtml } from "@/lib/mdhtml";
+import { lockInfo } from "@/lib/progression";
+import { statusMap } from "@/lib/status";
+import LockedTopic from "@/components/LockedTopic";
+import ReadingGate from "@/components/ReadingGate";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -27,6 +31,8 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
   const topic = findTopic(content, slug);
   if (!topic) notFound();
   const st = topicStatus(progress, slug);
+  const statuses = statusMap(content, progress);
+  const lock = lockInfo(content, statuses, slug);
   const phase = content.phases.find((p) => p.id === topic.phase_id);
   const start = progress.settings.program_start;
   const ordered = [...content.topics].sort((a, b) => a.sort_order - b.sort_order);
@@ -37,6 +43,8 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
   const attempts = progress.quiz_attempts.filter((a) => a.topic === slug);
   const today = todayInTz(progress.settings.timezone);
   const summaryHtml = markdownToHtml(topicToMarkdown(topic, content, progress));
+  const readingText = [topic.summary, ...topic.points, topic.evidence_brief, ...topic.units.map((u) => u.unit_name), ...topic.university.map((m) => `${m.module} ${m.institution}`), ...topic.sources.map((x) => `${x.title} ${x.description}`)].join(" ");
+  const words = readingText.split(/\s+/).filter(Boolean).length;
 
   return (
     <article className="mx-auto max-w-4xl space-y-6">
@@ -55,22 +63,21 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className={st.quiz_passed ? "badge-ok" : "badge-no"}>Kuis {st.quiz_passed ? "lulus" : "belum lulus"}{st.best_score != null ? ` (terbaik ${st.best_score}/${topic.questions.length})` : ""}</span>
           <span className={st.evidence_done ? "badge-ok" : "badge-no"}>Bukti kerja {st.evidence_done ? `${evidence.length} berkas` : "belum ada"}</span>
-          <span className={st.done ? "badge-ok" : "badge-warn"}>{st.done ? "Topik selesai" : "Belum selesai: perlu kuis lulus dan bukti kerja"}</span>
-          <div className="flex w-full flex-wrap gap-2 sm:ml-auto sm:w-auto">
-            <QuickView
-              title={`Rangkuman: ${topic.title}`}
-              html={summaryHtml}
-              downloads={[
-                { label: "Unduh PDF (materi + jurnal)", href: `/api/topic/${slug}/pdf`, primary: true },
-                { label: "Unduh rangkuman", href: `/api/topic/${slug}/export` },
-              ]}
-            />
-            <a href={`/api/topic/${slug}/pdf`} className="btn-navy text-xs">Unduh PDF</a>
-            <a href={`/api/topic/${slug}/export`} className="btn-ghost text-xs">Unduh rangkuman</a>
-          </div>
+          {lock.locked ? <span className="badge-warn">Terkunci</span> : <span className={st.done ? "badge-ok" : "badge-warn"}>{st.done ? "Topik selesai" : "Belum selesai: perlu kuis lulus dan bukti kerja"}</span>}
         </div>
       </header>
 
+      {lock.locked && lock.blocker && (
+        <LockedTopic
+          title={topic.title}
+          blockerSlug={lock.blocker.slug}
+          blockerTitle={lock.blocker.title}
+          quizPassed={statuses[lock.blocker.slug].quiz_passed}
+          evidenceDone={statuses[lock.blocker.slug].evidence_done}
+        />
+      )}
+
+      {!lock.locked && (<>
       <section className="card" id="acuan">
         <h2 className="text-lg font-semibold text-navy">Acuan</h2>
         <div className="mt-3 grid gap-4 md:grid-cols-2">
@@ -124,8 +131,34 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
       <section className="card" id="kuis">
         <h2 className="text-lg font-semibold text-navy">Kuis</h2>
         <p className="mt-1 text-xs text-mute">{topic.questions.length} soal, lulus kalau benar minimal {Math.ceil((topic.questions.length * 2) / 3)}. Boleh diulang. Setiap pengerjaan mencatat hari belajar ({today}).</p>
-        <Quiz slug={slug} questions={stripAnswers(topic.questions)} attempts={attempts.length} />
+        <ReadingGate slug={slug} words={words} alreadyPassed={st.quiz_passed}>
+          <Quiz slug={slug} questions={stripAnswers(topic.questions)} attempts={attempts.length} />
+        </ReadingGate>
       </section>
+
+      <section className="card" id="rangkuman">
+        <h2 className="text-lg font-semibold text-navy">Rangkuman dan unduhan</h2>
+        {st.quiz_passed ? (
+          <>
+            <p className="mt-1 text-sm text-mute">Kuis sudah lulus. Rangkuman ini menandai kamu sudah menuntaskan materi topik ini; jurnal bukti kerjamu ikut di dalamnya.</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <QuickView
+                title={`Rangkuman: ${topic.title}`}
+                html={summaryHtml}
+                downloads={[
+                  { label: "Unduh PDF (materi + jurnal)", href: `/api/topic/${slug}/pdf`, primary: true },
+                  { label: "Unduh rangkuman", href: `/api/topic/${slug}/export` },
+                ]}
+              />
+              <a href={`/api/topic/${slug}/pdf`} className="btn-navy text-xs">Unduh PDF</a>
+              <a href={`/api/topic/${slug}/export`} className="btn-ghost text-xs">Unduh rangkuman</a>
+            </div>
+          </>
+        ) : (
+          <p className="mt-1 text-sm text-mute">Rangkuman dan unduhan terbuka setelah kuis topik ini lulus.</p>
+        )}
+      </section>
+      </>)}
 
       <nav className="flex justify-between text-sm">
         {prev ? <Link href={`/topic/${prev.slug}`} className="btn-ghost">← {prev.title}</Link> : <span />}
