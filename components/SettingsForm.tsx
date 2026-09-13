@@ -61,12 +61,12 @@ export default function SettingsForm({ settings }: { settings: Settings }) {
         </div>
         {error && <p className="text-sm text-red-700 md:col-span-2">{error}</p>}
         {msg && <p className="text-sm text-emerald-700 md:col-span-2">{msg}</p>}
-        <div className="md:col-span-2"><button className="btn-orange" disabled={busy}>{busy ? "Menyimpan" : "Simpan"}</button></div>
+        <div className="md:col-span-2"><button className="btn-accent" disabled={busy}>{busy ? "Menyimpan" : "Simpan"}</button></div>
       </form>
 
       <section className="card border-red-200">
         <h2 className="text-lg font-semibold text-red-800">Reset progres</h2>
-        <p className="mt-1 text-sm text-mute">Menghapus semua hasil kuis, hari belajar, dan bukti kerja (berkas jurnal ikut terhapus dari VPS). Tanggal mulai dikosongkan. Pengaturan lain dan perangkat push tetap.</p>
+        <p className="mt-1 text-sm text-mute">Menghapus semua hasil kuis dan hari belajar. Tanggal mulai dikosongkan. Pengaturan lain dan perangkat push tetap.</p>
         {resetStep === 0 && <button className="btn-danger mt-3" onClick={() => setResetStep(1)}>Reset progres</button>}
         {resetStep === 1 && (
           <div className="mt-3 grid gap-2 md:grid-cols-[1fr_auto_auto]">

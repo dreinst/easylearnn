@@ -8,7 +8,7 @@ const topic = (slug: string, from: number | null, order: number): Topic => ({
 });
 const content: Content = { version: 1, program_weeks: 24, phases: [], topics: [topic("a", 1, 1), topic("b", 2, 2), topic("c", 3, 3), topic("pb", null, 101)] };
 const st = (done: string[]): Record<string, TopicStatus> =>
-  Object.fromEntries(content.topics.map((t) => [t.slug, { quiz_passed: done.includes(t.slug), evidence_done: done.includes(t.slug), done: done.includes(t.slug), best_score: null, attempts: 0 }]));
+  Object.fromEntries(content.topics.map((t) => [t.slug, { quiz_passed: done.includes(t.slug), done: done.includes(t.slug), best_score: null, attempts: 0 }]));
 
 describe("pembatas modul", () => {
   it("topik pertama selalu terbuka, berikutnya terkunci sampai yang sebelumnya selesai", () => {

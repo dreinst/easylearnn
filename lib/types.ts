@@ -94,20 +94,9 @@ export type QuizAttempt = {
   attempted_at: string;
 };
 
-export type Evidence = {
-  id: string;
-  topic: string;
-  title: string;
-  note: string;
-  link: string | null;
-  file: string | null; // nama file lampiran di folder jurnal/lampiran
-  journal_file: string; // nama file .md di folder jurnal
-  submitted_at: string;
-};
-
 export type StudyDay = {
   day: string; // YYYY-MM-DD di zona waktu profil
-  trigger: "quiz" | "evidence";
+  trigger: "quiz";
 };
 
 export type PushSubscriptionRecord = {
@@ -127,7 +116,6 @@ export type ReminderLog = {
 export type Progress = {
   settings: Settings;
   quiz_attempts: QuizAttempt[];
-  evidence: Evidence[];
   study_days: StudyDay[];
   push_subscriptions: PushSubscriptionRecord[];
   reminder_log: ReminderLog[];
@@ -135,7 +123,6 @@ export type Progress = {
 
 export type TopicStatus = {
   quiz_passed: boolean;
-  evidence_done: boolean;
   done: boolean;
   best_score: number | null;
   attempts: number;

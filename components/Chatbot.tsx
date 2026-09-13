@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
+import Icon from "@/components/Icon";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -62,32 +63,33 @@ export default function Chatbot() {
     <>
       <button
         onClick={() => setOpen(!open)}
-        className="fixed right-4 z-40 rounded-full bg-orange px-4 py-3 text-sm font-semibold text-white shadow-lg hover:bg-orange-2"
-        style={{ bottom: "max(1rem, env(safe-area-inset-bottom))" }}
+        className="fixed right-5 z-40 flex items-center gap-2 rounded-full bg-white/85 px-5 py-2.5 text-sm font-bold text-navy shadow-float backdrop-blur-xl transition-all hover:-translate-y-0.5 hover:shadow-lift"
+        style={{ bottom: "max(1.25rem, env(safe-area-inset-bottom))" }}
         aria-label="Tanya AI"
       >
+        <Icon name="sparkle" className="h-4 w-4 text-accent" />
         {open ? "Tutup" : "Tanya AI"}
       </button>
       {open && (
-        <div className="fixed right-4 z-40 flex h-[min(70vh,640px)] w-[min(420px,calc(100vw-2rem))] flex-col rounded-lg border border-line bg-white shadow-2xl" style={{ bottom: "calc(max(1rem, env(safe-area-inset-bottom)) + 3.75rem)" }}>
-          <div className="border-b border-line px-4 py-2">
-            <div className="text-sm font-semibold text-navy">Tutor AI</div>
-            <div className="text-[11px] text-mute">{slug ? `Konteks: topik ${slug}. ` : ""}Dijawab lewat Hermes di VPS. Percakapan tidak disimpan.</div>
+        <div className="fixed right-5 z-40 flex h-[min(70vh,640px)] w-[min(420px,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-2xl bg-white shadow-card" style={{ bottom: "calc(max(1.25rem, env(safe-area-inset-bottom)) + 3.75rem)" }}>
+          <div className="border-b border-line px-4 py-3">
+            <div className="font-display text-base font-bold text-navy">Tutor AI</div>
+            <div className="text-[11px] text-mute">{slug ? `Konteks: topik ${slug}. ` : ""}Percakapan tidak disimpan.</div>
           </div>
           <div className="flex-1 space-y-3 overflow-y-auto px-4 py-3">
-            {msgs.length === 0 && <p className="text-sm text-mute">Tanya apa saja yang membingungkan dari materi: istilah, contoh penerapan di wedding, atau cara mengerjakan bukti kerja.</p>}
+            {msgs.length === 0 && <p className="text-sm text-mute">Tanya apa saja yang membingungkan dari materi: istilah, atau contoh penerapan di lapangan.</p>}
             {msgs.map((m, i) => (
-              <div key={i} className={`rounded-lg px-3 py-2 ${m.role === "user" ? "ml-6 bg-navy text-white" : "mr-6 bg-cream"}`}>
+              <div key={i} className={`rounded-2xl px-3.5 py-2.5 ${m.role === "user" ? "ml-6 bg-navy text-white" : "mr-6 bg-cream-2"}`}>
                 {m.role === "user" ? <p className="whitespace-pre-wrap text-sm">{m.content}</p> : <Markdown text={m.content} />}
               </div>
             ))}
-            {busy && <div className="mr-6 rounded-lg bg-cream px-3 py-2 text-sm text-mute">Sedang menulis...</div>}
+            {busy && <div className="mr-6 rounded-2xl bg-cream-2 px-3.5 py-2.5 text-sm text-mute">Sedang menulis...</div>}
             {error && <p className="text-sm text-red-700">{error}</p>}
             <div ref={endRef} />
           </div>
           <form onSubmit={send} className="flex gap-2 border-t border-line p-2">
             <input className="input" placeholder="Tulis pertanyaan" value={input} onChange={(e) => setInput(e.target.value)} disabled={busy} autoFocus />
-            <button className="btn-orange" disabled={busy || !input.trim()}>Kirim</button>
+            <button className="btn-accent" disabled={busy || !input.trim()}>Kirim</button>
           </form>
         </div>
       )}

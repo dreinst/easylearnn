@@ -51,7 +51,7 @@ export default function Quiz({ slug, questions, attempts }: { slug: string; ques
                 if (r) {
                   if (j === r.correct_index) cls = "border-emerald-500 bg-emerald-50";
                   else if (chosen && !r.correct) cls = "border-red-400 bg-red-50";
-                } else if (chosen) cls = "border-orange bg-orange/10";
+                } else if (chosen) cls = "border-accent bg-accent/10";
                 return (
                   <label key={j} className={`flex cursor-pointer items-start gap-2 rounded border px-3 py-2 text-sm ${cls}`}>
                     <input
@@ -77,7 +77,7 @@ export default function Quiz({ slug, questions, attempts }: { slug: string; ques
       })}
       {error && <p className="text-sm text-red-700">{error}</p>}
       {!result ? (
-        <button className="btn-orange" onClick={submit} disabled={!complete || busy}>{busy ? "Menilai" : "Kirim jawaban"}</button>
+        <button className="btn-accent" onClick={submit} disabled={!complete || busy}>{busy ? "Menilai" : "Kirim jawaban"}</button>
       ) : (
         <div className="flex flex-wrap items-center gap-3">
           <span className={result.passed ? "badge-ok" : "badge-warn"}>{result.passed ? "Lulus" : "Belum lulus"}: {result.score}/{result.total}</span>

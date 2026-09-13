@@ -60,7 +60,7 @@ function wrap(text: string, font: PDFFont, size: number, maxWidth: number): stri
 export async function renderPdf(blocks: Block[], footer: string): Promise<Uint8Array> {
   const doc = await PDFDocument.create();
   doc.setTitle(footer);
-  doc.setProducer("Production Book");
+  doc.setProducer("EasyLearnn");
   const regular = await doc.embedFont(StandardFonts.Helvetica);
   const bold = await doc.embedFont(StandardFonts.HelveticaBold);
   const width = A4[0] - MARGIN * 2;
