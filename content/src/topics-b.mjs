@@ -130,7 +130,7 @@ export const TOPICS_B = [
     phase_id: 3, week_from: 10, week_to: 10, sort_order: 9,
     summary: "Venue menentukan separuh kualitas event dan sebagian besar biayanya. Topik ini membahas cara menilai venue, menyusun site plan dan layout, serta hal yang harus ada dalam kontrak venue.",
     units: [unit("SITEEVT025")],
-    university: [uni("surrey", "Venue Management"), uni("dmu", "Running and Promoting a Venue")],
+    university: [uni("surrey", "Venue Management"), uni("napier_ba", "Facilities Planning for Hospitality, Tourism and Events")],
     points: [
       "Spesifikasi venue disusun dari rencana event: kapasitas (duduk vs berdiri), tinggi plafon untuk rigging, daya listrik, akses loading, parkir, waktu akses, dan aturan vendor luar.",
       "Survei venue memakai checklist tetap dan diambil fotonya: titik listrik, pintu darurat, jalur kabel, area vendor, toilet, dan area tunggu pengantin atau pembicara.",

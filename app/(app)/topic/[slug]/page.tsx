@@ -99,7 +99,7 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
               {topic.university.map((m, i) => (
                 <li key={i}>
                   <span className="font-medium">{m.module}</span>
-                  <div className="text-xs text-mute"><a href={m.url} target="_blank" rel="noreferrer" className="hover:underline">{m.institution}</a> · {m.programme}</div>
+                  <div className="text-xs text-mute"><a href={m.url} target="_blank" rel="noreferrer" className="hover:underline">{m.institution}</a> · {m.programme}{m.catalogue ? ` · ${m.catalogue}` : ""}</div>
                 </li>
               ))}
             </ul>

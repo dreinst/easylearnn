@@ -49,7 +49,7 @@ export function topicToMarkdown(topic: Topic, content: Content, progress?: Progr
   L.push("");
   if (topic.university.length) {
     L.push("### Modul kampus pembanding", "");
-    for (const m of topic.university) L.push(`- **${m.module}**, ${m.institution}, [${m.programme}](${m.url})`);
+    for (const m of topic.university) L.push(`- **${m.module}**, ${m.institution}, [${m.programme}](${m.url})${m.catalogue ? ` (${m.catalogue})` : ""}`);
     L.push("");
   }
   L.push("## Inti materi", "");
@@ -63,8 +63,8 @@ export function topicToMarkdown(topic: Topic, content: Content, progress?: Progr
     for (const e of [...evidence].sort((a, b) => (a.submitted_at < b.submitted_at ? 1 : -1))) L.push(...evidenceLines(e), "");
   }
   L.push("## Sumber", "");
-  L.push("| Jenis | Sumber | Keterangan |", "|---|---|---|");
-  for (const s of topic.sources) L.push(`| ${KIND[s.kind] || s.kind} | [${s.title}](${s.url}) | ${s.description || ""} |`);
+  L.push("| Jenis | Sumber | Asal dan tahun | Keterangan |", "|---|---|---|---|");
+  for (const s of topic.sources) L.push(`| ${KIND[s.kind] || s.kind} | [${s.title}](${s.url}) | ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation})` : ""} | ${s.description || ""} |`);
   L.push("");
   L.push("## Kuis (tanpa kunci jawaban)", "");
   topic.questions.forEach((q, i) => {
@@ -90,7 +90,7 @@ export function topicToBlocks(topic: Topic, content: Content, progress: Progress
 
   B.push({ type: "h1", text: "Acuan" });
   for (const u of topic.units) B.push({ type: "li", text: `${u.unit_code} ${u.unit_name}${u.is_core ? " (unit inti)" : ""}` });
-  for (const m of topic.university) B.push({ type: "li", text: `${m.module}, ${m.institution}, ${m.programme}` });
+  for (const m of topic.university) B.push({ type: "li", text: `${m.module}, ${m.institution}, ${m.programme}${m.catalogue ? ` (${m.catalogue})` : ""}` });
 
   B.push({ type: "h1", text: "Inti materi" });
   topic.points.forEach((p, i) => B.push({ type: "p", text: `${i + 1}. ${p}` }));
@@ -109,7 +109,7 @@ export function topicToBlocks(topic: Topic, content: Content, progress: Progress
   }
 
   B.push({ type: "h1", text: "Sumber" });
-  for (const s of topic.sources) B.push({ type: "li", text: `[${KIND[s.kind] || s.kind}] ${s.title}. ${s.url}` });
+  for (const s of topic.sources) B.push({ type: "li", text: `[${KIND[s.kind] || s.kind}] ${s.title}. ${[s.publisher, s.year].filter(Boolean).join(", ")}${s.accreditation ? ` (${s.accreditation})` : ""}. ${s.url}` });
   return B;
 }
 
@@ -223,7 +223,7 @@ export function topicToText(topic: Topic, content: Content, progress: Progress):
   for (const u of topic.units) L.push(`  ${BULLET} ${u.unit_code} ${u.unit_name}${u.is_core ? " (unit inti)" : ""}`, `      ${u.url}`);
   if (topic.university.length) {
     L.push("Modul kampus pembanding:");
-    for (const m of topic.university) L.push(`  ${BULLET} ${m.module}, ${m.institution}, ${m.programme}`, `      ${m.url}`);
+    for (const m of topic.university) L.push(`  ${BULLET} ${m.module}, ${m.institution}, ${m.programme}${m.catalogue ? ` (${m.catalogue})` : ""}`, `      ${m.url}`);
   }
   L.push("");
   L.push("INTI MATERI", "");
@@ -237,6 +237,7 @@ export function topicToText(topic: Topic, content: Content, progress: Progress):
   L.push("", "SUMBER", "");
   for (const src of topic.sources) {
     L.push(`  ${BULLET} [${KIND[src.kind] || src.kind}] ${src.title}`);
+    if (src.publisher || src.year) L.push(`      Asal: ${[src.publisher, src.year].filter(Boolean).join(", ")}${src.accreditation ? ` (${src.accreditation})` : ""}`);
     if (src.description) L.push(`      ${src.description}`);
     L.push(`      ${src.url}`);
   }

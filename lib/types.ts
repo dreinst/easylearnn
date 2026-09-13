@@ -28,6 +28,7 @@ export type UniversityRef = {
   programme: string;
   module: string;
   url: string;
+  catalogue: string; // tahun katalog atau entri yang dirujuk
 };
 
 export type Source = {
@@ -36,6 +37,9 @@ export type Source = {
   description: string;
   url: string;
   kind: SourceKind;
+  publisher: string; // lembaga penerbit
+  year: string; // tahun terbit atau pembaruan terakhir
+  accreditation: string; // universitas terakreditasi, badan pemerintah, badan standar, asosiasi industri
   embeddable: boolean | null; // null = belum dicek
 };
 

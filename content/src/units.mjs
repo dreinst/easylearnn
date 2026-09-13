@@ -55,5 +55,8 @@ export function unitSource(code) {
     description: u.summary,
     url: u.pdf,
     kind: "aqf_unit",
+    publisher: "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+    year: "2022",
+    accreditation: "badan pemerintah",
   };
 }

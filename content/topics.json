@@ -81,13 +81,15 @@
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "9511AC Leadership & Organizational Behavior",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Leadership, Innovation and Technology for Tourism, Hospitality and Events",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -103,6 +105,9 @@
         {
           "id": "pb-lead-s1",
           "description": "Memimpin dan mengelola orang secara individu maupun tim, memberi teladan, dan mengelola kinerja lewat kepemimpinan yang efektif.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXHRM009 Lead and manage people (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXHRM009_R1.pdf",
@@ -111,6 +116,9 @@
         {
           "id": "pb-lead-s2",
           "description": "Menyelesaikan keluhan dan perselisihan yang kompleks atau tereskalasi dengan pelanggan dan rekan kerja memakai teknik resolusi konflik dan komunikasi yang efektif.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXCOM010 Manage conflict (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXCOM010_R1.pdf",
@@ -119,6 +127,9 @@
         {
           "id": "pb-lead-s3",
           "description": "Modul acuan: 9511AC Leadership & Organizational Behavior.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -127,6 +138,9 @@
         {
           "id": "pb-lead-s4",
           "description": "Modul acuan: Leadership, Innovation and Technology for Tourism, Hospitality and Events.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -135,6 +149,9 @@
         {
           "id": "pb-lead-s5",
           "description": "Kursus gratis 24 jam tentang gaya kepemimpinan, membangun tim, memotivasi staf dan mengelola perubahan, dengan badge digital gratis.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Leadership and followership (OpenLearn, The Open University)",
           "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
@@ -143,6 +160,9 @@
         {
           "id": "pb-lead-s6",
           "description": "Kursus gratis tentang dasar manajemen: peran manajer, pengambilan keputusan, mengelola orang dan sumber daya, dengan sertifikat gratis.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "BUS208: Principles of Management (Saylor Academy)",
           "url": "https://learn.saylor.org/course/bus208",
@@ -216,13 +236,15 @@
           "institution": "Penn State University (AS)",
           "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "module": "HM 290W Hospitality Managerial Communication",
-          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "catalogue": "University Bulletin 2026"
         },
         {
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "9618AS Influence & Leadership: Negotiation & Communication Tools",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         }
       ],
       "points": [
@@ -238,6 +260,9 @@
         {
           "id": "pb-speak-s1",
           "description": "Menyiapkan, menyampaikan, dan meninjau presentasi untuk audiens sasaran dengan berbagai tujuan seperti pemasaran, pelatihan, dan promosi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBCMM411 Make presentations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBCMM411_R1.pdf",
@@ -246,6 +271,9 @@
         {
           "id": "pb-speak-s2",
           "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
@@ -254,6 +282,9 @@
         {
           "id": "pb-speak-s3",
           "description": "Modul acuan: HM 290W Hospitality Managerial Communication.",
+          "publisher": "Penn State University (AS)",
+          "year": "University Bulletin 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
@@ -262,6 +293,9 @@
         {
           "id": "pb-speak-s4",
           "description": "Modul acuan: 9618AS Influence & Leadership: Negotiation & Communication Tools.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -270,6 +304,9 @@
         {
           "id": "pb-speak-s5",
           "description": "Panduan singkat Toastmasters untuk merencanakan, menulis dan membawakan pidato, termasuk mengatasi demam panggung dan memberi toast (cocok untuk MC).",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Toastmasters International: Public Speaking Tips",
           "url": "https://www.toastmasters.org/resources/public-speaking-tips",
@@ -278,6 +315,9 @@
         {
           "id": "pb-speak-s6",
           "description": "Kursus gratis 12 jam tentang presentasi lisan yang persuasif: pembukaan dan penutup, bahasa tubuh dan proyeksi suara, memakai contoh TED Talk.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Talk the talk (OpenLearn, The Open University)",
           "url": "https://www.open.edu/openlearn/education-development/talk-the-talk",
@@ -351,13 +391,15 @@
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "7182BC Introduction to Business Communication",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Academic and Professional Skills",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -373,6 +415,9 @@
         {
           "id": "pb-english-s1",
           "description": "Merencanakan, menyusun draf, dan memfinalkan dokumen kompleks yang memerlukan tinjauan dan analisis berbagai sumber informasi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBWRT411 Write complex documents (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBWRT411_R1.pdf",
@@ -381,6 +426,9 @@
         {
           "id": "pb-english-s2",
           "description": "Menyiapkan, menyampaikan, dan meninjau presentasi untuk audiens sasaran dengan berbagai tujuan seperti pemasaran, pelatihan, dan promosi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBCMM411 Make presentations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBCMM411_R1.pdf",
@@ -389,6 +437,9 @@
         {
           "id": "pb-english-s3",
           "description": "Modul acuan: 7182BC Introduction to Business Communication.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -397,6 +448,9 @@
         {
           "id": "pb-english-s4",
           "description": "Modul acuan: Academic and Professional Skills.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -405,6 +459,9 @@
         {
           "id": "pb-english-s5",
           "description": "Materi gratis British Council untuk bahasa Inggris bisnis: Business magazine, Podcasts for professionals, dan seri English for emails, dengan latihan per level.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "British Council LearnEnglish: Business English",
           "url": "https://learnenglish.britishcouncil.org/business-english",
@@ -413,6 +470,9 @@
         {
           "id": "pb-english-s6",
           "description": "Kursus gratis 24 jam tentang komunikasi verbal, nonverbal dan tertulis di tempat kerja, mendengar aktif, dan komunikasi lintas budaya.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Effective communication in the workplace (OpenLearn, The Open University)",
           "url": "https://www.open.edu/openlearn/money-business/effective-communication-the-workplace",
@@ -480,13 +540,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT2750 The Event Industry",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "The Business of Festivals & Events",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -502,6 +564,9 @@
         {
           "id": "fund-s1",
           "description": "Mengakses dan menafsirkan informasi terkini tentang industri event (struktur industri, teknologi, hukum, dan etika) untuk meningkatkan kualitas koordinasi event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT020 Source and use information on the events industry (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT020_R1.pdf",
@@ -510,6 +575,9 @@
         {
           "id": "fund-s2",
           "description": "Modul acuan: HFT2750 The Event Industry.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -518,6 +586,9 @@
         {
           "id": "fund-s3",
           "description": "Modul acuan: The Business of Festivals & Events.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -526,6 +597,9 @@
         {
           "id": "fund-s4",
           "description": "Penjelasan resmi kerangka EMBOK versi 3 (domain, fase, proses, nilai inti) sebagai peta pengetahuan dan keterampilan manajemen event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "EMBOK Model (Event Management Body of Knowledge)",
           "url": "https://www.embok.org/index.php/embok-model",
@@ -534,6 +608,9 @@
         {
           "id": "fund-s5",
           "description": "Bab buku teks terbuka (CC BY) tentang definisi festival dan event, tipe event (mega, hallmark, special, festival, community) dan tugas pokok event planner.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Introduction to Tourism and Hospitality in BC, bab 6.1 Festivals and Events (BCcampus)",
           "url": "https://opentextbc.ca/introtourism2e/chapter/festivals-and-events/",
@@ -542,6 +619,9 @@
         {
           "id": "fund-s6",
           "description": "Glosarium resmi EIC dengan sekitar 1.350 istilah industri event dan MICE, bisa ditelusuri tanpa login.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Events Industry Council Industry Glossary",
           "url": "https://insights.eventscouncil.org/Industry-glossary",
@@ -609,13 +689,15 @@
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "9507AR Project Management",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         },
         {
           "institution": "Tio Business School (Belanda)",
           "programme": "Bachelor International Tourism Management, tema Event Management",
           "module": "Project Management",
-          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/"
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -631,6 +713,9 @@
         {
           "id": "pm-s1",
           "description": "Menyusun rencana proyek, melaksanakan kegiatan proyek, memantau kemajuan agar tujuan tercapai, dan mengevaluasi seluruh aspek proyek.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMGT006 Manage projects (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMGT006_R1.pdf",
@@ -639,6 +724,9 @@
         {
           "id": "pm-s2",
           "description": "Modul acuan: 9507AR Project Management.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -647,6 +735,9 @@
         {
           "id": "pm-s3",
           "description": "Modul acuan: Project Management.",
+          "publisher": "Tio Business School (Belanda)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Tio Business School (Belanda): Bachelor International Tourism Management, tema Event Management",
           "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
@@ -655,6 +746,9 @@
         {
           "id": "pm-s4",
           "description": "Kursus gratis tentang apa itu proyek, studi kelayakan, siklus hidup proyek, dan peran project manager.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Project management: the start of the project journey (OpenLearn)",
           "url": "https://www.open.edu/openlearn/money-business/leadership-management/project-management-the-start-the-project-journey/content-section-0",
@@ -663,6 +757,9 @@
         {
           "id": "pm-s5",
           "description": "Kursus gratis yang mengikuti lima process group PMI (initiating sampai closing) dengan sertifikat gratis.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "BUS402: Introduction to Project Management (Saylor Academy)",
           "url": "https://learn.saylor.org/course/view.php?id=1147",
@@ -671,6 +768,9 @@
         {
           "id": "pm-s6",
           "description": "Catatan kuliah MIT gratis tentang CPM, PERT, penjadwalan, pemantauan kemajuan dan Earned Value Management.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "ESD.36 System Project Management (MIT OpenCourseWare)",
           "url": "https://ocw.mit.edu/courses/esd-36-system-project-management-fall-2012/",
@@ -738,13 +838,15 @@
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "The UG Live Event Project (Event Planning & Marketing)",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Event Management",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -760,6 +862,9 @@
         {
           "id": "proposal-s1",
           "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
@@ -768,6 +873,9 @@
         {
           "id": "proposal-s2",
           "description": "Modul acuan: The UG Live Event Project (Event Planning & Marketing).",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -776,6 +884,9 @@
         {
           "id": "proposal-s3",
           "description": "Modul acuan: Event Management.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -784,6 +895,9 @@
         {
           "id": "proposal-s4",
           "description": "Panduan resmi HSE Inggris tentang langkah awal merencanakan event: struktur tanggung jawab, rencana keselamatan, memilih kontraktor, plus checklist perencanaan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Getting started",
           "url": "https://www.hse.gov.uk/event-safety/getting-started.htm",
@@ -792,6 +906,9 @@
         {
           "id": "proposal-s5",
           "description": "Toolkit universitas berisi tahapan perencanaan event dari tujuan, timeline sampai checklist yang bisa dipakai sebagai kerangka event plan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "University of Exeter Event Toolkit: Planning an event",
           "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/planning-event/",
@@ -800,6 +917,9 @@
         {
           "id": "proposal-s6",
           "description": "Template EMP dari pemerintah daerah Inggris dengan catatan panduan tiap bagian, untuk event kecil sampai festival besar.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Thurrock Council: Event Management Plan template",
           "url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/event-management-plan-v01.pdf",
@@ -873,13 +993,15 @@
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "9120IM Business Communication",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         },
         {
           "institution": "Penn State University (AS)",
           "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "module": "HM 485 Advanced Meeting and Event Management",
-          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "catalogue": "University Bulletin 2026"
         }
       ],
       "points": [
@@ -895,6 +1017,9 @@
         {
           "id": "bizdoc-s1",
           "description": "Merencanakan, menyusun draf, dan memfinalkan dokumen kompleks yang memerlukan tinjauan dan analisis berbagai sumber informasi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBWRT411 Write complex documents (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBWRT411_R1.pdf",
@@ -903,6 +1028,9 @@
         {
           "id": "bizdoc-s2",
           "description": "Membangun dan mengelola hubungan bisnis yang positif, termasuk negosiasi formal dan membuat perjanjian bisnis-ke-bisnis yang bernilai komersial.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMGT005 Establish and conduct business relationships (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMGT005_R1.pdf",
@@ -911,6 +1039,9 @@
         {
           "id": "bizdoc-s3",
           "description": "Modul acuan: 9120IM Business Communication.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -919,6 +1050,9 @@
         {
           "id": "bizdoc-s4",
           "description": "Modul acuan: HM 485 Advanced Meeting and Event Management.",
+          "publisher": "Penn State University (AS)",
+          "year": "University Bulletin 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
@@ -927,6 +1061,9 @@
         {
           "id": "bizdoc-s5",
           "description": "Unsur kontrak yang sah, jenis kontrak, pelanggaran dan pemulihannya, dasar untuk memahami kontrak klien dan vendor.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "OpenStax Business Law I Essentials, bab 7: Contract Law",
           "url": "https://openstax.org/books/business-law-i-essentials/pages/7-introduction",
@@ -935,6 +1072,9 @@
         {
           "id": "bizdoc-s6",
           "description": "Panduan menulis MoU bagian per bagian (tujuan, ruang lingkup, definisi, kebijakan, prosedur, pengawasan) yang bisa diadaptasi untuk kerja sama vendor atau venue.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "CISA: Writing Guide for a Memorandum of Understanding (MOU)",
           "url": "https://www.cisa.gov/sites/default/files/publications/Writing%20Guide%20for%20a%20Memorandum%20of%20Understanding%20(MOU).pdf",
@@ -943,6 +1083,9 @@
         {
           "id": "bizdoc-s7",
           "description": "Panduan menyusun SOP teknis maupun administratif: struktur dokumen, tingkat detail, pengendalian versi, dengan contoh.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "US EPA: Guidance for Preparing Standard Operating Procedures (SOPs)",
           "url": "https://www.epa.gov/sites/default/files/2015-06/documents/g6-final.pdf",
@@ -1016,13 +1159,15 @@
           "institution": "Penn State University (AS)",
           "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "module": "HM 336 Hospitality Managerial Accounting",
-          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "catalogue": "University Bulletin 2026"
         },
         {
           "institution": "EHL Hospitality Business School (Swiss)",
           "programme": "BSc International Hospitality Management",
           "module": "9302IC Managerial Accounting",
-          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+          "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
+          "catalogue": "Course Catalogue 2025/2026"
         }
       ],
       "points": [
@@ -1038,6 +1183,9 @@
         {
           "id": "bud-s1",
           "description": "Mengelola keuangan dalam anggaran yang sudah ditetapkan: menafsirkan kebutuhan anggaran, mengalokasikan sumber daya, memantau pendapatan dan pengeluaran aktual, serta melaporkan penyimpangan.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXFIN009 Manage finances within a budget (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXFIN009_R1.pdf",
@@ -1046,6 +1194,9 @@
         {
           "id": "bud-s2",
           "description": "Menganalisis informasi keuangan dan bisnis untuk menyusun dan memantau anggaran, termasuk merancang dan menegosiasikan anggaran serta mengidentifikasi penyimpangan.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXFIN010 Prepare and monitor budgets (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXFIN010_R1.pdf",
@@ -1054,6 +1205,9 @@
         {
           "id": "bud-s3",
           "description": "Modul acuan: HM 336 Hospitality Managerial Accounting.",
+          "publisher": "Penn State University (AS)",
+          "year": "University Bulletin 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
@@ -1062,6 +1216,9 @@
         {
           "id": "bud-s4",
           "description": "Modul acuan: 9302IC Managerial Accounting.",
+          "publisher": "EHL Hospitality Business School (Swiss)",
+          "year": "Course Catalogue 2025/2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "EHL Hospitality Business School (Swiss): BSc International Hospitality Management",
           "url": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality",
@@ -1070,6 +1227,9 @@
         {
           "id": "bud-s5",
           "description": "Awal bab budgeting buku teks gratis: anggaran operasional, anggaran kas, dan flexible budget untuk mengendalikan biaya.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "OpenStax Principles of Accounting Vol. 2, 7.1 Describe How and Why Managers Use Budgets",
           "url": "https://openstax.org/books/principles-managerial-accounting/pages/7-1-describe-how-and-why-managers-use-budgets",
@@ -1078,6 +1238,9 @@
         {
           "id": "bud-s6",
           "description": "Materi pelatihan tentang anggaran event yang layak: estimasi peserta konservatif, break even, arus kas negatif sementara, dan persetujuan anggaran.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Imperial College Union eActivities: Event Finances",
           "url": "https://eactivities.union.ic.ac.uk/training/finance/events",
@@ -1086,6 +1249,9 @@
         {
           "id": "bud-s7",
           "description": "Cara menyusun anggaran dan menghitung biaya event, termasuk template anggaran untuk beberapa jenis event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "University of Exeter Event Toolkit: Budget and costing events",
           "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/budget-costing/",
@@ -1159,13 +1325,15 @@
           "institution": "Ulster University (Irlandia Utara)",
           "programme": "BSc (Hons) Event Management",
           "module": "The Business Plan",
-          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258"
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
+          "catalogue": "entri 2026/27"
         },
         {
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Business Plan and Start-Up Ventures",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         }
       ],
       "points": [
@@ -1181,6 +1349,9 @@
         {
           "id": "bizplan-s1",
           "description": "Meneliti dan menyusun rencana bisnis untuk mencapai tujuan dan sasaran bisnis, baik untuk usaha mandiri maupun usaha baru di dalam organisasi yang lebih besar.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBESB401 Research and develop business plans (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBESB401_R1.pdf",
@@ -1189,6 +1360,9 @@
         {
           "id": "bizplan-s2",
           "description": "Menyusun dan memantau pelaksanaan rencana operasional untuk mendukung praktik kerja yang efisien serta produktivitas dan profitabilitas organisasi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBOPS502 Manage business operational plans (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBOPS502_R1.pdf",
@@ -1197,6 +1371,9 @@
         {
           "id": "bizplan-s3",
           "description": "Modul acuan: The Business Plan.",
+          "publisher": "Ulster University (Irlandia Utara)",
+          "year": "entri 2026/27",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Ulster University (Irlandia Utara): BSc (Hons) Event Management",
           "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
@@ -1205,6 +1382,9 @@
         {
           "id": "bizplan-s4",
           "description": "Modul acuan: Business Plan and Start-Up Ventures.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -1213,6 +1393,9 @@
         {
           "id": "bizplan-s5",
           "description": "Panduan pemerintah AS tentang format business plan tradisional dan lean startup, sembilan bagian bakunya, plus contoh unduhan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "U.S. SBA: Write your business plan",
           "url": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
@@ -1221,6 +1404,9 @@
         {
           "id": "bizplan-s6",
           "description": "Bab buku teks gratis tentang merancang model bisnis, analisis kelayakan, dan menyusun business plan yang berfokus pada pelanggan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "OpenStax Entrepreneurship, bab 11: Business Model and Plan",
           "url": "https://openstax.org/books/entrepreneurship/pages/11-introduction",
@@ -1229,6 +1415,9 @@
         {
           "id": "bizplan-s7",
           "description": "Kursus pengantar gratis tentang struktur usaha kecil, pemasaran, kewajiban legal dan finansial.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Starting your small business (OpenLearn)",
           "url": "https://www.open.edu/openlearn/money-management/starting-your-small-business",
@@ -1302,13 +1491,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3523 Event Sales",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "Les Roches (Swiss)",
           "programme": "MSc International Hospitality Management",
           "module": "Event Design & Management",
-          "url": "https://lesroches.edu/programs/masters-degrees/master-of-science-in-hospitality-management/"
+          "url": "https://lesroches.edu/programs/masters-degrees/master-of-science-in-hospitality-management/",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -1324,6 +1515,9 @@
         {
           "id": "bizdev-s1",
           "description": "Merencanakan dan melaksanakan kegiatan penjualan: menganalisis kebutuhan pasar dan pelanggan, menargetkan pelanggan lama dan baru, melakukan kunjungan penjualan, serta menyusun laporan penjualan.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR011 Plan and implement sales activities (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR011_R1.pdf",
@@ -1332,6 +1526,9 @@
         {
           "id": "bizdev-s2",
           "description": "Membangun dan mengelola hubungan bisnis yang positif, termasuk negosiasi formal dan membuat perjanjian bisnis-ke-bisnis yang bernilai komersial.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMGT005 Establish and conduct business relationships (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMGT005_R1.pdf",
@@ -1340,6 +1537,9 @@
         {
           "id": "bizdev-s3",
           "description": "Modul acuan: HFT3523 Event Sales.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -1348,6 +1548,9 @@
         {
           "id": "bizdev-s4",
           "description": "Modul acuan: Event Design & Management.",
+          "publisher": "Les Roches (Swiss)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Les Roches (Swiss): MSc International Hospitality Management",
           "url": "https://lesroches.edu/programs/masters-degrees/master-of-science-in-hospitality-management/",
@@ -1356,6 +1559,9 @@
         {
           "id": "bizdev-s5",
           "description": "Kursus gratis tentang seluruh proses penjualan: memahami kebutuhan pelanggan, consultative selling, follow-up, menjaga loyalitas, dan pemakaian CRM.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "BUS633: Sales Management (Saylor Academy)",
           "url": "https://learn.saylor.org/course/bus633",
@@ -1364,6 +1570,9 @@
         {
           "id": "bizdev-s6",
           "description": "Sertifikasi gratis sekitar 3 jam (perlu akun gratis) tentang empat tahap penjualan inbound: identify, connect, explore, advise.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Inbound Sales Certification (HubSpot Academy)",
           "url": "https://academy.hubspot.com/courses/inbound-sales",
@@ -1372,6 +1581,9 @@
         {
           "id": "bizdev-s7",
           "description": "Kursus gratis 8 jam tentang perbedaan pemasaran konsumen dan B2B serta proses keputusan pembelian organisasi, berguna untuk klien korporat.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Understanding your customers (OpenLearn, The Open University)",
           "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers/content-section-0",
@@ -1445,13 +1657,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT4394 Event Operations",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Event Operation",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         }
       ],
       "points": [
@@ -1467,6 +1681,9 @@
         {
           "id": "prodplan-s1",
           "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
@@ -1475,6 +1692,9 @@
         {
           "id": "prodplan-s2",
           "description": "Mengatur infrastruktur dan fasilitas event ketika venue atau lokasi belum menyediakannya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT027 Organise event infrastructure (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT027_R1.pdf",
@@ -1483,6 +1703,9 @@
         {
           "id": "prodplan-s3",
           "description": "Modul acuan: HFT4394 Event Operations.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -1491,6 +1714,9 @@
         {
           "id": "prodplan-s4",
           "description": "Modul acuan: Event Operation.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -1499,6 +1725,9 @@
         {
           "id": "prodplan-s5",
           "description": "Mengelola keselamatan selama build-up, load-in, breakdown, dan load-out: koordinasi kontraktor, briefing kru, pemantauan, dan debrief.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Managing an event",
           "url": "https://www.hse.gov.uk/event-safety/managing-an-event.htm",
@@ -1507,6 +1736,9 @@
         {
           "id": "prodplan-s6",
           "description": "Pengelolaan lalu lintas kendaraan dan pejalan kaki di lokasi event, termasuk pergerakan kendaraan produksi saat load in dan load out.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Transport",
           "url": "https://www.hse.gov.uk/event-safety/transport.htm",
@@ -1515,6 +1747,9 @@
         {
           "id": "prodplan-s7",
           "description": "Instruksi resmi pemerintah kota tentang isi production schedule dan run of show yang wajib dilampirkan pada izin event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "City of Seattle Special Events: Run of Show / Production Schedule Instructions",
           "url": "https://www.seattle.gov/documents/departments/specialevents/addendums/add_a_runofshowinstructions.pdf",
@@ -1582,13 +1817,15 @@
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Venue Management",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         },
         {
-          "institution": "De Montfort University (Inggris)",
-          "programme": "BA (Hons) Arts and Festivals Management",
-          "module": "Running and Promoting a Venue",
-          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx"
+          "institution": "Edinburgh Napier University",
+          "programme": "BA (Hons) International Festival & Event Management",
+          "module": "Facilities Planning for Hospitality, Tourism and Events",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -1604,6 +1841,9 @@
         {
           "id": "venue-s1",
           "description": "Mencari dan memilih venue atau lokasi event: menganalisis rencana event untuk menentukan kebutuhan, menyusun spesifikasi seleksi, lalu menilai, memilih, dan mengontrak venue.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT025 Select event venues and sites (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT025_R1.pdf",
@@ -1612,6 +1852,9 @@
         {
           "id": "venue-s2",
           "description": "Modul acuan: Venue Management.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -1619,15 +1862,21 @@
         },
         {
           "id": "venue-s3",
-          "description": "Modul acuan: Running and Promoting a Venue.",
+          "description": "Modul acuan: Facilities Planning for Hospitality, Tourism and Events.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
-          "title": "De Montfort University (Inggris): BA (Hons) Arts and Festivals Management",
-          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
+          "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
           "kind": "university"
         },
         {
           "id": "venue-s4",
           "description": "Menilai kapasitas venue, akses kendaraan dan pejalan kaki, serta menyusun site plan (struktur, fasilitas, pagar, pintu masuk dan keluar).",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Venue and site design",
           "url": "https://www.hse.gov.uk/event-safety/venue-site-design.htm",
@@ -1636,6 +1885,9 @@
         {
           "id": "venue-s5",
           "description": "Contoh alur memesan ruang dan peralatan audiovisual untuk event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "University of Exeter Event Toolkit: Booking facilities",
           "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/booking-facilities/",
@@ -1644,6 +1896,9 @@
         {
           "id": "venue-s6",
           "description": "Contoh nyata kontrak sewa venue dari pemerintah kota: syarat pemesanan, deposit, kewajiban penyewa, dan kondisi khusus.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "City of Sydney: Venue Hire Agreement (community venues)",
           "url": "https://www.cityofsydney.nsw.gov.au/-/media/corporate/files/places-and-spaces/community-centres/conditions-of-hire/booking-confirmation-and-special-conditions-venues-unstaffed.pdf?download=true",
@@ -1711,13 +1966,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3443 Event Technology",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Festival & Event Design and Delivery",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -1733,6 +1990,9 @@
         {
           "id": "tech-s1",
           "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
@@ -1741,6 +2001,9 @@
         {
           "id": "tech-s2",
           "description": "Modul acuan: HFT3443 Event Technology.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -1749,6 +2012,9 @@
         {
           "id": "tech-s3",
           "description": "Modul acuan: Festival & Event Design and Delivery.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -1757,6 +2023,9 @@
         {
           "id": "tech-s4",
           "description": "Buku teks terbuka 15 modul tentang ruang panggung, peralatan, scenery, lighting, sound, stage management, dan etika kru, dengan penekanan keselamatan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "An Introduction to Technical Theatre (Tal Sanders, Open Textbook Library)",
           "url": "https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-technical-theatre",
@@ -1765,6 +2034,9 @@
         {
           "id": "tech-s5",
           "description": "Bab singkat tentang dasar tata cahaya panggung; bab 1.9 di buku yang sama membahas dasar tata suara.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Technical Theatre Practicum (Boltz), 1.7 Stage Lighting (LibreTexts)",
           "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.07:_Stage_Lighting",
@@ -1773,6 +2045,9 @@
         {
           "id": "tech-s6",
           "description": "Panduan keselamatan pemasangan dan pembongkaran struktur sementara (panggung, tower speaker, lighting).",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Temporary demountable structures",
           "url": "https://www.hse.gov.uk/event-safety/temporary-demountable-structures.htm",
@@ -1846,13 +2121,15 @@
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Festival & Event Design and Delivery",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "MSc International Festival & Event Management",
           "module": "Festival and Event Management",
-          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -1868,6 +2145,9 @@
         {
           "id": "prod-s1",
           "description": "Menganalisis kebutuhan produksi event lalu mengatur dan memantau berbagai layanan dan produk produksi dari penyedia spesialis.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT026 Manage event production components (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT026_R1.pdf",
@@ -1876,6 +2156,9 @@
         {
           "id": "prod-s2",
           "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
@@ -1884,6 +2167,9 @@
         {
           "id": "prod-s3",
           "description": "Modul acuan: Festival & Event Design and Delivery.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -1892,6 +2178,9 @@
         {
           "id": "prod-s4",
           "description": "Modul acuan: Festival and Event Management.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: MSc International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
@@ -1900,6 +2189,9 @@
         {
           "id": "prod-s5",
           "description": "Buku pegangan yang merunut kerja stage manager dari pra-produksi, rehearsal, calling cues, show run, sampai strike dan laporan pasca-show.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "CCSU Theatre: Stage Management and Assistant Stage Management Handbook (2023)",
           "url": "https://www.ccsu.edu/sites/default/files/2024-06/SM%20and%20ASM%20Handbook.pdf",
@@ -1908,6 +2200,9 @@
         {
           "id": "prod-s6",
           "description": "Laporan produksi (rehearsal dan performance report) sebagai bagian dari dokumen produksi.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Technical Theatre Practicum (Boltz), 1.11 Production Reports (LibreTexts)",
           "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.11:_Production_Reports",
@@ -1916,6 +2211,9 @@
         {
           "id": "prod-s7",
           "description": "Pelajaran gratis dengan video stage manager profesional tentang isi prompt book (kontak, laporan, props tracking, calling script).",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Utah Shakespeare Festival: Stage Management, Lesson 2 (prompt book)",
           "url": "https://www.bard.org/lesson-plans/stage-managementlesson-2/",
@@ -1983,13 +2281,15 @@
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "The UG Live Event Project (Event Delivery & Evaluation)",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         },
         {
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT4795 Entertainment Arts and Events",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -2005,6 +2305,9 @@
         {
           "id": "show-s1",
           "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
@@ -2013,6 +2316,9 @@
         {
           "id": "show-s2",
           "description": "Modul acuan: The UG Live Event Project (Event Delivery & Evaluation).",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -2021,6 +2327,9 @@
         {
           "id": "show-s3",
           "description": "Modul acuan: HFT4795 Entertainment Arts and Events.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -2029,6 +2338,9 @@
         {
           "id": "show-s4",
           "description": "Cara memanggil cue: warning, standby, go, penomoran cue lampu dan suara, paper tech, dan menandai naskah.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Technical Theatre Practicum (Boltz), 1.12 Cueing Scripts (LibreTexts)",
           "url": "https://human.libretexts.org/Bookshelves/Theater_Film_and_Storytelling/Technical_Theatre_Practicum_(Boltz)/01:_Chapters/1.12:_Cueing_Scripts",
@@ -2037,6 +2349,9 @@
         {
           "id": "show-s5",
           "description": "Bagian Calling Cues, Pre-Performance Routine, dan Show Run menjelaskan prosedur show calling dan penanganan insiden saat pertunjukan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "CCSU Theatre: Stage Management Handbook (bagian Calling Cues dan Show Run)",
           "url": "https://www.ccsu.edu/sites/default/files/2024-06/SM%20and%20ASM%20Handbook.pdf",
@@ -2110,13 +2425,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3670 Hospitality and Event Risk Management",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Crisis Management",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         }
       ],
       "points": [
@@ -2132,6 +2449,9 @@
         {
           "id": "risk-s1",
           "description": "Mengidentifikasi bahaya, menilai risiko keselamatan kerja, mengambil langkah untuk menghilangkan atau meminimalkan risiko, dan mendokumentasikan seluruh prosesnya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXWHS006 Identify hazards, assess and control safety risks (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXWHS006_R1.pdf",
@@ -2140,6 +2460,9 @@
         {
           "id": "risk-s2",
           "description": "Menerapkan dan memantau praktik kesehatan, keselamatan, dan keamanan kerja yang ditetapkan manajemen, termasuk konsultasi, penilaian risiko, pelatihan WHS, dan pencatatan.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXWHS007 Implement and monitor work health and safety practices (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXWHS007_R1.pdf",
@@ -2148,6 +2471,9 @@
         {
           "id": "risk-s3",
           "description": "Modul acuan: HFT3670 Hospitality and Event Risk Management.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -2156,6 +2482,9 @@
         {
           "id": "risk-s4",
           "description": "Modul acuan: Crisis Management.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -2164,6 +2493,9 @@
         {
           "id": "risk-s5",
           "description": "Ringkasan resmi ISO (gratis, ada 'Read sample') tentang prinsip, kerangka, dan proses manajemen risiko; teks standar lengkap berbayar.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "ISO 31000:2018 Risk management, Guidelines (halaman resmi ISO)",
           "url": "https://www.iso.org/standard/65694.html",
@@ -2172,6 +2504,9 @@
         {
           "id": "risk-s6",
           "description": "Langkah demi langkah menyusun risk assessment (identifikasi bahaya, nilai risiko, kendali) lengkap dengan template dan contoh.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE: Managing risks and risk assessment at work",
           "url": "https://www.hse.gov.uk/simple-health-safety/risk/index.htm",
@@ -2180,6 +2515,9 @@
         {
           "id": "risk-s7",
           "description": "Menyusun emergency plan event: evakuasi, show stop, koordinasi dengan polisi dan ambulans, uji table-top, dan rencana kontingensi.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Planning for incidents and emergencies",
           "url": "https://www.hse.gov.uk/event-safety/incidents-and-emergencies.htm",
@@ -2247,13 +2585,15 @@
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Crisis Management",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         },
         {
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3670 Hospitality and Event Risk Management",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -2269,6 +2609,9 @@
         {
           "id": "crowd-s1",
           "description": "Menyusun rencana dan prosedur untuk mengatur masuk, penempatan, dan pembubaran kerumunan demi keselamatan dan keamanan personel serta peserta.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT034 Develop crowd management plans (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT034_R1.pdf",
@@ -2277,6 +2620,9 @@
         {
           "id": "crowd-s2",
           "description": "Modul acuan: Crisis Management.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -2285,6 +2631,9 @@
         {
           "id": "crowd-s3",
           "description": "Modul acuan: HFT3670 Hospitality and Event Risk Management.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -2293,6 +2642,9 @@
         {
           "id": "crowd-s4",
           "description": "Struktur organisasi, penilaian risiko kerumunan, kendali fisik dan prosedural, pemantauan aktif, dan keselamatan area panggung.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: Crowd management",
           "url": "https://www.hse.gov.uk/event-safety/crowd-management.htm",
@@ -2301,6 +2653,9 @@
         {
           "id": "crowd-s5",
           "description": "Panduan praktis perilaku kerumunan, simulasi, dan evakuasi darurat dari pemerintah Inggris.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "UK Cabinet Office: Understanding Crowd Behaviours, Guidance and Lessons Identified",
           "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/62638/guidancelessons1_0.pdf",
@@ -2309,6 +2664,9 @@
         {
           "id": "crowd-s6",
           "description": "Panduan 39 bab: emergency planning, crowd management, cuaca, komunikasi, rigging, staging. Salinan yang di-host pemerintah negara bagian Montana; halaman resmi ESA ada di eventsafetyalliance.org/standards-guidance-2.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Event Safety Alliance: The Event Safety Guide (PDF gratis)",
           "url": "https://commerce.mt.gov/_shared/brand/Tourism-Grants/Docs/The_Event_Safety_Guide.pdf",
@@ -2376,13 +2734,15 @@
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Planning and Public Policy for Festival & Events",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         },
         {
           "institution": "Penn State University (AS)",
           "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "module": "HM 355 Legal Aspects of the Hospitality Industry",
-          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "catalogue": "University Bulletin 2026"
         }
       ],
       "points": [
@@ -2398,6 +2758,9 @@
         {
           "id": "legal-s1",
           "description": "Mengidentifikasi dan mengelola risiko hukum serta mematuhi peraturan yang berlaku pada operasional bisnis, termasuk mengakses dan menafsirkan informasi regulasi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXGLC002 Identify and manage legal risks and comply with law (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXGLC002_R1.pdf",
@@ -2406,6 +2769,9 @@
         {
           "id": "legal-s2",
           "description": "Modul acuan: Planning and Public Policy for Festival & Events.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -2414,6 +2780,9 @@
         {
           "id": "legal-s3",
           "description": "Modul acuan: HM 355 Legal Aspects of the Hospitality Industry.",
+          "publisher": "Penn State University (AS)",
+          "year": "University Bulletin 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
@@ -2422,6 +2791,9 @@
         {
           "id": "legal-s4",
           "description": "Panduan ringkas tentang izin dan lisensi, keselamatan, keamanan pangan, asuransi public liability, dan penutupan jalan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "GOV.UK: The can-do guide to organising and running voluntary and community events",
           "url": "https://www.gov.uk/government/publications/can-do-guide-for-organisers-of-voluntary-events/the-can-do-guide-to-organising-and-running-voluntary-and-community-events",
@@ -2430,6 +2802,9 @@
         {
           "id": "legal-s5",
           "description": "Penjelasan lembaga royalti Inggris tentang lisensi musik untuk festival, konser, dan event komunitas.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "PRS for Music: Live music and events licence",
           "url": "https://www.prsformusic.com/licences/live-performances",
@@ -2438,6 +2813,9 @@
         {
           "id": "legal-s6",
           "description": "Penjelasan lembaga manajemen kolektif Indonesia tentang lisensi pertunjukan publik musik untuk konser, konferensi, pameran, dan bazar.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "SELMI (LMK di bawah LMKN): Public Performance License",
           "url": "https://selmi.or.id/en/music-licensing/public-performance-license/",
@@ -2511,13 +2889,15 @@
           "institution": "Tio Business School (Belanda)",
           "programme": "Bachelor International Tourism Management, tema Event Management",
           "module": "Creative Concept Design",
-          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/"
+          "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "MSc International Festival & Event Management",
           "module": "Experience Design and Management for Tourism, Hospitality and Events",
-          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
+          "catalogue": "halaman program 2026"
         }
       ],
       "points": [
@@ -2533,6 +2913,9 @@
         {
           "id": "concept-s1",
           "description": "Menyiapkan dan mempresentasikan tender, proposal, atau penawaran dengan menganalisis kebutuhan klien dan kemampuan organisasi untuk memenuhinya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR016 Prepare and present proposals (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR016_R1.pdf",
@@ -2541,6 +2924,9 @@
         {
           "id": "concept-s2",
           "description": "Mengakses dan menafsirkan informasi terkini tentang industri event (struktur industri, teknologi, hukum, dan etika) untuk meningkatkan kualitas koordinasi event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT020 Source and use information on the events industry (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT020_R1.pdf",
@@ -2549,6 +2935,9 @@
         {
           "id": "concept-s3",
           "description": "Modul acuan: Creative Concept Design.",
+          "publisher": "Tio Business School (Belanda)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Tio Business School (Belanda): Bachelor International Tourism Management, tema Event Management",
           "url": "https://www.tio.nl/en/international_tourism_management/study-programme/",
@@ -2557,6 +2946,9 @@
         {
           "id": "concept-s4",
           "description": "Modul acuan: Experience Design and Management for Tourism, Hospitality and Events.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: MSc International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/msc-international-festival-,-a-,-event-management-postgraduate-fulltime",
@@ -2565,6 +2957,9 @@
         {
           "id": "concept-s5",
           "description": "Kanvas desain event (CC BY-NC-ND) yang bisa diunduh gratis, memandu 10 langkah merancang event dari stakeholder dan empathy map sampai prototipe.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "#EventCanvas (Event Design Collective)",
           "url": "https://edco.global/eventcanvas/",
@@ -2573,6 +2968,9 @@
         {
           "id": "concept-s6",
           "description": "Kursus gratis 10 jam untuk menstrukturkan kreativitas: prinsip desain, berpikir visual, dan cara menjelaskan keputusan desain.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Design thinking (OpenLearn, The Open University)",
           "url": "https://www.open.edu/openlearn/science-maths-technology/design-innovation/design-thinking/",
@@ -2581,6 +2979,9 @@
         {
           "id": "concept-s7",
           "description": "Kursus gratis 10 jam tentang kreativitas individu dan organisasi serta budaya yang mendukung ide baru.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Making creativity and innovation happen (OpenLearn)",
           "url": "https://www.open.edu/openlearn/money-business/making-creativity-and-innovation-happen/content-section-0",
@@ -2654,13 +3055,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3512 Event Promotion",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Digital Services Marketing",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -2676,6 +3079,9 @@
         {
           "id": "mkt-s1",
           "description": "Merencanakan dan mengoordinasikan berbagai kegiatan pemasaran dan promosi di tingkat operasional dalam kerangka strategi pemasaran yang sudah ada.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR012 Coordinate marketing activities (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR012_R1.pdf",
@@ -2684,6 +3090,9 @@
         {
           "id": "mkt-s2",
           "description": "Mendapatkan dan mengelola sponsor untuk kegiatan bisnis, produk, layanan, atau event, termasuk menentukan kebutuhan sponsor, bernegosiasi dengan calon sponsor, dan mengelola perjanjian sponsor.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXMPR015 Obtain and manage sponsorship (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXMPR015_R1.pdf",
@@ -2692,6 +3101,9 @@
         {
           "id": "mkt-s3",
           "description": "Modul acuan: HFT3512 Event Promotion.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -2700,6 +3112,9 @@
         {
           "id": "mkt-s4",
           "description": "Modul acuan: Digital Services Marketing.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -2708,6 +3123,9 @@
         {
           "id": "mkt-s5",
           "description": "Kursus gratis 12 jam tentang model komunikasi pemasaran, desain pesan, dan alat digital termasuk media sosial, email, dan online PR.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Marketing communications in the digital age (OpenLearn)",
           "url": "https://www.open.edu/openlearn/money-business/marketing/marketing-communications-the-digital-age/content-section-0",
@@ -2716,6 +3134,9 @@
         {
           "id": "mkt-s6",
           "description": "Buku teks pemasaran gratis yang bisa dibaca per bab, termasuk bab promosi dan bab tentang direct, online, social media, dan mobile marketing.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "OpenStax Principles of Marketing",
           "url": "https://openstax.org/books/principles-marketing/pages/1-1-marketing-and-the-marketing-process",
@@ -2724,6 +3145,9 @@
         {
           "id": "mkt-s7",
           "description": "PDF gratis berisi enam langkah mengamankan dan mempertahankan sponsor, dari memahami brand sendiri sampai mengelola kemitraan (terbit 2012, kerangkanya masih dipakai).",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Sport New Zealand: Sport Sponsorship, Securing and Retaining Commercial Partners",
           "url": "https://sportnz.org.nz/resources/commercial-sponsorship-and-partnership/",
@@ -2791,13 +3215,15 @@
           "institution": "UCF Rosen College (AS)",
           "programme": "BS Event Management",
           "module": "HFT3443 Event Technology",
-          "url": "https://www.ucf.edu/degree/event-management-bs/"
+          "url": "https://www.ucf.edu/degree/event-management-bs/",
+          "catalogue": "halaman program 2026"
         },
         {
-          "institution": "De Montfort University (Inggris)",
-          "programme": "BA (Hons) Arts and Festivals Management",
-          "module": "Running and Promoting a Venue",
-          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx"
+          "institution": "University of Surrey (Inggris)",
+          "programme": "BSc (Hons) International Event Management",
+          "module": "Digital Events Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         }
       ],
       "points": [
@@ -2813,6 +3239,9 @@
         {
           "id": "reg-s1",
           "description": "Memproses pendaftaran peserta event sampai selesai, menyiapkan materi registrasi, serta menyiapkan dan menjalankan registrasi di lokasi event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT021 Administer event registrations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT021_R1.pdf",
@@ -2821,6 +3250,9 @@
         {
           "id": "reg-s2",
           "description": "Modul acuan: HFT3443 Event Technology.",
+          "publisher": "UCF Rosen College (AS)",
+          "year": "halaman program 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "UCF Rosen College (AS): BS Event Management",
           "url": "https://www.ucf.edu/degree/event-management-bs/",
@@ -2828,15 +3260,21 @@
         },
         {
           "id": "reg-s3",
-          "description": "Modul acuan: Running and Promoting a Venue.",
+          "description": "Modul acuan: Digital Events Management.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
-          "title": "De Montfort University (Inggris): BA (Hons) Arts and Festivals Management",
-          "url": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/arts-and-festivals-management-ba-degree/arts-and-festivals-management-ba-degree.aspx",
+          "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
           "kind": "university"
         },
         {
           "id": "reg-s4",
           "description": "Kode praktik industri tiket Inggris: transparansi harga, refund bila event batal, syarat tiket, penanganan komplain.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "STAR (Society of Ticket Agents and Retailers) Code of Practice",
           "url": "https://www.star.org.uk/wp-content/uploads/STAR-Code-Of-Practice.pdf",
@@ -2845,6 +3283,9 @@
         {
           "id": "reg-s5",
           "description": "Checklist dan contoh formulir registrasi aksesibilitas agar pendaftaran dan check-in inklusif.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "NSW Government: Toolkit for Accessible and Inclusive Events",
           "url": "https://www.nsw.gov.au/sites/default/files/2023-07/Toolkit-for-Accessible-and-Inclusive-Events.pdf",
@@ -2853,6 +3294,9 @@
         {
           "id": "reg-s6",
           "description": "Memakai Eventbrite untuk registrasi peserta dan menggabungkannya dengan promosi event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "University of Exeter Event Toolkit: Eventbrite, event marketing and publicity",
           "url": "https://www.exeter.ac.uk/departments/communication/communications/events/toolkit/eventbriteeventmarketingandpublicity/",
@@ -2938,13 +3382,15 @@
           "institution": "Penn State University (AS)",
           "programme": "Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "module": "HM 265W Teams and Leadership in the Hospitality Industry",
-          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/"
+          "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
+          "catalogue": "University Bulletin 2026"
         },
         {
           "institution": "University of Surrey (Inggris)",
           "programme": "BSc (Hons) International Event Management",
           "module": "Managing Organisations and Human Resources",
-          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management"
+          "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
+          "catalogue": "entri 2027"
         }
       ],
       "points": [
@@ -2960,6 +3406,9 @@
         {
           "id": "team-s1",
           "description": "Memimpin dan mengelola orang secara individu maupun tim, memberi teladan, dan mengelola kinerja lewat kepemimpinan yang efektif.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXHRM009 Lead and manage people (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXHRM009_R1.pdf",
@@ -2968,6 +3417,9 @@
         {
           "id": "team-s2",
           "description": "Mengoordinasikan rekrutmen, seleksi, dan induksi staf baru sesuai kebijakan SDM yang berlaku, termasuk menyusun kriteria seleksi dan program induksi.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXHRM010 Recruit, select and induct staff (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXHRM010_R1.pdf",
@@ -2976,6 +3428,9 @@
         {
           "id": "team-s3",
           "description": "Mengelola tenaga sukarelawan agar tetap bertahan, termasuk menentukan kebutuhan sukarelawan serta mengoordinasikan rekrutmen dan pelatihannya.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXHRM011 Manage volunteers (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXHRM011_R1.pdf",
@@ -2984,6 +3439,9 @@
         {
           "id": "team-s4",
           "description": "Memantau kinerja staf dalam kerangka sistem manajemen kinerja yang ada, termasuk penilaian kinerja terstruktur dan sesi konseling formal.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITXHRM012 Monitor staff performance (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITXHRM012_R1.pdf",
@@ -2992,6 +3450,9 @@
         {
           "id": "team-s5",
           "description": "Modul acuan: HM 265W Teams and Leadership in the Hospitality Industry.",
+          "publisher": "Penn State University (AS)",
+          "year": "University Bulletin 2026",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Penn State University (AS): Hospitality Management (HM) dan RPTM, Meeting and Event Management Certificate",
           "url": "https://bulletins.psu.edu/university-course-descriptions/undergraduate/hm/",
@@ -3000,6 +3461,9 @@
         {
           "id": "team-s6",
           "description": "Modul acuan: Managing Organisations and Human Resources.",
+          "publisher": "University of Surrey (Inggris)",
+          "year": "entri 2027",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "University of Surrey (Inggris): BSc (Hons) International Event Management",
           "url": "https://www.surrey.ac.uk/undergraduate/international-event-management",
@@ -3008,6 +3472,9 @@
         {
           "id": "team-s7",
           "description": "Kursus gratis 8 jam tentang peran dalam tim, tahap perkembangan tim, mengelola konflik, dan mengevaluasi kinerja tim.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Working in groups and teams (OpenLearn)",
           "url": "https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
@@ -3016,6 +3483,9 @@
         {
           "id": "team-s8",
           "description": "Kursus gratis yang di minggu ke-2 khusus membahas merekrut, melatih, memotivasi, dan mempertahankan relawan.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Working in the voluntary sector (OpenLearn)",
           "url": "https://www.open.edu/openlearn/society-politics-law/sociology/working-the-voluntary-sector/content-section-overview",
@@ -3024,6 +3494,9 @@
         {
           "id": "team-s9",
           "description": "Tanggung jawab tiap peran di event: organiser, kontraktor, pemilik venue, supervisor, pekerja, dan relawan. Berguna untuk briefing dan pembagian peran kru.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "HSE Event safety: roles at events",
           "url": "https://www.hse.gov.uk/event-safety/roles.htm",
@@ -3097,13 +3570,15 @@
           "institution": "Ulster University (Irlandia Utara)",
           "programme": "BSc (Hons) Event Management",
           "module": "Event Delivery and Evaluation",
-          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258"
+          "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
+          "catalogue": "entri 2026/27"
         },
         {
           "institution": "Edinburgh Napier University",
           "programme": "BA (Hons) International Festival & Event Management",
           "module": "Festival & Event Impacts and Sustainability",
-          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime"
+          "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
+          "catalogue": "halaman program 2026, modul indikatif"
         }
       ],
       "points": [
@@ -3119,6 +3594,9 @@
         {
           "id": "eval-s1",
           "description": "Mengelola operasional di lokasi event, dari finalisasi rencana operasional, pengawasan set-up, pelaksanaan, dan pembongkaran, sampai evaluasi keberhasilan operasional event.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "SITEEVT028 Manage on-site event operations (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/SIT/SITEEVT028_R1.pdf",
@@ -3127,6 +3605,9 @@
         {
           "id": "eval-s2",
           "description": "Menyusun laporan keuangan sesuai ketentuan pelaporan resmi, termasuk mengumpulkan dan menganalisis data keuangan.",
+          "publisher": "training.gov.au, Pemerintah Australia (SIT50322 Release 2)",
+          "year": "2022",
+          "accreditation": "badan pemerintah",
           "embeddable": null,
           "title": "BSBFIN401 Report on financial activity (PDF resmi training.gov.au)",
           "url": "https://training.gov.au/assets/BSB/BSBFIN401_R1.pdf",
@@ -3135,6 +3616,9 @@
         {
           "id": "eval-s3",
           "description": "Modul acuan: Event Delivery and Evaluation.",
+          "publisher": "Ulster University (Irlandia Utara)",
+          "year": "entri 2026/27",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Ulster University (Irlandia Utara): BSc (Hons) Event Management",
           "url": "https://www.ulster.ac.uk/courses/202627/event-management-41258",
@@ -3143,6 +3627,9 @@
         {
           "id": "eval-s4",
           "description": "Modul acuan: Festival & Event Impacts and Sustainability.",
+          "publisher": "Edinburgh Napier University",
+          "year": "halaman program 2026, modul indikatif",
+          "accreditation": "universitas terakreditasi",
           "embeddable": null,
           "title": "Edinburgh Napier University: BA (Hons) International Festival & Event Management",
           "url": "https://www.napier.ac.uk/courses/ba-hons-international-festival--event-management-undergraduate-fulltime",
@@ -3151,6 +3638,9 @@
         {
           "id": "eval-s5",
           "description": "Toolkit evaluasi event: cara mengukur attendance, dampak ekonomi (ada kalkulator), sosial, lingkungan, dan media, plus contoh survei.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "eventIMPACTS (UK Sport, EventScotland, Welsh Government, Tourism NI)",
           "url": "https://www.eventimpacts.com/",
@@ -3159,6 +3649,9 @@
         {
           "id": "eval-s6",
           "description": "Ringkasan resmi ISO edisi 2024 tentang sistem manajemen keberlanjutan event; teks standar berbayar.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "ISO 20121:2024 Event sustainability management systems (halaman resmi ISO)",
           "url": "https://www.iso.org/standard/86389.html",
@@ -3167,6 +3660,9 @@
         {
           "id": "eval-s7",
           "description": "Ringkasan delapan standar EIC dengan kriteria dan level Bronze sampai Platinum yang bisa dijadikan KPI laporan pasca-event.",
+          "publisher": "",
+          "year": "",
+          "accreditation": "",
           "embeddable": null,
           "title": "Events Industry Council: Sustainable Event Standards",
           "url": "https://insights.eventscouncil.org/Sustainability/Sustainability-Events-Standards",

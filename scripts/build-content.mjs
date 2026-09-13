@@ -18,10 +18,10 @@ const topics = [...TOPICS_A, ...TOPICS_B, ...TOPICS_C].map((t) => {
   const push = (s) => {
     if (seen.has(s.url)) return;
     seen.add(s.url);
-    sources.push({ id: `${t.slug}-s${sources.length + 1}`, description: "", embeddable: null, ...s });
+    sources.push({ id: `${t.slug}-s${sources.length + 1}`, description: "", publisher: "", year: "", accreditation: "", embeddable: null, ...s });
   };
   for (const u of t.units) push(unitSource(u.unit_code));
-  for (const m of t.university) push({ title: `${m.institution}: ${m.programme}`, description: `Modul acuan: ${m.module}.`, url: m.url, kind: "university" });
+  for (const m of t.university) push({ title: `${m.institution}: ${m.programme}`, description: `Modul acuan: ${m.module}.`, url: m.url, kind: "university", publisher: m.institution, year: m.catalogue, accreditation: "universitas terakreditasi" });
   for (const s of RESOURCES[t.slug] || []) push(s);
   for (const s of t.sources || []) push(s);
   const questions = t.questions.map((q, i) => ({ id: `${t.slug}-q${i + 1}`, ...q }));

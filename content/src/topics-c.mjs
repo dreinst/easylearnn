@@ -160,7 +160,7 @@ export const TOPICS_C = [
     phase_id: 5, week_from: 20, week_to: 20, sort_order: 18,
     summary: "Registrasi adalah kesan pertama tamu dan sumber data event. Topik ini membahas desain alur pendaftaran, pilihan sistem (formulir, tiket digital, QR), persiapan materi, dan pelaksanaan check-in di lokasi.",
     units: [unit("SITEEVT021")],
-    university: [uni("ucf", "HFT3443 Event Technology"), uni("dmu", "Running and Promoting a Venue")],
+    university: [uni("ucf", "HFT3443 Event Technology"), uni("surrey", "Digital Events Management")],
     points: [
       "Tentukan data yang benar-benar diperlukan dari peserta; formulir pendek meningkatkan penyelesaian pendaftaran.",
       "Sistem registrasi dipilih sesuai skala: spreadsheet dan formulir daring untuk acara kecil, platform tiket dengan QR untuk acara berbayar atau ribuan peserta.",

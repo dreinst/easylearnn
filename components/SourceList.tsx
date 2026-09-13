@@ -17,6 +17,11 @@ export default function SourceList({ sources }: { sources: Source[] }) {
             <div className="min-w-0 flex-1">
               <div className="font-medium text-navy">{s.title}</div>
               {s.description && <p className="text-xs text-mute">{s.description}</p>}
+              {(s.publisher || s.year) && (
+                <p className="mt-0.5 text-[11px] text-mute">
+                  Sumber: {s.publisher}{s.year ? `, ${s.year}` : ""}{s.accreditation ? ` · ${s.accreditation}` : ""}
+                </p>
+              )}
             </div>
             <div className="flex shrink-0 gap-2">
               {s.embeddable === true && (
@@ -26,7 +31,7 @@ export default function SourceList({ sources }: { sources: Source[] }) {
             </div>
           </div>
           {open === s.id && (
-            <iframe src={s.url} title={s.title} className="mt-3 h-[70vh] w-full rounded border border-line bg-white" sandbox="allow-scripts allow-same-origin allow-popups allow-forms" />
+            <iframe src={s.url} title={s.title} className="mt-3 h-[70vh] w-full rounded border border-line bg-white" loading="lazy" referrerPolicy="no-referrer" />
           )}
         </li>
       ))}
