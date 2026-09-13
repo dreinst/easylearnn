@@ -41,9 +41,6 @@ async function callRaw(path: string): Promise<{ bytes: ArrayBuffer; type: string
 export const getContent = cache(() => call<Content>("/content"));
 export const getProgress = cache(() => call<Progress>("/progress"));
 
-export const saveContent = (content: Content) => call<{ ok: true }>("/content", { method: "PUT", body: JSON.stringify(content) });
-export const resetContent = () => call<Content>("/content/reset", { method: "POST" });
-
 export const patchSettings = (patch: Partial<Settings>) => call<Settings>("/settings", { method: "PATCH", body: JSON.stringify(patch) });
 export const resetProgress = () => call<{ ok: true }>("/progress/reset", { method: "POST" });
 

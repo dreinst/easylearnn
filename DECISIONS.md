@@ -8,7 +8,7 @@ Architecture.md meminta deploy ke VPS dengan PM2 dan Nginx, tanpa Vercel. Donny 
 
 ## 2. Tanpa Supabase
 
-Supabase tidak dipakai sama sekali. Progres (`progress.json`), konten yang bisa diedit admin (`content.json`), dan jurnal bukti kerja (`jurnal/*.md` plus lampiran) semuanya berkas biasa di `/srv/easylearn/data/` di VPS. Donny minta "satu folder dengan progress tracking untuk menyimpan jurnal", dan itu lebih mudah dibuka serta dicadangkan daripada tabel Postgres. Akibatnya: satu pengguna, bukan multi-user. Kalau nanti tim ikut belajar, bagian ini yang harus diganti.
+Supabase tidak dipakai sama sekali. Progres (`progress.json`), konten yang bisa diedit admin (`content.json`), dan jurnal bukti kerja (`jurnal/*.md` plus lampiran) semuanya berkas biasa di `/srv/easylearn/data/` di VPS. Donny minta "satu folder dengan progress tracking untuk menyimpan jurnal", dan itu lebih mudah dibuka serta dicadangkan daripada tabel Postgres. Donny memutuskan (13 September 2026) aplikasi cukup satu pengguna dan tanpa halaman admin dulu. Halaman admin yang sempat dibuat dihapus; konten diubah lewat `content/src/*.mjs` lalu deploy ulang. Kalau nanti tim ikut belajar, bagian penyimpanan ini yang harus diganti.
 
 ## 3. Login kode akses, bukan magic link
 

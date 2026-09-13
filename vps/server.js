@@ -458,7 +458,12 @@ async function embeddableTick() {
 // ---------- mulai ----------
 
 ensureDirs();
-loadContent();
+if (fs.existsSync(SEED_FILE)) {
+  resetContentFromSeed();
+  console.log("content.json disegarkan dari seed");
+} else {
+  loadContent();
+}
 loadProgress();
 
 const server = http.createServer((req, res) => {

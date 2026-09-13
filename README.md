@@ -9,7 +9,6 @@ Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 
 - Topik selesai kalau kuis lulus (minimal 2 dari 3 benar) dan bukti kerja ada.
 - Pengingat push dikirim pada jam yang diatur kalau hari itu belum ada hari belajar.
 - Halaman portfolio mengumpulkan semua bukti kerja untuk uji kompetensi BNSP.
-- Halaman admin untuk mengedit soal, sumber, dan materi tanpa membuka kode.
 - Tombol "Tanya AI" (Claude Haiku 4.5) menjawab pertanyaan seputar topik yang sedang dibuka.
 
 ## Struktur
@@ -49,7 +48,7 @@ Layanan jalan sebagai container Docker di network `coolify`, Traefik memberi HTT
 ├── app/                 server.js, package.json, Dockerfile
 ├── seed/topics.json     konten awal
 └── data/
-    ├── content.json     konten yang bisa diedit dari halaman admin
+    ├── content.json     salinan konten dari seed (disegarkan tiap deploy)
     ├── progress.json    pengaturan, hasil kuis, hari belajar, perangkat push, log pengingat
     └── jurnal/
         ├── 2026-09-14-bud-1a2b3c4d.md    satu berkas markdown per bukti kerja
@@ -84,7 +83,7 @@ Buka Pengaturan, tekan "Aktifkan notifikasi di perangkat ini", lalu "Kirim notif
 
 ## Mengubah konten
 
-Dua cara: lewat halaman Admin di aplikasi (tersimpan di `content.json` di VPS), atau ubah `content/src/*.mjs` lalu `npm run build:content`, deploy VPS, dan tekan "Kembalikan ke seed" di halaman admin.
+Ubah `content/src/*.mjs` (topik, soal, sumber), jalankan `npm run build:content` lalu `npm test`, commit, dan `bash vps/deploy.sh`. Container di VPS menyalin ulang seed ke `content.json` setiap kali mulai, hasil pengecekan preview sumber tetap dipertahankan.
 
 ## Keputusan desain
 

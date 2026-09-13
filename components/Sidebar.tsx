@@ -22,7 +22,6 @@ export default function Sidebar({
     { href: "/roadmap", label: "Roadmap" },
     { href: "/portfolio", label: "Portfolio" },
     { href: "/settings", label: "Pengaturan" },
-    { href: "/admin", label: "Admin" },
   ];
   const shortDate = (ymd: string) => (ymd ? formatYmd(ymd).replace(/ \d{4}$/, "") : "");
 
