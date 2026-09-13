@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 type Download = { label: string; href: string; primary?: boolean };
 
-/** Tombol "Lihat cepat": menampilkan rangkuman (HTML yang sudah dirender di server) di pop-up yang bisa di-scroll. */
+/** Tombol "Lihat rangkuman": menampilkan rangkuman (HTML yang sudah dirender di server) di pop-up yang bisa di-scroll. */
 export default function QuickView({ title, html, downloads }: { title: string; html: string; downloads: Download[] }) {
   const [open, setOpen] = useState(false);
 
