@@ -34,7 +34,7 @@ npm run build:content    # kalau mengubah content/src/*
 DATA_DIR=/tmp/el-data SEED_FILE=$PWD/content/topics.json DATA_TOKEN=testtoken PORT=3210 node vps/server.js
 
 # aplikasi (terminal lain)
-cp .env.example .env.local   # isi DATA_API_URL=http://127.0.0.1:3210, DATA_TOKEN=testtoken, kode akses, secret
+cp .env.example .env.local   # isi DATA_API_URL=http://127.0.0.1:3211 dan DATA_TOKEN=testtoken
 npm run dev
 ```
 
@@ -71,9 +71,11 @@ Cadangan: cukup salin folder `/srv/easylearn/data/`.
 ## Deploy aplikasi ke Vercel
 
 1. Import repo ini di Vercel (framework Next.js, root repo).
-2. Isi environment variables sesuai `.env.example`: `DATA_API_URL`, `DATA_TOKEN`, `APP_ACCESS_CODE`, `APP_SESSION_SECRET`, dan `ANTHROPIC_API_KEY` (opsional, untuk chatbot).
+2. Isi environment variables sesuai `.env.example`: `DATA_API_URL`, `DATA_TOKEN`, dan `ANTHROPIC_API_KEY` (opsional, untuk chatbot).
 3. Deploy. Setiap push ke `main` otomatis dideploy.
-4. Buka alamat Vercel, masuk dengan kode akses, pilih tanggal mulai di roadmap.
+4. Buka alamat Vercel, pilih tanggal mulai di roadmap.
+
+Aplikasi tidak punya halaman login. Siapa pun yang tahu alamatnya bisa membuka dan mengubah progres, jadi jangan sebarkan alamatnya. Kalau ingin ditutup tanpa menambah login, pakai Deployment Protection di pengaturan proyek Vercel.
 
 Setelah alamat Vercel diketahui, samakan `APP_URL` di `/srv/easylearn/.env` (dipakai untuk tautan di notifikasi) lalu jalankan `bash vps/deploy.sh` lagi.
 

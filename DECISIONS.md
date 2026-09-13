@@ -10,9 +10,9 @@ Architecture.md meminta deploy ke VPS dengan PM2 dan Nginx, tanpa Vercel. Donny 
 
 Supabase tidak dipakai sama sekali. Progres (`progress.json`), konten yang bisa diedit admin (`content.json`), dan jurnal bukti kerja (`jurnal/*.md` plus lampiran) semuanya berkas biasa di `/srv/easylearn/data/` di VPS. Donny minta "satu folder dengan progress tracking untuk menyimpan jurnal", dan itu lebih mudah dibuka serta dicadangkan daripada tabel Postgres. Donny memutuskan (13 September 2026) aplikasi cukup satu pengguna dan tanpa halaman admin dulu. Halaman admin yang sempat dibuat dihapus; konten diubah lewat `content/src/*.mjs` lalu deploy ulang. Kalau nanti tim ikut belajar, bagian penyimpanan ini yang harus diganti.
 
-## 3. Login kode akses, bukan magic link
+## 3. Tanpa login
 
-Magic link butuh pengirim email (Supabase Auth atau layanan lain). Karena Supabase tidak dipakai dan layanan cloud baru dilarang, login memakai satu kode akses (`APP_ACCESS_CODE`) dan cookie bertanda tangan HMAC selama 30 hari.
+Magic link butuh pengirim email (Supabase Auth atau layanan lain), jadi awalnya dipakai satu kode akses dengan cookie bertanda tangan. Pada 13 September 2026 Donny minta kode akses dihapus. Aplikasi sekarang terbuka untuk siapa pun yang tahu alamatnya; layanan data di VPS tetap dilindungi token yang hanya ada di server Vercel. Kalau perlu ditutup lagi tanpa kode di aplikasi, pakai Deployment Protection di Vercel.
 
 ## 4. Streak tetap dicatat server
 

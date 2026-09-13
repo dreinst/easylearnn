@@ -30,12 +30,7 @@ export default function AppShell({ sidebar, streak, children }: { sidebar: React
             <span aria-hidden>☰</span> Rundown
           </button>
           <Link href="/" className="font-semibold text-navy lg:hidden">Production Book</Link>
-          <div className="ml-auto flex items-center gap-3">
-            {streak}
-            <form action="/api/auth/logout" method="post">
-              <button className="text-xs text-mute hover:text-navy">Keluar</button>
-            </form>
-          </div>
+          <div className="ml-auto flex items-center gap-3">{streak}</div>
         </header>
         <main className="flex-1 px-4 py-6 lg:px-8">{children}</main>
       </div>
