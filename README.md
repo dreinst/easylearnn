@@ -90,6 +90,10 @@ Buka Pengaturan, tekan "Aktifkan notifikasi di perangkat ini", lalu "Kirim notif
 
 Endpoint `POST /chat` di layanan data menjalankan `hermes -z "<prompt>" -t clarify --safe-mode --ignore-rules -m claude-haiku-4-5 --provider anthropic` di VPS. Toolset dibatasi ke `clarify` supaya percakapan dari web tidak bisa memakai terminal, memori, atau web. Ada batas 40 pertanyaan per 10 menit (`CHAT_MAX_PER_10MIN`). Kalau kredensial di `~/.hermes` diblokir atau kedaluwarsa, chatbot menampilkan pesan gagal; jalankan `hermes login` di VPS untuk memperbarui.
 
+## Sumber belajar
+
+Setiap sumber mencantumkan penerbit, tahun, dan kategori akreditasi (universitas terakreditasi, badan pemerintah, badan standar, asosiasi industri). Audit terakhir 13 September 2026, lihat DECISIONS.md bagian 13. Unit AQF dari PDF resmi training.gov.au (SIT50322 Release 2, 2022). Modul kampus dari halaman program resmi dengan tahun katalog yang dirujuk.
+
 ## Mengubah konten
 
 Ubah `content/src/*.mjs` (topik, soal, sumber), jalankan `npm run build:content` lalu `npm test`, commit, dan `bash vps/deploy.sh`. Container di VPS menyalin ulang seed ke `content.json` setiap kali mulai, hasil pengecekan preview sumber tetap dipertahankan.

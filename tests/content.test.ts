@@ -47,6 +47,16 @@ describe("seed content", () => {
     for (const t of ongoing) expect(t.phase_id).toBe(0);
   });
 
+  it("setiap sumber punya penerbit, tahun, dan kategori akreditasi; kategori hanya dari lembaga yang diakui", () => {
+    const allowed = new Set(["universitas terakreditasi", "badan pemerintah", "badan standar", "asosiasi industri"]);
+    for (const t of c.topics) for (const s of t.sources) {
+      expect(s.publisher, `${t.slug} ${s.title}`).toBeTruthy();
+      expect(s.year, `${t.slug} ${s.title}`).toBeTruthy();
+      expect(allowed.has(s.accreditation), `${t.slug} ${s.title}: ${s.accreditation}`).toBe(true);
+    }
+    for (const t of c.topics) for (const m of t.university) expect(m.catalogue, `${t.slug} ${m.module}`).toBeTruthy();
+  });
+
   it("tidak ada tanda pisah panjang di teks", () => {
     const text = JSON.stringify(c);
     expect(text).not.toMatch(/[—–]/);
