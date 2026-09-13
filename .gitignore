@@ -42,3 +42,7 @@ next-env.d.ts
 
 # layanan VPS
 vps/node_modules
+
+# contoh env boleh ikut
+!.env.example
+!vps/.env.example
