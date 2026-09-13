@@ -1,29 +1,17 @@
 import type { StreakInfo } from "@/lib/streak";
+import Icon from "@/components/Icon";
 
-export default function StreakBadge({ streak, days, compact = false }: { streak: StreakInfo; days: { day: string; studied: boolean }[]; compact?: boolean }) {
+export default function StreakBadge({ streak }: { streak: StreakInfo }) {
+  const tone = streak.count > 0 ? "bg-accent/10 text-accent" : "bg-navy/5 text-mute";
   return (
-    <div className={`flex items-center gap-3 ${compact ? "" : "rounded-lg border border-line bg-white p-4"}`}>
-      <div className="flex items-center gap-1" title="7 hari terakhir">
-        {days.map((d) => (
-          <span
-            key={d.day}
-            className={`${compact ? "h-2.5 w-2.5" : "h-3 w-3"} rounded-full ${d.studied ? "bg-orange" : "bg-line"}`}
-            title={`${d.day}: ${d.studied ? "belajar" : "tidak"}`}
-          />
-        ))}
-      </div>
-      <div className="leading-tight">
-        <div className="whitespace-nowrap text-sm font-bold text-navy">
-          {streak.count} hari
-          <span className={`ml-1 font-normal text-mute ${compact ? "hidden sm:inline" : ""}`}>streak</span>
-        </div>
-        {!compact && (
-          <div className="text-xs text-mute">
-            {streak.studied_today ? "Hari ini sudah tercatat." : streak.at_risk ? "Akan putus malam ini kalau belum kuis atau unggah bukti." : "Belum ada hari belajar berturut."}
-          </div>
-        )}
-        {compact && streak.at_risk && <div className="text-[11px] text-amber-700">akan putus malam ini</div>}
-      </div>
+    <div
+      className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-bold ${tone}`}
+      title={streak.studied_today ? "Hari ini sudah tercatat." : streak.at_risk ? "Akan putus malam ini kalau belum kuis." : "Belum ada hari belajar berturut."}
+    >
+      <Icon name="fire" className="h-3.5 w-3.5" />
+      <span>{streak.count} hari</span>
+      <span className="hidden sm:inline">beruntun</span>
+      {streak.at_risk && <span className="ml-1 h-1.5 w-1.5 rounded-full bg-amber" aria-label="akan putus malam ini" />}
     </div>
   );
 }

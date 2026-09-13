@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import { getContent, getProgress } from "@/lib/data";
 import { todayInTz } from "@/lib/dates";
 import { buildRundown, ongoingTopics, weekOf } from "@/lib/timeline";
-import { computeStreak, lastSevenDays } from "@/lib/streak";
+import { computeStreak } from "@/lib/streak";
 import { overall, statusMap } from "@/lib/status";
 import AppShell from "@/components/AppShell";
 import Sidebar from "@/components/Sidebar";
@@ -21,7 +21,6 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   const week = weekOf(s.program_start, today, content.program_weeks);
   const statuses = statusMap(content, progress);
   const streak = computeStreak(progress.study_days.map((d) => d.day), today);
-  const seven = lastSevenDays(progress.study_days.map((d) => d.day), today);
   const rundown = buildRundown(s.program_start, content.phases, content.topics, content.program_weeks);
   const sum = overall(content, statuses);
   const locked = [...lockedSlugs(content, statuses)];
@@ -39,7 +38,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   );
 
   return (
-    <AppShell sidebar={sidebar} streak={<StreakBadge streak={streak} days={seven} compact />}>
+    <AppShell sidebar={sidebar} streak={<StreakBadge streak={streak} />} userName={s.display_name}>
       {children}
       <Chatbot />
     </AppShell>
