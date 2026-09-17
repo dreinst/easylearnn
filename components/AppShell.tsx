@@ -15,8 +15,10 @@ export function Aura() {
 
 export function Footer() {
   return (
-    <footer className="px-4 py-6 text-center text-xs font-semibold text-mute lg:px-8">
-      Dibuat oleh Dreinst &middot; Diselenggarakan oleh D&apos;Production Event Organizer
+    <footer className="flex flex-col items-center gap-2 px-4 py-6 text-center text-xs font-semibold text-mute lg:px-8">
+      {/* eslint-disable-next-line @next/next/no-img-element -- vector logo, tanpa optimasi */}
+      <img src="/logo-dpro.svg" alt="D'Production Event Organizer" className="h-8 w-auto" />
+      <span>Dibuat oleh Dreinst &middot; Diselenggarakan oleh D&apos;Production Event Organizer</span>
     </footer>
   );
 }
