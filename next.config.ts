@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // standalone untuk image Docker di VPS; Vercel memakai keluaran bawaannya sendiri
+  ...(process.env.VERCEL ? {} : { output: "standalone" as const }),
 };
 
 export default nextConfig;
