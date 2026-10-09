@@ -15,10 +15,14 @@ export function Aura() {
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-2 px-4 py-6 text-center text-xs font-semibold text-mute lg:px-8">
-      {/* eslint-disable-next-line @next/next/no-img-element -- vector logo, tanpa optimasi */}
-      <img src="/logo-dpro.svg" alt="D'Production Event Organizer" className="h-8 w-auto" />
-      <span>Dibuat oleh Dreinst &middot; Diselenggarakan oleh D&apos;Production Event Organizer</span>
+    <footer className="flex items-center justify-center gap-3 px-4 py-6 text-xs font-semibold text-mute lg:px-8">
+      <span>Made by dreinst</span>
+      <span aria-hidden="true" className="h-3.5 w-px bg-current opacity-40" />
+      <span className="flex items-center gap-2">
+        Organized by
+        {/* eslint-disable-next-line @next/next/no-img-element -- vector logo, tanpa optimasi */}
+        <img src="/logo-dpro-ringkas.svg" alt="D'PRO" className="h-4 w-auto shrink-0 opacity-70" />
+      </span>
     </footer>
   );
 }
