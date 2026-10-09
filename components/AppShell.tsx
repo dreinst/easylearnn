@@ -16,7 +16,12 @@ export function Aura() {
 export function Footer() {
   return (
     <footer className="flex items-center justify-center gap-3 px-4 py-6 text-xs font-semibold text-mute lg:px-8">
-      <span>Made by dreinst</span>
+      <span>
+              Made by{" "}
+              <a href="https://www.instagram.com/dreiinst/" target="_blank" rel="noopener noreferrer" className="underline-offset-4 hover:underline">
+                dreinst
+              </a>
+            </span>
       <span aria-hidden="true" className="h-3.5 w-px bg-current opacity-40" />
       <span className="flex items-center gap-2">
         Organized by
