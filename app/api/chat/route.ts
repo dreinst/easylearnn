@@ -44,7 +44,7 @@ export async function POST(req: Request) {
   }
 
   // Jalur utama: diteruskan lewat layanan data internal. Kalau ANTHROPIC_API_KEY
-  // diisi di Vercel, pakai API langsung.
+  // diisi, pakai API langsung.
   if (!process.env.ANTHROPIC_API_KEY) {
     const transcript = messages.map((m) => `${m.role === "user" ? "Pengguna" : "Tutor"}: ${typeof m.content === "string" ? m.content : ""}`).join("\n\n");
     const prompt = `${STYLE}${context}\n\nBerikut percakapan sejauh ini. Balas HANYA dengan jawaban tutor untuk pesan pengguna yang terakhir, tanpa awalan "Tutor:".\n\n${transcript}`;

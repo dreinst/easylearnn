@@ -174,12 +174,12 @@
           "id": "pb-lead-q1",
           "stem": "Saat mendelegasikan tugas dekorasi ke koordinator, hal apa yang paling penting kamu sampaikan selain tugasnya?",
           "options": [
-            "Nama semua vendor yang pernah kamu pakai",
             "Batas wewenang dan kapan ia harus lapor balik",
-            "Alasan kamu tidak mengerjakannya sendiri",
-            "Riwayat masalah dekorasi di event sebelumnya"
+            "Riwayat masalah dekorasi di event sebelumnya",
+            "Nama semua vendor yang pernah kamu pakai",
+            "Alasan kamu tidak mengerjakannya sendiri"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Delegasi yang jelas mencakup batas keputusan yang boleh diambil sendiri dan waktu lapor balik, supaya koordinator tidak ragu atau melampaui wewenang."
         },
         {
@@ -198,10 +198,10 @@
           "id": "pb-lead-q3",
           "stem": "Mengapa setiap posisi kunci sebaiknya punya orang kedua yang tahu rundown?",
           "options": [
-            "Supaya biaya kru lebih besar",
             "Agar pemimpin tidak perlu hadir",
+            "Karena klien memintanya",
             "Supaya event tetap jalan kalau orang pertama berhalangan atau sibuk menangani masalah",
-            "Karena klien memintanya"
+            "Supaya biaya kru lebih besar"
           ],
           "correct_index": 2,
           "explanation": "Kesinambungan komando adalah tanggung jawab pemimpin. Pengganti yang siap mencegah satu orang menjadi titik gagal tunggal."
@@ -329,12 +329,12 @@
           "id": "pb-speak-q1",
           "stem": "Apa langkah pertama saat menyusun presentasi konsep untuk klien wedding?",
           "options": [
-            "Memilih template slide",
-            "Menentukan satu pesan utama dalam satu kalimat",
+            "Mengumpulkan semua foto portofolio",
             "Menyiapkan daftar harga",
-            "Mengumpulkan semua foto portofolio"
+            "Memilih template slide",
+            "Menentukan satu pesan utama dalam satu kalimat"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Satu pesan utama memandu isi seluruh presentasi. Slide dan cerita dipilih berdasarkan apakah mendukung pesan itu."
         },
         {
@@ -342,11 +342,11 @@
           "stem": "Cara paling efektif menyampaikan perbandingan biaya dua opsi dekorasi secara lisan?",
           "options": [
             "Membacakan seluruh rincian tabel",
-            "Menyebut angka dibulatkan dan perbandingannya, misalnya 'sekitar 40 persen lebih hemat'",
             "Menghindari angka sama sekali",
-            "Mengirim spreadsheet setelah presentasi saja"
+            "Mengirim spreadsheet setelah presentasi saja",
+            "Menyebut angka dibulatkan dan perbandingannya, misalnya 'sekitar 40 persen lebih hemat'"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Angka yang dibulatkan dan dibandingkan lebih mudah ditangkap pendengar. Rinciannya bisa dilampirkan terpisah."
         },
         {
@@ -354,11 +354,11 @@
           "stem": "Mengapa MC perlu punya kalimat pengisi yang disiapkan?",
           "options": [
             "Agar terlihat lebih pandai",
-            "Untuk mengisi jeda teknis tanpa membuat tamu merasa ada masalah",
             "Supaya rundown lebih panjang",
+            "Untuk mengisi jeda teknis tanpa membuat tamu merasa ada masalah",
             "Karena klien memintanya"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Jeda teknis hampir selalu terjadi. Kalimat pengisi menjaga suasana sementara tim menyelesaikan masalah."
         }
       ]
@@ -484,10 +484,10 @@
           "id": "pb-english-q1",
           "stem": "Kalimat pertama email kerja berbahasa Inggris sebaiknya berisi apa?",
           "options": [
-            "Basa-basi tentang cuaca",
+            "Daftar harga",
             "Tujuan email secara langsung",
             "Riwayat hubungan kerja",
-            "Daftar harga"
+            "Basa-basi tentang cuaca"
           ],
           "correct_index": 1,
           "explanation": "Pembaca yang sibuk perlu tahu tujuan email sejak kalimat pertama. Detail menyusul dalam daftar poin."
@@ -497,23 +497,23 @@
           "stem": "Istilah 'load-in' dalam produksi event berarti?",
           "options": [
             "Pembayaran awal dari klien",
+            "Sesi foto sebelum acara",
             "Proses memasukkan dan memasang peralatan ke venue",
-            "Daftar tamu yang sudah check-in",
-            "Sesi foto sebelum acara"
+            "Daftar tamu yang sudah check-in"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Load-in adalah tahap memasukkan dan memasang peralatan; lawannya load-out saat bongkar."
         },
         {
           "id": "pb-english-q3",
           "stem": "Klien asing menjelaskan keinginan yang rumit. Cara memastikan kamu paham?",
           "options": [
-            "Mengangguk dan lanjut ke topik berikut",
             "Mengulang permintaannya dengan kata-katamu sendiri lalu minta konfirmasi",
             "Meminta klien menulis ulang dalam bahasa Indonesia",
-            "Menebak dari konteks"
+            "Menebak dari konteks",
+            "Mengangguk dan lanjut ke topik berikut"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Parafrase dan konfirmasi mencegah salah paham yang mahal di hari H."
         }
       ]
@@ -633,10 +633,10 @@
           "id": "fund-q1",
           "stem": "Wedding dan launching produk termasuk kategori event yang berbeda. Perbedaan yang paling menentukan cara kerja EO?",
           "options": [
-            "Jumlah tamu",
+            "Durasi acara",
             "Tujuan event dan sumber pendapatannya",
             "Warna dekorasi",
-            "Durasi acara"
+            "Jumlah tamu"
           ],
           "correct_index": 1,
           "explanation": "Tujuan (private vs corporate) menentukan siapa yang membayar, ukuran keberhasilan, dan pola risikonya."
@@ -646,21 +646,21 @@
           "stem": "Dari lima tahap siklus event, tahap mana yang paling sering dilewati EO kecil padahal menentukan pekerjaan berikutnya?",
           "options": [
             "Riset dan konsep",
-            "Perencanaan",
             "Produksi",
-            "Evaluasi"
+            "Evaluasi",
+            "Perencanaan"
           ],
-          "correct_index": 3,
+          "correct_index": 2,
           "explanation": "Evaluasi sering dilewati karena tim lelah setelah hari H, padahal laporannya menjadi bahan proposal dan perbaikan event berikutnya."
         },
         {
           "id": "fund-q3",
           "stem": "Sumber informasi industri mana yang paling layak dijadikan acuan saat menyusun SOP?",
           "options": [
-            "Cuplikan video event viral",
-            "Unit kompetensi resmi dan standar industri",
             "Pendapat teman sesama EO",
-            "Komentar tamu di media sosial"
+            "Unit kompetensi resmi dan standar industri",
+            "Komentar tamu di media sosial",
+            "Cuplikan video event viral"
           ],
           "correct_index": 1,
           "explanation": "Unit kompetensi dan standar ditulis untuk diaudit dan dipakai lintas organisasi, jadi lebih andal untuk SOP."
@@ -773,22 +773,22 @@
           "options": [
             "Dekorasi",
             "Acara resepsi",
-            "Pemasangan backdrop pelaminan selesai H-1 pukul 20.00",
-            "Sukses acara"
+            "Sukses acara",
+            "Pemasangan backdrop pelaminan selesai H-1 pukul 20.00"
           ],
-          "correct_index": 2,
+          "correct_index": 3,
           "explanation": "Paket kerja yang baik punya hasil konkret dan bisa dicek. 'Dekorasi' terlalu luas untuk satu pemilik."
         },
         {
           "id": "pm-q2",
           "stem": "Konfirmasi venue terlambat dua minggu. Mengapa ini menggeser hari H sementara keterlambatan pemilihan souvenir tidak?",
           "options": [
-            "Venue lebih mahal",
             "Venue berada di jalur kritis karena banyak pekerjaan bergantung padanya",
             "Souvenir tidak penting",
+            "Venue lebih mahal",
             "Klien lebih peduli venue"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Pekerjaan di jalur kritis punya rantai ketergantungan panjang; menundanya menunda semua yang mengikutinya."
         },
         {
@@ -796,11 +796,11 @@
           "stem": "Klien meminta tambahan sesi foto outdoor seminggu sebelum acara. Tindakan yang benar?",
           "options": [
             "Langsung mengiyakan agar klien senang",
-            "Menolak karena sudah terlambat",
             "Mencatat perubahan lingkup dengan dampak biaya dan jadwal, lalu minta persetujuan tertulis",
+            "Menolak karena sudah terlambat",
             "Meminta vendor foto menanggung biayanya"
           ],
-          "correct_index": 2,
+          "correct_index": 1,
           "explanation": "Perubahan lingkup harus terdokumentasi dengan dampaknya supaya tidak menjadi sengketa saat tagihan akhir."
         }
       ]
@@ -920,33 +920,33 @@
           "id": "proposal-q1",
           "stem": "Apa yang harus ada sebelum kamu mulai menulis proposal?",
           "options": [
-            "Daftar vendor favorit",
-            "Brief klien tertulis: tujuan, tanggal, tamu, anggaran, batasan",
+            "Harga kompetitor",
             "Template desain yang bagus",
-            "Harga kompetitor"
+            "Brief klien tertulis: tujuan, tanggal, tamu, anggaran, batasan",
+            "Daftar vendor favorit"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Proposal menjawab kebutuhan. Tanpa brief tertulis, proposal berisi tebakan dan sering harus ditulis ulang."
         },
         {
           "id": "proposal-q2",
           "stem": "Mengapa bagian 'tidak termasuk' penting dalam lingkup pekerjaan?",
           "options": [
-            "Supaya proposal lebih panjang",
             "Untuk mencegah klien mengira sesuatu sudah termasuk padahal belum dianggarkan",
             "Karena aturan asosiasi",
+            "Supaya proposal lebih panjang",
             "Agar bisa menaikkan harga nanti"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Perselisihan paling sering muncul dari asumsi klien tentang hal yang tidak pernah dianggarkan. Menuliskannya melindungi kedua pihak."
         },
         {
           "id": "proposal-q3",
           "stem": "Urutan yang benar saat menentukan harga di proposal?",
           "options": [
-            "Tentukan harga pasar dulu, lalu sesuaikan anggaran",
-            "Susun anggaran rinci, tambah margin dan cadangan, baru tetapkan harga",
             "Ikuti harga event sebelumnya",
+            "Susun anggaran rinci, tambah margin dan cadangan, baru tetapkan harga",
+            "Tentukan harga pasar dulu, lalu sesuaikan anggaran",
             "Tanyakan klien mau bayar berapa"
           ],
           "correct_index": 1,
@@ -1086,24 +1086,24 @@
           "id": "bizdoc-q1",
           "stem": "Klausul kontrak mana yang paling melindungi EO saat acara batal karena banjir?",
           "options": [
-            "Klausul harga",
-            "Klausul pembatalan dan force majeure",
             "Klausul tanda tangan",
-            "Klausul lingkup pekerjaan"
+            "Klausul lingkup pekerjaan",
+            "Klausul pembatalan dan force majeure",
+            "Klausul harga"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Klausul pembatalan dan force majeure mengatur siapa menanggung biaya yang sudah keluar saat kejadian di luar kendali."
         },
         {
           "id": "bizdoc-q2",
           "stem": "Mengapa syarat pembayaran ke vendor sebaiknya lebih lambat dari pembayaran klien ke kamu?",
           "options": [
+            "Tidak ada alasan khusus",
             "Agar vendor lebih rajin",
-            "Supaya arus kas EO tidak menalangi biaya vendor",
             "Karena vendor tidak butuh uang cepat",
-            "Tidak ada alasan khusus"
+            "Supaya arus kas EO tidak menalangi biaya vendor"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Menyelaraskan termin menjaga kas: uang klien masuk dulu, baru dibayarkan ke vendor."
         },
         {
@@ -1112,8 +1112,8 @@
           "options": [
             "Proposal",
             "Berita acara serah terima",
-            "MoU",
-            "Rundown"
+            "Rundown",
+            "MoU"
           ],
           "correct_index": 1,
           "explanation": "Berita acara menyatakan pekerjaan selesai diterima klien, sehingga invoice akhir punya dasar yang jelas."
@@ -1253,35 +1253,35 @@
           "stem": "Total biaya event Rp 100 juta dan kamu ingin margin 20 persen dari biaya. Harga jual sebelum cadangan?",
           "options": [
             "Rp 110 juta",
+            "Rp 80 juta",
             "Rp 120 juta",
-            "Rp 125 juta",
-            "Rp 80 juta"
+            "Rp 125 juta"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Margin dari biaya: 100 juta + 20 persen x 100 juta = 120 juta. Cadangan ditambahkan terpisah."
         },
         {
           "id": "bud-q2",
           "stem": "Jumlah tamu naik dari 300 ke 400 orang. Kategori biaya mana yang paling langsung terpengaruh?",
           "options": [
+            "Biaya desain undangan",
             "Sewa venue (harga paket)",
-            "Catering per pax",
             "Honor MC",
-            "Biaya desain undangan"
+            "Catering per pax"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Catering adalah biaya variabel per orang; sewa venue dan honor MC umumnya biaya tetap."
         },
         {
           "id": "bud-q3",
           "stem": "Realisasi dekorasi melebihi anggaran 18 persen di tengah produksi. Tindakan yang tepat?",
           "options": [
-            "Diamkan, tutup dari margin",
             "Laporkan selisihnya dan putuskan: kurangi lingkup, pakai cadangan, atau ajukan tambahan ke klien",
             "Batalkan vendor dekorasi",
+            "Diamkan, tutup dari margin",
             "Kurangi honor kru"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Selisih besar harus diputuskan secara sadar. Mendiamkannya menghabiskan margin tanpa keputusan."
         }
       ]
@@ -1418,12 +1418,12 @@
           "id": "bizplan-q1",
           "stem": "Biaya tetap usaha Rp 30 juta per bulan dan margin rata-rata per event Rp 10 juta. Berapa event minimum per bulan untuk impas?",
           "options": [
-            "1",
-            "2",
             "3",
+            "2",
+            "1",
             "4"
           ],
-          "correct_index": 2,
+          "correct_index": 0,
           "explanation": "Titik impas = biaya tetap dibagi margin per event = 30 juta / 10 juta = 3 event."
         },
         {
@@ -1432,8 +1432,8 @@
           "options": [
             "Karena pesaing lebih sedikit di semua segmen",
             "Pesan pemasaran, portofolio, dan proses jadi lebih tajam dan mudah dipercaya",
-            "Karena harga bisa lebih rendah",
-            "Tidak ada alasan, pasar luas selalu lebih baik"
+            "Tidak ada alasan, pasar luas selalu lebih baik",
+            "Karena harga bisa lebih rendah"
           ],
           "correct_index": 1,
           "explanation": "Segmen sempit memungkinkan spesialisasi yang terlihat oleh calon klien dan efisiensi proses."
@@ -1442,12 +1442,12 @@
           "id": "bizplan-q3",
           "stem": "Apa fungsi tinjauan kuartalan rencana bisnis?",
           "options": [
-            "Menulis ulang seluruh rencana",
             "Membandingkan target dan realisasi lalu mengubah satu hal untuk kuartal berikutnya",
             "Mengganti segmen pelanggan",
+            "Menulis ulang seluruh rencana",
             "Menaikkan harga"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Tinjauan rutin menjaga rencana tetap dipakai. Mengubah satu hal saja membuat dampaknya bisa diukur."
         }
       ]
@@ -1573,36 +1573,36 @@
           "id": "bizdev-q1",
           "stem": "Calon klien meminta diskon 15 persen dari harga penawaran. Persiapan apa yang paling menentukan sebelum kamu menjawab?",
           "options": [
-            "Mengetahui harga pesaing",
-            "Mengetahui batas bawah harga dan hal lain yang bisa ditukar (lingkup, termin, tanggal)",
             "Menyiapkan alasan menolak",
-            "Menghubungi vendor untuk minta potongan"
+            "Mengetahui harga pesaing",
+            "Menghubungi vendor untuk minta potongan",
+            "Mengetahui batas bawah harga dan hal lain yang bisa ditukar (lingkup, termin, tanggal)"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Negosiasi yang sehat bertumpu pada batas bawah yang jelas dan alternatif tukar selain harga."
         },
         {
           "id": "bizdev-q2",
           "stem": "Mana sumber prospek yang biasanya paling tinggi tingkat konversinya untuk WO?",
           "options": [
-            "Iklan berbayar ke audiens umum",
-            "Rujukan dari klien lama, venue, dan vendor",
             "Pesan massal ke nomor acak",
-            "Pameran di luar kota"
+            "Pameran di luar kota",
+            "Iklan berbayar ke audiens umum",
+            "Rujukan dari klien lama, venue, dan vendor"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Rujukan membawa kepercayaan yang sudah terbentuk sehingga siklus penjualan lebih pendek."
         },
         {
           "id": "bizdev-q3",
           "stem": "Fungsi utama mencatat tahap tiap prospek di pipeline?",
           "options": [
-            "Untuk laporan pajak",
             "Agar tindak lanjut tidak terlewat dan konversi bisa diukur",
-            "Supaya terlihat profesional",
-            "Agar bisa menaikkan harga"
+            "Agar bisa menaikkan harga",
+            "Untuk laporan pajak",
+            "Supaya terlihat profesional"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Pipeline yang tercatat membuat tindak lanjut terjadwal dan memperlihatkan di tahap mana prospek sering hilang."
         }
       ]
@@ -1739,36 +1739,36 @@
           "id": "prodplan-q1",
           "stem": "Urutan pemasangan yang paling masuk akal di venue ballroom?",
           "options": [
-            "Dekorasi, lalu panggung, lalu sound",
-            "Panggung dan rigging, listrik, sound dan lighting, dekorasi, meja kursi",
             "Meja kursi dulu supaya ruangan terlihat penuh",
-            "Semua vendor masuk bersamaan agar cepat"
+            "Semua vendor masuk bersamaan agar cepat",
+            "Dekorasi, lalu panggung, lalu sound",
+            "Panggung dan rigging, listrik, sound dan lighting, dekorasi, meja kursi"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Yang paling bawah dan paling lama dipasang dulu; dekorasi dan furnitur menyusul agar tidak terhalang atau rusak."
         },
         {
           "id": "prodplan-q2",
           "stem": "Apa risiko utama saat dua vendor dijadwalkan di area yang sama pada jam yang sama?",
           "options": [
-            "Biaya lebih tinggi",
             "Konflik area kerja yang memperlambat keduanya dan berpotensi merusak hasil",
+            "Biaya lebih tinggi",
             "Tidak ada risiko",
             "Vendor menjadi lebih cepat"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Production schedule mengatur area dan waktu justru untuk mencegah tabrakan pekerjaan."
         },
         {
           "id": "prodplan-q3",
           "stem": "Mengapa checklist H-1 dicek dengan berjalan mengikuti alur tamu?",
           "options": [
-            "Supaya olahraga",
-            "Karena kekurangan paling mudah terlihat dari sudut pandang orang yang mengalaminya",
+            "Untuk menghitung jumlah kursi",
             "Karena klien memintanya",
-            "Untuk menghitung jumlah kursi"
+            "Karena kekurangan paling mudah terlihat dari sudut pandang orang yang mengalaminya",
+            "Supaya olahraga"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Berjalan sebagai tamu memperlihatkan penanda arah, pencahayaan, dan antrean yang tidak terlihat dari meja koordinator."
         }
       ]
@@ -1900,22 +1900,22 @@
           "id": "venue-q2",
           "stem": "Apa akibat paling umum jika jam akses venue tidak tertulis di kontrak?",
           "options": [
-            "Venue lebih murah",
             "Biaya lembur atau waktu pemasangan yang terlalu pendek di hari H",
             "Tidak ada akibat",
-            "Vendor lebih senang"
+            "Vendor lebih senang",
+            "Venue lebih murah"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Jam akses menentukan berapa lama vendor bisa memasang. Ketidakjelasan berujung lembur atau pemasangan terburu-buru."
         },
         {
           "id": "venue-q3",
           "stem": "Mengapa floor plan harus dikirim ke semua vendor sebelum loading?",
           "options": [
-            "Untuk memenuhi syarat venue",
+            "Karena vendor memintanya",
             "Agar setiap vendor tahu posisi dan area kerja sehingga tidak saling menghalangi",
             "Supaya klien terkesan",
-            "Karena vendor memintanya"
+            "Untuk memenuhi syarat venue"
           ],
           "correct_index": 1,
           "explanation": "Floor plan adalah acuan bersama; vendor yang bekerja dari gambar yang sama jarang bertabrakan."
@@ -2037,9 +2037,9 @@
           "id": "tech-q1",
           "stem": "Mengapa sound check sebaiknya dilakukan dengan orang yang benar-benar akan tampil?",
           "options": [
-            "Supaya lebih cepat",
-            "Karena volume dan karakter suara tiap orang berbeda, pengaturan yang tepat hanya didapat dari orang itu",
             "Agar vendor bisa pulang lebih awal",
+            "Karena volume dan karakter suara tiap orang berbeda, pengaturan yang tepat hanya didapat dari orang itu",
+            "Supaya lebih cepat",
             "Tidak ada alasan khusus"
           ],
           "correct_index": 1,
@@ -2049,12 +2049,12 @@
           "id": "tech-q2",
           "stem": "Konten video terlihat gepeng di layar LED. Penyebab yang paling mungkin?",
           "options": [
-            "Kabel terlalu panjang",
             "Rasio konten tidak sama dengan rasio layar",
-            "Lampu terlalu terang",
-            "Laptop terlalu lama"
+            "Kabel terlalu panjang",
+            "Laptop terlalu lama",
+            "Lampu terlalu terang"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Konten harus dibuat sesuai rasio dan resolusi layar; karena itu template dari vendor diminta sebelum desain."
         },
         {
@@ -2203,24 +2203,24 @@
           "id": "prod-q1",
           "stem": "Apa manfaat utama rapat produksi H-3 yang mengumpulkan semua vendor?",
           "options": [
-            "Membagikan snack",
             "Membaca rundown bersama dan menyelesaikan tabrakan jadwal sebelum hari H",
-            "Menegosiasikan harga ulang",
-            "Memilih seragam"
+            "Membagikan snack",
+            "Memilih seragam",
+            "Menegosiasikan harga ulang"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Tabrakan jadwal dan asumsi antar vendor paling murah diselesaikan sebelum loading, bukan di lokasi."
         },
         {
           "id": "prod-q2",
           "stem": "Cara yang benar menilai apakah dekorasi yang terpasang bisa diterima?",
           "options": [
-            "Berdasarkan selera koordinator",
             "Dibandingkan dengan brief dan gambar yang disetujui klien",
-            "Bertanya ke tamu pertama",
-            "Berdasarkan harga vendor"
+            "Berdasarkan harga vendor",
+            "Berdasarkan selera koordinator",
+            "Bertanya ke tamu pertama"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Standar penerimaan adalah brief tertulis. Itu yang melindungi EO dan vendor dari perdebatan selera."
         },
         {
@@ -2228,11 +2228,11 @@
           "stem": "Mengapa perubahan di hari H perlu dicatat di log produksi?",
           "options": [
             "Untuk menyalahkan orang",
-            "Sebagai dasar laporan, tagihan tambahan, dan evaluasi",
             "Karena aturan venue",
-            "Supaya log terlihat penuh"
+            "Supaya log terlihat penuh",
+            "Sebagai dasar laporan, tagihan tambahan, dan evaluasi"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Log yang rapi menjadi bukti keputusan dan sumber pelajaran untuk event berikutnya."
         }
       ]
@@ -2341,22 +2341,22 @@
           "id": "show-q1",
           "stem": "Pola panggilan cue yang benar?",
           "options": [
-            "'Cue 12 sekarang' tanpa peringatan",
-            "'Standby cue 12', tunggu jawaban operator, lalu 'go cue 12'",
             "Menyebut nama operator saja",
-            "Memberi kode warna"
+            "Memberi kode warna",
+            "'Standby cue 12', tunggu jawaban operator, lalu 'go cue 12'",
+            "'Cue 12 sekarang' tanpa peringatan"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Standby memberi waktu operator bersiap; 'go' yang terpisah memastikan eksekusi serentak."
         },
         {
           "id": "show-q2",
           "stem": "Mengapa hanya show director yang boleh memberi perintah 'go'?",
           "options": [
-            "Karena jabatannya paling tinggi",
+            "Karena klien memintanya",
             "Agar tidak ada dua perintah yang bertentangan dan urutan cue tetap satu",
-            "Supaya operator tidak bosan",
-            "Karena klien memintanya"
+            "Karena jabatannya paling tinggi",
+            "Supaya operator tidak bosan"
           ],
           "correct_index": 1,
           "explanation": "Satu sumber perintah mencegah kebingungan operator saat banyak hal terjadi bersamaan."
@@ -2365,12 +2365,12 @@
           "id": "show-q3",
           "stem": "Video sambutan tidak jalan saat cue dipanggil. Apa yang menentukan respons tim?",
           "options": [
-            "Kepanikan tim",
-            "Rencana B yang sudah disiapkan dengan pemicu dan pengambil keputusan",
             "Keputusan klien saat itu",
-            "Sound engineer"
+            "Sound engineer",
+            "Kepanikan tim",
+            "Rencana B yang sudah disiapkan dengan pemicu dan pengambil keputusan"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Rencana B yang tertulis membuat respons cepat dan terkoordinasi, misalnya MC mengisi sementara operator membuka cadangan."
         }
       ]
@@ -2508,21 +2508,21 @@
           "id": "risk-q1",
           "stem": "Kabel sound melintang di jalur tamu. Pengendalian mana yang paling kuat menurut hierarki pengendalian?",
           "options": [
-            "Memasang tanda 'hati-hati kabel'",
             "Mengubah jalur kabel agar tidak melintasi jalur tamu",
+            "Memasang tanda 'hati-hati kabel'",
             "Meminta kru mengingatkan tamu",
             "Memberi kru sepatu safety"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Menghilangkan bahaya (kabel tidak melintasi jalur tamu) berada di puncak hierarki; tanda dan pengingat adalah pengendalian administratif yang lebih lemah."
         },
         {
           "id": "risk-q2",
           "stem": "Apa yang membuat rencana darurat bisa dijalankan, bukan sekadar dokumen?",
           "options": [
-            "Ditulis dalam bahasa Inggris",
-            "Kru dibriefing sebelum pintu dibuka dan tahu peran, jalur, dan titik kumpul",
             "Ditandatangani klien",
+            "Kru dibriefing sebelum pintu dibuka dan tahu peran, jalur, dan titik kumpul",
+            "Ditulis dalam bahasa Inggris",
             "Dicetak berwarna"
           ],
           "correct_index": 1,
@@ -2532,12 +2532,12 @@
           "id": "risk-q3",
           "stem": "Mengapa near miss (hampir celaka) tetap harus dicatat?",
           "options": [
-            "Untuk menyalahkan vendor",
-            "Karena near miss menunjukkan pengendalian yang gagal sebelum ada korban",
+            "Tidak perlu dicatat",
             "Untuk laporan pajak",
-            "Tidak perlu dicatat"
+            "Karena near miss menunjukkan pengendalian yang gagal sebelum ada korban",
+            "Untuk menyalahkan vendor"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Near miss adalah peringatan gratis. Menindaklanjutinya mencegah insiden yang sama berulang dengan akibat lebih berat."
         }
       ]
@@ -2657,36 +2657,36 @@
           "id": "crowd-q1",
           "stem": "Dasar yang benar untuk menentukan kapasitas maksimum sebuah area?",
           "options": [
-            "Jumlah undangan yang dicetak",
             "Luas area yang bisa dipakai, pintu keluar, dan waktu evakuasi",
+            "Permintaan klien",
             "Jumlah kursi yang tersedia di gudang",
-            "Permintaan klien"
+            "Jumlah undangan yang dicetak"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Kapasitas adalah soal keselamatan: berapa orang yang bisa keluar dengan aman dalam waktu tertentu."
         },
         {
           "id": "crowd-q2",
           "stem": "Fase kerumunan mana yang biasanya paling rawan?",
           "options": [
-            "Saat makan",
-            "Masuk dan keluar serentak (ingress dan egress)",
             "Saat sambutan",
-            "Saat foto bersama"
+            "Saat foto bersama",
+            "Saat makan",
+            "Masuk dan keluar serentak (ingress dan egress)"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Ingress dan egress memusatkan banyak orang di pintu dalam waktu singkat sehingga kepadatan melonjak."
         },
         {
           "id": "crowd-q3",
           "stem": "Kepadatan di depan panggung sudah sangat tinggi. Tindakan petugas yang tepat?",
           "options": [
-            "Membiarkan karena acara hampir selesai",
-            "Menghentikan aliran masuk ke area itu dan membuka jalur keluar",
             "Meminta tamu berdiri lebih rapat",
-            "Mematikan lampu"
+            "Mematikan lampu",
+            "Menghentikan aliran masuk ke area itu dan membuka jalur keluar",
+            "Membiarkan karena acara hampir selesai"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Menutup aliran masuk ke titik padat dan membuka jalur keluar menurunkan kepadatan tanpa memicu kepanikan."
         }
       ]
@@ -2807,21 +2807,21 @@
           "stem": "Konser komunitas di lapangan terbuka dengan 2.000 penonton. Izin apa yang paling mendasar?",
           "options": [
             "Izin dari vendor sound",
-            "Izin keramaian dari kepolisian dan izin penggunaan ruang publik",
+            "Tidak perlu izin",
             "Izin dari sponsor",
-            "Tidak perlu izin"
+            "Izin keramaian dari kepolisian dan izin penggunaan ruang publik"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Acara publik di ruang terbuka memerlukan izin keramaian dan izin pemakaian lokasi dari pihak berwenang."
         },
         {
           "id": "legal-q2",
           "stem": "Apa yang dilindungi oleh asuransi public liability?",
           "options": [
-            "Kerugian jika klien tidak membayar",
+            "Biaya pemasaran",
             "Tuntutan pihak ketiga atas cedera atau kerusakan yang terjadi di event",
-            "Kerusakan alat vendor",
-            "Biaya pemasaran"
+            "Kerugian jika klien tidak membayar",
+            "Kerusakan alat vendor"
           ],
           "correct_index": 1,
           "explanation": "Public liability menanggung klaim dari pihak ketiga, misalnya tamu yang terluka karena struktur yang roboh."
@@ -2830,12 +2830,12 @@
           "id": "legal-q3",
           "stem": "Vendor dokumentasi meminta seluruh daftar tamu beserta nomor telepon. Respons yang benar?",
           "options": [
+            "Tolak semua komunikasi",
             "Berikan semuanya agar mudah",
             "Berikan hanya data yang benar-benar diperlukan untuk tugasnya",
-            "Tolak semua komunikasi",
             "Unggah daftar ke grup vendor"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Data pribadi dibagikan seperlunya. Nomor telepon tamu jarang diperlukan vendor dokumentasi."
         }
       ]
@@ -2972,36 +2972,36 @@
           "id": "concept-q1",
           "stem": "Sumber terbaik untuk kalimat konsep sebuah wedding?",
           "options": [
-            "Tren dekorasi tahun ini",
-            "Jawaban klien tentang apa yang ingin dirasakan tamu dan cerita yang ingin diceritakan",
             "Portofolio EO lain",
-            "Ketersediaan vendor"
+            "Tren dekorasi tahun ini",
+            "Ketersediaan vendor",
+            "Jawaban klien tentang apa yang ingin dirasakan tamu dan cerita yang ingin diceritakan"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Konsep yang bermakna bagi klien berasal dari cerita mereka; tren hanya alat bantu eksekusi."
         },
         {
           "id": "concept-q2",
           "stem": "Apa manfaat memetakan perjalanan tamu dari undangan sampai pulang?",
           "options": [
-            "Supaya proposal lebih tebal",
             "Memastikan setiap titik sentuh dirancang, bukan hanya area utama",
+            "Supaya proposal lebih tebal",
             "Untuk menghitung biaya parkir",
             "Tidak ada manfaat"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Pengalaman tamu terbentuk dari seluruh perjalanan; titik yang tidak dirancang (parkir, antrean) sering merusak kesan."
         },
         {
           "id": "concept-q3",
           "stem": "Ide instalasi lampu gantung besar lolos anggaran tapi venue tidak punya titik gantung yang kuat. Keputusan yang benar?",
           "options": [
-            "Paksakan dengan struktur seadanya",
             "Ubah ide menjadi versi yang bisa diproduksi dengan aman di venue itu",
+            "Minta klien pindah venue",
             "Batalkan seluruh konsep",
-            "Minta klien pindah venue"
+            "Paksakan dengan struktur seadanya"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Uji 'bisa diproduksi, masuk anggaran, aman' gagal di keamanan; idenya diubah, bukan dipaksakan."
         }
       ]
@@ -3138,9 +3138,9 @@
           "id": "mkt-q1",
           "stem": "Cara yang benar menawarkan sponsorship ke sebuah merek?",
           "options": [
-            "Meminta bantuan dana karena anggaran kurang",
-            "Menawarkan akses ke audiens tertentu dengan paket manfaat dan harga yang jelas",
             "Mengirim rundown acara",
+            "Menawarkan akses ke audiens tertentu dengan paket manfaat dan harga yang jelas",
+            "Meminta bantuan dana karena anggaran kurang",
             "Menjanjikan logo di semua tempat tanpa rincian"
           ],
           "correct_index": 1,
@@ -3150,21 +3150,21 @@
           "id": "mkt-q2",
           "stem": "Apa alat pemasaran paling penting bagi jasa WO?",
           "options": [
-            "Iklan koran",
-            "Portofolio dengan dokumentasi rapi, testimoni, dan studi kasus",
             "Kartu nama",
-            "Diskon besar"
+            "Diskon besar",
+            "Portofolio dengan dokumentasi rapi, testimoni, dan studi kasus",
+            "Iklan koran"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Calon klien memutuskan berdasarkan bukti hasil kerja yang bisa mereka lihat."
         },
         {
           "id": "mkt-q3",
           "stem": "Mengapa sumber tiap prospek atau pendaftar perlu dicatat?",
           "options": [
-            "Untuk laporan pajak",
-            "Agar anggaran promosi bisa dipindahkan ke saluran yang terbukti menghasilkan",
             "Supaya data lengkap",
+            "Agar anggaran promosi bisa dipindahkan ke saluran yang terbukti menghasilkan",
+            "Untuk laporan pajak",
             "Tidak perlu dicatat"
           ],
           "correct_index": 1,
@@ -3287,10 +3287,10 @@
           "id": "reg-q1",
           "stem": "Mengapa formulir pendaftaran sebaiknya hanya meminta data yang benar-benar diperlukan?",
           "options": [
-            "Supaya hemat kertas",
-            "Karena formulir panjang menurunkan jumlah yang menyelesaikan pendaftaran dan menambah risiko data pribadi",
             "Karena aturan platform",
-            "Tidak ada alasan"
+            "Karena formulir panjang menurunkan jumlah yang menyelesaikan pendaftaran dan menambah risiko data pribadi",
+            "Tidak ada alasan",
+            "Supaya hemat kertas"
           ],
           "correct_index": 1,
           "explanation": "Setiap kolom tambahan mengurangi penyelesaian dan menambah data yang harus dijaga."
@@ -3299,22 +3299,22 @@
           "id": "reg-q2",
           "stem": "Sistem registrasi mati saat check-in berlangsung. Persiapan apa yang menyelamatkan situasi?",
           "options": [
-            "Meminta tamu menunggu",
-            "Daftar cetak cadangan dan prosedur manual yang sudah dilatih ke kru",
             "Menutup registrasi",
-            "Menghubungi vendor sistem"
+            "Menghubungi vendor sistem",
+            "Daftar cetak cadangan dan prosedur manual yang sudah dilatih ke kru",
+            "Meminta tamu menunggu"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Cadangan manual yang disiapkan sebelumnya membuat antrean tetap bergerak saat sistem gagal."
         },
         {
           "id": "reg-q3",
           "stem": "Data apa dari registrasi yang paling berguna untuk evaluasi dan promosi berikutnya?",
           "options": [
-            "Warna baju tamu",
+            "Jumlah kru",
             "Hadir vs daftar dan pola jam kedatangan",
-            "Nomor kursi",
-            "Jumlah kru"
+            "Warna baju tamu",
+            "Nomor kursi"
           ],
           "correct_index": 1,
           "explanation": "Tingkat kehadiran dan pola kedatangan memperbaiki perkiraan catering, jadwal, dan strategi promosi."
@@ -3488,11 +3488,11 @@
           "stem": "Apa isi minimum induksi kru harian sebelum event?",
           "options": [
             "Sejarah perusahaan",
-            "Aturan kerja, keselamatan, jam, upah, dan kontak",
             "Daftar klien",
+            "Aturan kerja, keselamatan, jam, upah, dan kontak",
             "Tema dekorasi"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Induksi memastikan kru tahu cara bekerja aman dan apa haknya sebelum mulai."
         },
         {
@@ -3500,21 +3500,21 @@
           "stem": "Cara yang tepat menyampaikan umpan balik ke kru yang melakukan kesalahan di hari H?",
           "options": [
             "Di depan tim agar semua belajar",
-            "Secara pribadi, spesifik pada perilaku, dampak, dan perubahan yang diminta",
             "Lewat pesan grup",
+            "Secara pribadi, spesifik pada perilaku, dampak, dan perubahan yang diminta",
             "Tidak perlu, cukup tidak dipanggil lagi"
           ],
-          "correct_index": 1,
+          "correct_index": 2,
           "explanation": "Umpan balik pribadi dan spesifik memperbaiki perilaku tanpa mempermalukan; penghargaan justru disampaikan terbuka."
         },
         {
           "id": "team-q3",
           "stem": "Mengapa relawan tetap harus mendapat briefing keselamatan yang sama dengan kru berbayar?",
           "options": [
-            "Karena mereka meminta",
-            "Karena risiko di lokasi tidak membedakan status pekerja, dan tanggung jawab hukum tetap pada organizer",
             "Supaya mereka merasa dihargai",
-            "Tidak perlu, mereka hanya membantu"
+            "Karena risiko di lokasi tidak membedakan status pekerja, dan tanggung jawab hukum tetap pada organizer",
+            "Tidak perlu, mereka hanya membantu",
+            "Karena mereka meminta"
           ],
           "correct_index": 1,
           "explanation": "Keselamatan berlaku untuk semua orang di lokasi; organizer bertanggung jawab atas relawan seperti atas kru."
@@ -3653,36 +3653,36 @@
           "id": "eval-q1",
           "stem": "Dasar yang benar untuk menilai keberhasilan event dalam laporan?",
           "options": [
-            "Kesan pribadi koordinator",
             "Tujuan yang ditetapkan di awal, diukur dengan angka yang sama",
+            "Pujian dari vendor",
             "Jumlah foto yang diunggah",
-            "Pujian dari vendor"
+            "Kesan pribadi koordinator"
           ],
-          "correct_index": 1,
+          "correct_index": 0,
           "explanation": "Evaluasi yang jujur membandingkan hasil dengan tujuan awal memakai ukuran yang sama."
         },
         {
           "id": "eval-q2",
           "stem": "Mengapa umpan balik dikumpulkan dalam 48 jam setelah event?",
           "options": [
+            "Tidak ada alasan khusus",
             "Karena aturan asosiasi",
-            "Karena ingatan tamu dan kru masih segar sehingga masukannya lebih akurat",
             "Supaya laporan cepat selesai",
-            "Tidak ada alasan khusus"
+            "Karena ingatan tamu dan kru masih segar sehingga masukannya lebih akurat"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Detail cepat hilang dari ingatan; umpan balik yang dikumpulkan cepat lebih spesifik dan berguna."
         },
         {
           "id": "eval-q3",
           "stem": "Bentuk rekomendasi yang paling berguna dalam laporan pascaevent?",
           "options": [
-            "'Registrasi harus lebih baik'",
-            "'Tambah dua meja registrasi dan cadangan daftar cetak, pemilik: koordinator tamu, sebelum event berikutnya'",
+            "'Perlu evaluasi lebih lanjut'",
             "'Semua vendor harus profesional'",
-            "'Perlu evaluasi lebih lanjut'"
+            "'Registrasi harus lebih baik'",
+            "'Tambah dua meja registrasi dan cadangan daftar cetak, pemilik: koordinator tamu, sebelum event berikutnya'"
           ],
-          "correct_index": 1,
+          "correct_index": 3,
           "explanation": "Rekomendasi konkret dengan pemilik dan tenggat bisa dijalankan dan dicek pada event berikutnya."
         }
       ]

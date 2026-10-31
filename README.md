@@ -1,6 +1,6 @@
 # Production Book
 
-Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 topik, dengan acuan unit kompetensi AQF SIT50322 Diploma of Event Management dan modul kampus luar negeri. Aplikasi jalan di Vercel, data (progres dan jurnal bukti kerja) tersimpan sebagai berkas di satu folder di VPS.
+Web app belajar event management untuk Enter Event House: 6 fase, 24 minggu, 23 topik, dengan acuan unit kompetensi AQF SIT50322 Diploma of Event Management dan modul kampus luar negeri. Aplikasi jalan di VPS, data (progres dan jurnal bukti kerja) tersimpan sebagai berkas di satu folder di VPS.
 
 ## Cara kerja singkat
 
@@ -71,16 +71,15 @@ bash vps/deploy.sh
 
 Cadangan: cukup salin folder `/srv/easylearn/data/`.
 
-## Deploy aplikasi ke Vercel
+## Deploy aplikasi
 
-1. Import repo ini di Vercel (framework Next.js, root repo).
-2. Isi environment variables sesuai `.env.example`: `DATA_API_URL` dan `DATA_TOKEN`. `ANTHROPIC_API_KEY` hanya kalau ingin chatbot memakai API langsung, bukan Hermes.
-3. Deploy. Setiap push ke `main` otomatis dideploy.
-4. Buka alamat Vercel, pilih tanggal mulai di roadmap.
+Aplikasi berjalan di VPS lewat Coolify (Dockerfile di cabang `vps`), alamatnya https://easylearn.dpro.events.
 
-Aplikasi tidak punya halaman login. Siapa pun yang tahu alamatnya bisa membuka dan mengubah progres, jadi jangan sebarkan alamatnya. Kalau ingin ditutup tanpa menambah login, pakai Deployment Protection di pengaturan proyek Vercel.
+1. Isi environment variables di Coolify sesuai `.env.example`: `DATA_API_URL` dan `DATA_TOKEN`. `ANTHROPIC_API_KEY` hanya kalau ingin chatbot memakai API langsung, bukan Hermes.
+2. Gabungkan `main` ke cabang `vps`, lalu deploy dari Coolify.
+3. Buka alamatnya, pilih tanggal mulai di roadmap.
 
-Setelah alamat Vercel diketahui, samakan `APP_URL` di `/srv/easylearn/.env` (dipakai untuk tautan di notifikasi) lalu jalankan `bash vps/deploy.sh` lagi.
+`APP_URL` di `/srv/easylearn/.env` (dipakai untuk tautan di notifikasi) harus sama dengan alamat aplikasi. Kalau diubah, jalankan `bash vps/deploy.sh` lagi.
 
 ## Notifikasi push
 
